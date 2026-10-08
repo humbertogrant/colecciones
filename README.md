@@ -26,8 +26,10 @@ Un respaldo contiene marcas, notas, fechas y listas propias, sin imágenes. Rest
 | Nobel: Literatura | 2000–2026 · 27 autores | 78 |
 | Nobel: Economía | 2000–2025 · 23 años seleccionados | 27 |
 | 4chan /lit/: 100 libros | Votación de 2025 · publicada en enero de 2026 | 100 |
+| TIME: 100 novelas | Selección de 2005 · obras en inglés de 1923–2005 | 100 |
+| TIME: 100 libros de fantasía | Selección de 2020 | 100 |
 
-Hay 804 entradas y 726 obras distintas. Las dos listas de libros del NYT comparten 39 títulos; 18 ganadores de premios ya figuran en ellas. Una obra compartida conserva el mismo estado, fecha y nota. Una adaptación a otro medio tiene una ficha independiente. Las listas comienzan sin marcas; se retiraron las cuatro colecciones de muestra.
+Hay 20 colecciones, 1004 entradas y 890 obras distintas. Las dos listas de libros del NYT comparten 39 títulos; 18 ganadores de premios ya figuran en ellas. Una obra compartida conserva el mismo estado, fecha y nota. Una adaptación a otro medio tiene una ficha independiente. Las listas comienzan sin marcas; se retiraron las cuatro colecciones de muestra.
 
 Se respetan los puestos originales y las selecciones de temporadas: *Beef* y *True Detective* incluyen sólo la primera; *Twin Peaks: The Return* corresponde a 2017. Las versiones británica y estadounidense de *The Office* tienen fichas distintas.
 
@@ -49,6 +51,12 @@ Votación anual de 2025, publicada en enero de 2026: la edición anual más reci
 
 Seis títulos reutilizan obras del catálogo: *Guerra y paz* / *War and Peace*, *El viejo y el mar*, *2666*, *El maestro y Margarita* / *The Master and Margarita*, *A Confederacy of Dunces* y *Dune*. Conservan las mismas marcas, fechas y recuerdos. Las 100 entradas tienen portada de una edición identificada. Los ciclos y conjuntos usan ediciones completas o recopilaciones correspondientes; cada ficha conserva el enlace de procedencia de su imagen.
 
+## TIME: novelas y fantasía
+
+Dos selecciones de 100 obras, sin puestos de calidad. **TIME: 100 novelas** conserva el orden alfabético de la lista original de 2005: novelas escritas en inglés y publicadas entre 1923 y 2005. **TIME: 100 libros de fantasía** conserva el orden cronológico publicado por TIME en 2020. Los años identifican la publicación de la obra o la edición seleccionada, con notas cuando hay versiones anteriores.
+
+Las 200 entradas tienen portada y añaden 164 obras distintas. Se reutilizan 29 obras anteriores en novelas y seis en fantasía; *The Lion, the Witch and the Wardrobe* comparte ficha entre ambas. *The Lord of the Rings* completo conserva su ficha en novelas y /lit/; sus tres volúmenes aparecen por separado en fantasía. Las notas aclaran los conjuntos, las recopilaciones y la novela gráfica *Watchmen*.
+
 ## Agregar una lista
 
 En **Nueva colección**, pegá un título por línea. Podés usar `Título | Autor o director | Año`. Revisá las coincidencias antes de crearla. Se admiten hasta 150 títulos por lista; se omiten las líneas idénticas y las que coinciden con una misma obra existente, aunque usen un título traducido o un año opcional.
@@ -67,13 +75,14 @@ Funciona con las colecciones incluidas y las propias. Imprimir o cancelar el di�
 
 - `src/colecciones.html`: interfaz, estilos e interacciones.
 - `src/fonts.css`: Bodoni Moda e IBM Plex Sans incrustadas.
-- `data/catalog.json`: obras, listas y procedencia de las imágenes. El orden de `items` representa el puesto en las listas NYT y /lit/, y el año descendente en los premios. `itemMeta` registra el año de concesión, los premios compartidos y la fuente de cada ganador.
+- `data/catalog.json`: obras, listas y procedencia de las imágenes. El orden de `items` representa el puesto en las listas NYT y /lit/, el año descendente en los premios y la secuencia publicada en las selecciones de TIME. `itemMeta` registra el año de concesión, los premios compartidos y la fuente de cada ganador.
 - `assets/covers/`: miniaturas locales.
 - `scripts/build.py`: genera `index.html` sin dependencias adicionales.
 - `tests/storage.cjs`: prueba reapertura, respaldos, restauración, errores de cuota y datos inválidos.
 - `tests/browser.cjs`: comprobación de catálogos, imágenes, contraste, navegación y marcas compartidas.
 - `tests/import.cjs`: coincidencias, traducciones, duplicados y conservación de datos tras importar.
 - `tests/catalog-update.cjs`: compatibilidad de los guardados anteriores al incorporar nuevas colecciones.
+- `tests/time.cjs`: listas de TIME, obras compartidas y compatibilidad de los guardados anteriores.
 - `tests/print.cjs`: lista completa, marcas, títulos traducidos y PDFs de comprobación.
 - `tests/build.py`: reconstrucción UTF-8 independiente de la configuración regional, contenido incrustado y política de scripts.
 
@@ -91,11 +100,13 @@ Para añadir colecciones al catálogo, conservá los IDs existentes de obras y l
 
 ## Fuentes y alcance
 
-La procedencia, las fechas y los criterios de edición están en [SOURCES.md](SOURCES.md). Cada colección enlaza a su lista original y cada imagen tiene un enlace de crédito en la ficha. Los títulos conservan el idioma de las listas. No se incluyen reseñas del periódico.
+La procedencia, las fechas y los criterios de edición están en [SOURCES.md](SOURCES.md). Cada colección enlaza a su fuente; la selección de novelas de TIME incluye su introducción oficial y una copia archivada del listado. Cada imagen tiene un enlace de crédito en la ficha. Los títulos conservan el idioma de las listas. No se incluyen reseñas del periódico.
 
-El código y el diseño del prototipo son independientes del periódico. Las portadas, carteles y fuentes tipográficas conservan sus derechos y licencias de origen; ver [SOURCES.md](SOURCES.md) y `assets/licenses/`.
+El código y el diseño del prototipo son independientes de los medios y entidades citados. Las portadas, carteles y fuentes tipográficas conservan sus derechos y licencias de origen; ver [SOURCES.md](SOURCES.md) y `assets/licenses/`.
 
 ## Cambios y reversión
+
+Versión 0.12.0: incorpora las 100 novelas de TIME (2005) y sus 100 libros de fantasía (2020), con portada en las 200 entradas. Añade 164 obras y conserva los IDs anteriores, las coincidencias entre listas y el guardado personal v1.
 
 Versión 0.11.1: completa las 42 portadas que faltaban en la lista de 4chan /lit/ y sustituye imágenes poco legibles. Las 100 entradas incluyen una imagen local verificada, sin modificar obras, orden ni guardado personal.
 

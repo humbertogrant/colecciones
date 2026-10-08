@@ -1,6 +1,6 @@
 # Fuentes del catálogo
 
-Corte de esta versión: 7 de octubre de 2026. Se incorporan títulos, autores o directores, orden y enlaces; no se reproducen reseñas ni el diseño del periódico.
+Corte de esta versión: 8 de octubre de 2026. Se incorporan títulos, autores o directores, orden y enlaces; no se reproducen reseñas ni los diseños de las publicaciones.
 
 | Colección | Fuente original | Contraste del listado |
 | --- | --- | --- |
@@ -13,7 +13,7 @@ Las páginas originales se enlazan para consulta; las tres nuevas se cotejaron m
 
 ## Criterios de edición
 
-- Libros: título y autor; se omite el año para no mezclar primera edición original, traducción y edición de la portada. Las portadas pueden corresponder a distintas ediciones.
+- Libros: título y autor; salvo en las selecciones de TIME, se omite el año para no mezclar primera edición original, traducción y edición de la portada. Las portadas pueden corresponder a distintas ediciones. Los criterios de fechas de TIME se detallan más abajo.
 - Películas: los años del listado corresponden a su estreno estadounidense y pueden diferir del estreno mundial. Se conserva esa convención, por ejemplo *Memories of Murder* (2005 en la lista; película de 2003).
 - Series: se muestra el año inicial de la selección, sin hacer afirmaciones sobre su continuidad actual. *Beef (Season 1)* y *True Detective (Season 1)* son selecciones de temporada; *Twin Peaks: The Return* corresponde a la temporada de 2017. *The Office (U.K.)* y *The Office (U.S.)* no se combinan.
 - Las 39 coincidencias entre las listas de libros se resolvieron por título y autor normalizados; cada obra tiene un identificador estable independiente de su puesto.
@@ -22,7 +22,7 @@ Las páginas originales se enlazan para consulta; las tres nuevas se cotejaron m
 
 El campo `coverUrl` conserva la procedencia de cada imagen; `editionUrl` es la página enlazada desde su ficha. Las miniaturas se guardan localmente para que el prototipo abra sin conexión.
 
-- Libros: [Open Library](https://openlibrary.org/), excepto *Septology*, con imagen de [Fitzcarraldo Editions](https://fitzcarraldoeditions.com/), y *Kafka on the Shore* y *The Bee Sting*, con portadas de sus fichas de Wikipedia. Son portadas editoriales, no imágenes creadas para este prototipo.
+- Libros del NYT: [Open Library](https://openlibrary.org/), excepto *Septology*, con imagen de [Fitzcarraldo Editions](https://fitzcarraldoeditions.com/), y *Kafka on the Shore* y *The Bee Sting*, con portadas de sus fichas de Wikipedia. Las fuentes de las otras colecciones se detallan en sus secciones.
 - Películas: imágenes de las fichas de [Wikipedia](https://en.wikipedia.org/), con enlace a cada artículo. El enlace no convierte las imágenes en contenido libre: cada archivo conserva la licencia o condiciones indicadas en su origen.
 - Series: [TVmaze](https://www.tvmaze.com/api). Los metadatos de TVmaze están disponibles bajo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); se atribuyen y se conserva el enlace a la ficha o temporada correspondiente. Las imágenes mantienen los derechos de sus titulares.
 - Tipografías: Bodoni Moda e IBM Plex Sans, SIL Open Font License. Se incluyen sus textos de licencia en `assets/licenses/`.
@@ -66,3 +66,25 @@ La colección reproduce la votación anual de 2025 del foro literario `/lit/` de
 - **Entradas colectivas:** se mantienen en una sola ficha *The Lord of the Rings*, los *Dialogues* de Platón, *The First Folio*, *In Search of Lost Time*, las *Tragedies* de Esquilo y Sófocles, los *Poems* de Eliot y Yeats, *The Ring of the Nibelung*, *The Trilogy* de Beckett y *Cthulhu Mythos*. Las notas de lectura explican el alcance sin convertir un conjunto en una obra individual. El ciclo de Wagner se registra como lectura de sus textos, no como una grabación musical.
 - **Identidad compartida:** seis obras reutilizan sus IDs anteriores: *War and Peace* / *Guerra y paz*, *The Old Man and the Sea*, *2666*, *The Master and Margarita* / *El maestro y Margarita*, *A Confederacy of Dunces* y *Dune*. Las variantes inglesas de las dos obras rusas se guardan en `displayItems`; las fichas anteriores, sus nombres y sus IDs no cambian. Se añaden 94 obras nuevas: el catálogo pasa a 18 colecciones, 804 entradas y 726 obras distintas.
 - **Portadas · revisión 0.11.1:** las 100 entradas incluyen miniaturas locales verificadas. Se completaron las 42 que faltaban en la primera publicación y se sustituyeron escaneos de encuadernaciones poco legibles. Las fuentes incluyen Open Library y las editoriales citadas en cada ficha mediante `coverUrl`, `editionUrl` y `coverSource`. La edición se contrastó por título, autor, ISBN o ficha bibliográfica; se descartaron adaptaciones, imágenes de sustitución, volúmenes parciales y ediciones abreviadas. Para los conjuntos se verificó el alcance: Platón (Complete Works), First Folio (facsímil), Proust (seis volúmenes íntegros), Esquilo y Sófocles (tragedias completas), Schopenhauer (ambos volúmenes), poemas de Eliot y Yeats (recopilaciones), Beckett (las tres novelas), Wagner (los cuatro dramas) y Lovecraft (The Complete Cthulhu Mythos Tales). Las portadas pueden representar ediciones o idiomas distintos del título mostrado; no alteran el alcance de la entrada ni sus datos personales. Las imágenes conservan los derechos de sus titulares.
+
+## TIME: 100 novelas · Selección de 2005
+
+Selección de Lev Grossman y Richard Lacayo, publicada el 16 de octubre de 2005: 100 novelas escritas originalmente en inglés entre 1923 y 2005. No es un ranking de calidad. La [introducción oficial de TIME](https://time.com/archive/6675063/times-100-best-novels/) explica el alcance y permanece como enlace principal de la colección.
+
+Los 100 títulos y autores se cotejaron en dos copias de la página original: [impresión del 9 de junio de 2010](https://www.yumpu.com/en/document/view/12394861/the-complete-list-time-magazine-all-time-100-novels) y [PDF del 21 de diciembre de 2018](https://private.michaelhan.net/snapshots/book-list-1.pdf). Se conserva el orden alfabético de 2010, sin artículos iniciales y tratando *1984* como *Nineteen Eighty-Four*. La copia de 2018 permite contrastar las 100 obras, pero cambia localmente la posición de *The Moviegoer* y *1984*. La [lista antigua de TIME](https://entertainment.time.com/2005/10/16/all-time-100-novels/slide/all/) ya no se recupera directamente; su [índice oficial](https://content.time.com/time/specials/bestworst/0,32232,1951793_1951943_1952566,00.html) y las copias anteriores documentan su procedencia.
+
+Los años corresponden a la primera publicación, no a la edición de la portada; *Housekeeping* usa 1980, año de la edición estadounidense, frente a la británica de 1981. Se mantienen juntas las dos novelas de [The Berlin Stories](https://www.ndbooks.com/book/berlin-stories/), el ciclo de doce novelas [A Dance to the Music of Time](https://www.anthonypowell.org/a-dance-to-the-music-of-time-a-duodecalogy) (1951–1975), *The Lord of the Rings* completo (1954–1955) y los doce números de *Watchmen* (1986–1987). Las fichas explican su alcance.
+
+## TIME: 100 libros de fantasía · Selección de 2020
+
+Se extrajeron las 100 entradas del [índice oficial](https://time.com/collections/100-best-fantasy-books/), publicado el 15 de octubre de 2020, y se conservaron su orden y sus enlaces individuales. La [metodología de TIME](https://time.com/5900236/how-we-chose-100-best-fantasy-books/) describe la selección. Se excluyeron la introducción y la publicidad. La lista se presenta en orden cronológico, sin puestos de calidad; se respeta la secuencia publicada aunque una fecha bibliográfica corregida difiera.
+
+La migración actual de TIME no muestra un campo de año del libro: la fecha del artículo no se usa como fecha de publicación. La bibliografía de [Science Fiction Awards Database](https://www.sfadb.com/TimeFantasy) sirvió de base. Se contrastaron primeras ediciones para *The Wandering Unicorn* (1965, [Biblioteca Nacional de Argentina](https://www.bn.gov.ar/noticias/11-de-septiembre-de-1910-nace-en-buenos-aires-manuel-mujica-lainez)), *The Bloody Chamber* (1979, [muestra editorial](https://cdn.penguin.co.uk/dam-assets/books/9780099588115/9780099588115-sample.pdf)), *Redwall* (1986, [Penguin Random House](https://www.penguinrandomhouse.com/books/289822/redwall-by-brian-jacques/)), *The Golden Compass* (1995, [Philip Pullman](https://www.philip-pullman.com/about)), *The Song of Achilles* (2011, [Bloomsbury](https://embed-rech-01.dialog.cm/bloomsburypublishing/docs/the_song_of_achilles)) y *A Torch Against the Night* (2016, [Penguin Random House](https://www.penguinrandomhouse.com/books/530933/a-torch-against-the-night-by-sabaa-tahir/)).
+
+Las notas distinguen la tradición del siglo IX de *The Arabian Nights*, la publicación independiente de *Angelfall* (2011) y las ediciones seleccionadas de *Song of Blood & Stone* (2018) y *The Rage of Dragons* (2019), con versiones anteriores de 2015 y 2017. *A Hero Born* representa el primer volumen de *Legends of the Condor Heroes*; *The Bloody Chamber*, la recopilación completa. Los tres volúmenes de *The Lord of the Rings* tienen fichas individuales, distintas de la obra completa incluida en novelas y /lit/.
+
+## Identidad y portadas de TIME · 0.12.0
+
+Novelas reutiliza 29 obras anteriores y fantasía, seis. *The Lion, the Witch and the Wardrobe* comparte una ficha entre las dos listas. Las 200 entradas incorporan 164 obras nuevas: el catálogo queda en 20 colecciones, 1004 entradas y 890 obras distintas. Los IDs anteriores y los datos personales se conservan.
+
+Las 164 obras nuevas tienen miniaturas locales revisadas. Las 94 portadas nuevas de fantasía proceden de la imagen de cada entrada oficial de TIME; se recortó el frente del libro. Las otras 70 proceden de Open Library o de fichas editoriales identificadas por título, autor y edición. *A Dance to the Music of Time* utiliza una composición de las cuatro portadas de [University of Chicago Press](https://press.uchicago.edu/books/powell/index.html), en orden 1–2 / 3–4, que juntas abarcan las doce novelas. Se conserva la procedencia de las cuatro imágenes. Las portadas pueden mostrar otra edición o idioma; las 200 entradas tienen imagen, incluida la reutilizada por las obras compartidas. Cada ficha mantiene el crédito de origen y las imágenes conservan los derechos de sus titulares.

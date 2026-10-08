@@ -23,7 +23,7 @@
       </details>
       <section data-list-screen aria-label="Ficha de colección">
         <div class="cr-collection-heading">
-          <div><p class="cr-kicker" data-category>Libros</p><h2 data-title>NYT: libros (crítica)</h2><p class="cr-source" data-source>The New York Times · 100 libros del siglo XXI · 2024</p><a class="cr-source-link" data-source-link href="https://www.nytimes.com/interactive/2024/books/best-books-21st-century.html" target="_blank" rel="noopener noreferrer">Ver lista original</a></div>
+          <div><p class="cr-kicker" data-category>Libros</p><h2 data-title>NYT: libros (crítica)</h2><p class="cr-source" data-source>The New York Times · 100 libros del siglo XXI · 2024</p><a class="cr-source-link" data-source-link href="https://www.nytimes.com/interactive/2024/books/best-books-21st-century.html" target="_blank" rel="noopener noreferrer">Ver lista original</a> <a class="cr-source-link" data-source-archive-link target="_blank" rel="noopener noreferrer" hidden>Ver lista archivada</a></div>
           <div class="cr-tally" aria-live="polite"><div><strong data-count>0</strong><span data-total>/ 100</span></div><span data-count-label>leídos</span></div>
         </div>
         <div class="cr-collection-actions"><button class="cr-text-button cursor-interaction" type="button" data-print>Imprimir / PDF</button><span class="cr-source">La colección completa con tus marcas.</span></div>
@@ -359,7 +359,7 @@
   function tile(w,i){
     w=displayWork(w);const done=w.status==='done';
     const meta=itemMeta(list(),w.id),marker=meta.laureateYear?'Nobel '+meta.laureateYear:meta.awardYear?String(meta.awardYear):pad(i+1);
-    const markerLabel=meta.laureateYear?'Nobel del autor en '+meta.laureateYear:meta.awardYear?'Año del premio '+marker:((list().ranked||list().itemMeta||list().artwork)?'Puesto ':'Obra ')+marker;
+    const markerLabel=meta.laureateYear?'Nobel del autor en '+meta.laureateYear:meta.awardYear?'Año del premio '+marker:(list().ranked?'Puesto ':'Obra ')+marker;
     const awardNote=meta.shared?'<p class="cr-award-note">Premio compartido</p>':'';
     const label=done?types[w.kind].done:w.status==='doing'?'En curso':w.status==='skipped'?'La dejo pasar':'Pendiente';
     const cover=w.cover?'<span class="cr-cover"><img src="'+esc(w.cover)+'" width="112" height="164" alt="" decoding="async"><span class="cr-cover-fallback" hidden>Imagen no disponible</span></span>':((list().ranked||list().itemMeta||list().artwork)?'<span class="cr-cover"><span class="cr-cover-fallback">Imagen no disponible</span></span>':'');
@@ -391,6 +391,10 @@
     $('[data-title]').textContent=l.title;$('[data-source]').textContent=l.source;
     $('[data-source-link]').hidden=!l.sourceUrl;
     if(l.sourceUrl)$('[data-source-link]').href=l.sourceUrl;
+    $('[data-source-link]').textContent=l.sourceLinkLabel||'Ver lista original';
+    $('[data-source-archive-link]').hidden=!(l.sourceArchiveUrl&&l.sourceArchiveLabel);
+    if(l.sourceArchiveUrl)$('[data-source-archive-link]').href=l.sourceArchiveUrl;
+    $('[data-source-archive-link]').textContent=l.sourceArchiveLabel||'Ver lista archivada';
     $('[data-order-label]').textContent=l.orderLabel||(l.ranked?'Orden de la lista original':'Obras');
     $('[data-collection-note]').hidden=!l.note;$('[data-collection-note]').textContent=l.note||'';
     $('[data-footer-source]').textContent=l.footer||'Colección propia';

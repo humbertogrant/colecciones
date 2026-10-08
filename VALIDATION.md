@@ -1,4 +1,16 @@
-# Validación de 0.11.1
+# Validación de 0.12.0
+
+Revisión del 8 de octubre de 2026 en Windows, con Microsoft Edge 154 mediante Playwright 1.62.1.
+
+- Catálogo: 20 colecciones, 1004 entradas y 890 obras distintas. Las 100 novelas de TIME y sus 100 libros de fantasía conservan el orden y los metadatos cotejados con las fuentes; ambas selecciones se identifican sin ranking.
+- Las 726 obras y 18 listas anteriores conservan exactamente todos sus datos e IDs. Se añaden 164 obras; se reutilizan 29 en novelas y seis en fantasía, y una obra nueva comparte ID entre las dos listas.
+- Las 164 portadas nuevas se revisaron visualmente. Las 200 entradas TIME tienen imagen; la comprobación de navegador decodificó las 890 portadas del catálogo sin errores ni solicitudes de red.
+- `tests/build.py` y las nueve pruebas de navegador aprobaron. Se verificaron el orden, los años, los alias, los enlaces de fuente y la separación entre los volúmenes de Tolkien, la obra completa y su adaptación cinematográfica.
+- Un guardado v1 anterior a TIME conserva marcas, notas, fechas, obras y listas propias. La carga inicial no lo sobrescribe; las obras compartidas mantienen sus recuerdos después de guardar y recargar. Importar el título alterno de Alicia con su año tampoco crea duplicados.
+- Impresión TIME: 100 filas por lista, en el orden original, con los estados y fechas actuales; incluye los títulos alternos y no modifica el guardado ni la navegación. La numeración se identifica como «N.º», no como puesto de ranking.
+- Contraste mínimo: 4,92:1. Sin errores de JavaScript ni desbordamiento en los tamaños comprobados (320, 390, 736 y escritorio).
+
+## Validación previa de 0.11.1
 
 Revisión del 8 de octubre de 2026 en Windows, con Microsoft Edge 154 mediante Playwright 1.62.1.
 
