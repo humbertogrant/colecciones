@@ -26,6 +26,7 @@
           <div><p class="cr-kicker" data-category>Libros</p><h2 data-title>NYT: libros (crítica)</h2><p class="cr-source" data-source>The New York Times · 100 libros del siglo XXI · 2024</p><a class="cr-source-link" data-source-link href="https://www.nytimes.com/interactive/2024/books/best-books-21st-century.html" target="_blank" rel="noopener noreferrer">Ver lista original</a></div>
           <div class="cr-tally" aria-live="polite"><div><strong data-count>0</strong><span data-total>/ 100</span></div><span data-count-label>leídos</span></div>
         </div>
+        <div class="cr-collection-actions"><button class="cr-text-button cursor-interaction" type="button" data-print>Imprimir / PDF</button><span class="cr-source">La colección completa con tus marcas.</span></div>
         <p class="cr-source cr-collection-note" data-collection-note hidden></p>
         <div class="cr-rule"><span data-order-label>Orden de la lista original</span><span class="cr-mark-key"><span class="cr-hole cr-hole-small cr-done" aria-hidden="true"></span> Completada <span class="cr-hole cr-hole-small" aria-hidden="true"></span> Pendiente</span></div>
         <nav class="cr-pagebar" data-pagebar aria-label="Recorrer obras">
@@ -64,6 +65,7 @@
   </div>
   <footer class="cr-footer"><span data-footer-source>Lista NYT de 2024 · Portadas de distintas ediciones</span><span>Guardado local · Respaldo exportable.</span></footer>
   <p class="cr-live" aria-live="polite" data-announcement></p>
+  <section class="cr-print" data-print-view aria-label="Colección para imprimir"></section>
   <script type="application/json" data-catalog>__CATALOG_JSON__</script>
 </div>
 <style>
@@ -107,6 +109,8 @@
 #canto-colecciones .cr-main{min-width:0;padding:29px 29px 38px}
 #canto-colecciones .cr-collection-heading{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;margin-bottom:23px}
 #canto-colecciones .cr-collection-heading>div:first-child{min-width:0}
+#canto-colecciones .cr-collection-actions{display:flex;align-items:center;flex-wrap:wrap;gap:14px;margin:-12px 0 12px}
+#canto-colecciones .cr-print{display:none}
 #canto-colecciones h2{font:600 clamp(32px,4.3vw,46px)/1.03 var(--cr-serif);letter-spacing:-.035em;margin:9px 0 12px;overflow-wrap:anywhere;color:var(--cr-ink);text-transform:none}
 #canto-colecciones .cr-source{font-size:12px;color:var(--cr-muted);line-height:1.55;overflow-wrap:anywhere}
 #canto-colecciones .cr-collection-note{margin:0 0 18px}
@@ -193,6 +197,30 @@
 #canto-colecciones [data-backup-file]{display:block;max-width:100%;width:100%;font-size:12px}
 #canto-colecciones .cr-masthead{min-height:74px;padding-left:7px}#canto-colecciones .cr-workspace{display:block}#canto-colecciones .cr-sidebar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:end;padding:14px;border-right:0;border-bottom:1px solid var(--cr-line)}#canto-colecciones .cr-sidebar-head,#canto-colecciones .cr-collections{display:none}#canto-colecciones .cr-sidebar-note{display:block;grid-column:1/-1;margin:8px 0 0;padding:12px 0 0}#canto-colecciones .cr-sidebar-note>.cr-kicker{display:none}#canto-colecciones .cr-sidebar-note p{margin:0;max-width:360px}#canto-colecciones .cr-mobile-picker{display:block;font-size:11px;color:var(--cr-muted)}#canto-colecciones .cr-mobile-picker select{margin-top:4px;padding:8px;font-size:14px;color:var(--cr-ink)}#canto-colecciones .cr-new{width:auto;margin:0;padding:8px;font-size:12px;border-style:solid;max-width:104px}#canto-colecciones .cr-main{padding:23px 14px 34px}#canto-colecciones h2{font-size:34px;line-height:1.06}#canto-colecciones .cr-collection-heading{margin-bottom:19px;gap:10px}#canto-colecciones .cr-tally{padding-top:21px}#canto-colecciones .cr-tally strong{font-size:32px}#canto-colecciones .cr-tally div>span{font-size:11px;margin-left:3px}#canto-colecciones .cr-tally>span{font-size:12px}#canto-colecciones .cr-work{min-height:163px}#canto-colecciones .cr-work-title{font-size:18px;padding:0 11px 9px}#canto-colecciones .cr-work-top{padding-left:11px}#canto-colecciones .cr-work-author{padding:0 11px 10px}#canto-colecciones .cr-work-state{margin:0 11px;font-size:12px}#canto-colecciones .cr-rule{font-size:12px;gap:8px}#canto-colecciones .cr-grid{gap:0}#canto-colecciones .cr-bottom{font-size:11px}#canto-colecciones .cr-detail{padding:14px}#canto-colecciones .cr-detail-fields,#canto-colecciones .cr-import-fields{grid-template-columns:1fr;gap:13px}#canto-colecciones .cr-footer{padding:12px 5px 0}#canto-colecciones .cr-source{font-size:11px}}
 @media(prefers-reduced-motion:reduce){#canto-colecciones *{transition:none!important}}
+@page{size:A4;margin:14mm}
+@media print{
+  html,body{background:#fff!important;color:#000!important;margin:0!important;padding:0!important}
+  #canto-colecciones{display:block;max-width:none;min-height:0;margin:0;padding:0;border:0;border-radius:0;background:#fff;color:#000;font:10pt/1.35 var(--cr-sans)}
+  #canto-colecciones>:not(.cr-print){display:none!important}
+  #canto-colecciones .cr-print{display:block;background:#fff;color:#000}
+  #canto-colecciones .cr-print-header{margin:0 0 5mm;break-inside:avoid;page-break-inside:avoid}
+  #canto-colecciones .cr-print-brand{font-size:10pt;letter-spacing:.04em}
+  #canto-colecciones .cr-print h1{font:600 24pt/1.1 var(--cr-serif);letter-spacing:-.02em;margin:2mm 0 3mm;overflow-wrap:anywhere}
+  #canto-colecciones .cr-print-source,#canto-colecciones .cr-print-note{font-size:10pt;overflow-wrap:anywhere;margin-top:2mm}
+  #canto-colecciones .cr-print-table{width:100%;border-collapse:collapse;table-layout:fixed;font:10pt/1.35 var(--cr-sans)}
+  #canto-colecciones .cr-print-table thead{display:table-header-group}
+  #canto-colecciones .cr-print-table th,#canto-colecciones .cr-print-table td{padding:1.6mm 1.7mm;text-align:left;vertical-align:top;overflow-wrap:anywhere}
+  #canto-colecciones .cr-print-table thead th{border-bottom:.35mm solid #000;font-weight:600}
+  #canto-colecciones .cr-print-table .cr-print-repeat th{border-top:.35mm solid #000;border-bottom:0;padding-top:2mm;padding-bottom:1mm}
+  #canto-colecciones .cr-print-repeat span{display:block;font-weight:400;margin-top:.5mm}
+  #canto-colecciones .cr-print-table tbody td{border-bottom:.15mm solid #aaa}
+  #canto-colecciones .cr-print-table tr{break-inside:avoid;page-break-inside:avoid}
+  #canto-colecciones .cr-print-table strong{font-weight:600}
+  #canto-colecciones .cr-print-number{width:19mm}
+  #canto-colecciones .cr-print-status{width:31mm}
+  #canto-colecciones .cr-print-date{width:25mm;white-space:nowrap;font-variant-numeric:tabular-nums}
+  #canto-colecciones .cr-print-check{display:inline-block;width:3.4mm;height:3.4mm;line-height:3.2mm;border:.25mm solid #000;margin-right:1mm;text-align:center;vertical-align:baseline;font-family:Arial,sans-serif;font-weight:700}
+}
 </style>
 <script>
 (()=>{
@@ -296,6 +324,24 @@
   loadPersonal();
 
   const displayWork=w=>({...w,...(list().displayItems?.[w.id]||{})});
+  let previousPrintTitle=null;
+  function preparePrint(){
+    const l=list(),completed=count(l),hasAwards=l.items.some(id=>{const m=itemMeta(l,id);return m.laureateYear||m.awardYear;});
+    const tally=completed+' / '+l.items.length+' '+types[l.kind].noun;
+    const rows=l.items.map((id,index)=>{
+      const w=displayWork(work(id)),meta=itemMeta(l,id),marker=meta.laureateYear||meta.awardYear||index+1;
+      const state=w.status==='done'?types[w.kind].done:w.status==='doing'?'En curso':w.status==='skipped'?'La dejo pasar':'Pendiente';
+      const mark=w.status==='done'?'✓':w.status==='doing'?'·':w.status==='skipped'?'−':'&nbsp;';
+      const creator=[w.creator,w.year].filter(Boolean).join(' · ');
+      return '<tr data-print-row="'+esc(id)+'"><td>'+esc(marker)+'</td><td><strong>'+esc(w.fullTitle||w.title)+'</strong>'+(creator?' · '+esc(creator):'')+(meta.shared?' · Premio compartido':'')+'</td><td data-print-state><span class="cr-print-check" aria-hidden="true">'+mark+'</span> '+esc(state)+'</td><td class="cr-print-date">'+esc(w.date||'—')+'</td></tr>';
+    }).join('');
+    $('[data-print-view]').innerHTML='<header class="cr-print-header"><p class="cr-print-brand">Colecciones · '+esc(l.category||types[l.kind].label)+'</p><h1>'+esc(l.title)+'</h1><p class="cr-print-source">'+esc(l.source)+'</p>'+(l.note?'<p class="cr-print-note">'+esc(l.note)+'</p>':'')+'</header><table class="cr-print-table"><colgroup><col class="cr-print-number"><col><col class="cr-print-status"><col class="cr-print-date"></colgroup><thead><tr class="cr-print-repeat"><th colspan="4">'+esc(l.title)+'<span>'+esc(tally)+' · '+esc(l.orderLabel||(l.ranked?'Orden de la lista original':'Orden de la colección'))+'</span></th></tr><tr><th scope="col">'+(hasAwards?'Año del premio':l.ranked?'Puesto':'N.º')+'</th><th scope="col">Obra · Autoría</th><th scope="col">Estado</th><th scope="col">Fecha</th></tr></thead><tbody>'+rows+'</tbody></table>';
+    if(previousPrintTitle===null)previousPrintTitle=document.title;
+    document.title='Colecciones — '+l.title;
+  }
+  window.addEventListener('beforeprint',preparePrint);
+  window.addEventListener('afterprint',()=>{if(previousPrintTitle!==null){document.title=previousPrintTitle;previousPrintTitle=null;}});
+  $('[data-print]').addEventListener('click',()=>window.print());
   function navigation(){
     $('[data-list-count]').textContent=pad(lists.length);
     const groups=[...new Set(lists.map(l=>l.group||(baseListIds.has(l.id)?'Listas y premios':'Mis recorridos')))];

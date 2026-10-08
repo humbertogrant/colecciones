@@ -3,6 +3,14 @@ const path = require('node:path');
 const assert = require('node:assert/strict');
 const {chromium} = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
 const base = path.resolve(__dirname, '..');
+const sourceCatalog = JSON.parse(fs.readFileSync(path.join(base, 'data/catalog.json'), 'utf8'));
+const expectedCatalog = structuredClone(sourceCatalog);
+for (const work of expectedCatalog.works) {
+  if (work.coverFile) {
+    work.cover = 'data:image/webp;base64,' + fs.readFileSync(path.join(base, work.coverFile)).toString('base64');
+    delete work.coverFile;
+  }
+}
 async function audit(page, label) {
   const result = await page.evaluate(() => {
     const root = document.getElementById('canto-colecciones');
@@ -36,11 +44,12 @@ async function audit(page, label) {
  await page.goto('file://'+base+'/index.html');await page.evaluate(()=>document.fonts.ready);
  assert.equal(await page.title(),'Colecciones');
  assert.equal(await page.locator('.cr-signature strong').textContent(),'Colecciones');
- assert.equal(await page.locator('[data-list-count]').textContent(),'17');
+ assert.equal(await page.locator('[data-list-count]').textContent(),String(sourceCatalog.lists.length));
  const data=await page.locator('[data-catalog]').evaluate(el=>JSON.parse(el.textContent));
- assert.equal(data.lists.length,17);assert.equal(data.works.length,632);
- const ids=new Set(data.works.map(w=>w.id));assert.equal(ids.size,632);
+ assert.deepEqual(data,expectedCatalog,'generated catalog and embedded covers match their source');
+ const ids=new Set(data.works.map(w=>w.id));assert.equal(ids.size,sourceCatalog.works.length);
  assert.ok(data.lists.every(l=>new Set(l.items).size===l.items.length&&l.items.every(id=>ids.has(id))));
+ assert.ok(['nyt-books-critics-2024','nyt-books-readers-2024','nyt-films-2025','nyt-series-2026'].every(id=>data.lists.find(l=>l.id===id).items.length===100));
  const shared=data.lists[0].items.filter(id=>data.lists[1].items.includes(id));assert.equal(shared.length,39);
  assert.ok(data.works.filter(w=>w.cover).every(w=>w.cover.startsWith('data:image/webp;base64,')&&w.editionUrl));
  assert.ok(data.lists.slice(0,4).every(l=>l.sourceUrl.startsWith('https://www.nytimes.com/')));
@@ -96,9 +105,9 @@ async function audit(page, label) {
  await page.addStyleTag({content:'strong,span,p,h2,h3,label,button{color:white;-webkit-text-fill-color:white}body{background:#181818;color:white}'});
  checks.push(await audit(page,'white host styles and imported titles'));assert.equal(await page.locator('[data-count]').evaluate(el=>getComputedStyle(el).webkitTextFillColor),'rgb(33, 102, 175)');
  await page.locator('[data-open="'+book.id+'"]').click();checks.push(await audit(page,'detail'));await page.locator('[data-new]').click();checks.push(await audit(page,'import form'));
- await page.reload();assert.equal(await page.locator('[data-list-count]').textContent(),'18');await page.locator('.cr-storage summary').click();checks.push(await audit(page,'storage controls'));for(const width of [320,390]){await page.setViewportSize({width,height:1100});checks.push(await audit(page,'storage controls '+width));}
+ await page.reload();assert.equal(await page.locator('[data-list-count]').textContent(),String(sourceCatalog.lists.length+1));await page.locator('.cr-storage summary').click();checks.push(await audit(page,'storage controls'));for(const width of [320,390]){await page.setViewportSize({width,height:1100});checks.push(await audit(page,'storage controls '+width));}
  await page.locator('[data-grid] img').first().evaluate(el=>el.dispatchEvent(new Event('error')));assert.ok(await page.locator('.cr-cover-fallback').first().isVisible());
  assert.deepEqual(requests,[],'offline: no remote requests');assert.deepEqual(errors,[],'no browser errors');
- const report={passed:true,collections:17,memberships:704,works:632,sharedBooks:39,images:data.works.filter(w=>w.cover).length,minTextContrast:Math.min(...checks.map(c=>c.minContrast)),checks};
+ const report={passed:true,collections:data.lists.length,memberships:data.lists.reduce((sum,l)=>sum+l.items.length,0),works:data.works.length,sharedBooks:shared.length,images:data.works.filter(w=>w.cover).length,minTextContrast:Math.min(...checks.map(c=>c.minContrast)),checks};
  fs.mkdirSync(base+'/test-results',{recursive:true});fs.writeFileSync(base+'/test-results/browser-audit.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});

@@ -25,8 +25,9 @@ Un respaldo contiene marcas, notas, fechas y listas propias, sin imágenes. Rest
 | Descubrimiento de países | Selección personal · 9 países | 56 |
 | Nobel: Literatura | 2000–2026 · 27 autores | 78 |
 | Nobel: Economía | 2000–2025 · 23 años seleccionados | 27 |
+| 4chan /lit/: 100 libros | Votación de 2025 · publicada en enero de 2026 | 100 |
 
-Hay 704 entradas y 632 obras distintas. Las dos listas de libros del NYT comparten 39 títulos; 18 ganadores de premios ya figuran en ellas. Una obra compartida conserva el mismo estado, fecha y nota. Una adaptación a otro medio tiene una ficha independiente. Las listas comienzan sin marcas; se retiraron las cuatro colecciones de muestra.
+Hay 804 entradas y 726 obras distintas. Las dos listas de libros del NYT comparten 39 títulos; 18 ganadores de premios ya figuran en ellas. Una obra compartida conserva el mismo estado, fecha y nota. Una adaptación a otro medio tiene una ficha independiente. Las listas comienzan sin marcas; se retiraron las cuatro colecciones de muestra.
 
 Se respetan los puestos originales y las selecciones de temporadas: *Beef* y *True Detective* incluyen sólo la primera; *Twin Peaks: The Return* corresponde a 2017. Las versiones británica y estadounidense de *The Office* tienen fichas distintas.
 
@@ -42,22 +43,38 @@ Selección de Humberto para conocer a los 27 laureados de Literatura de 2000 a 2
 
 Once obras reutilizan IDs anteriores; los títulos traducidos se presentan según el recorrido. Se comparten, entre otras, *El fin del «Homo sovieticus»* / *Secondhand Time*, *Septología* / *Septology*, *Los años* / *The Years* y *Estambul. Ciudad y recuerdos* / *Estambul*.
 
+## 4chan /lit/: 100 libros
+
+Votación anual de 2025, publicada en enero de 2026: la edición anual más reciente localizada al verificar el 8 de octubre de 2026. Se conservan los 100 puestos del gráfico final, incluidos los conjuntos de obras como los diálogos de Platón, las tragedias y los poemas. Las fichas de estos conjuntos aclaran su alcance.
+
+Seis títulos reutilizan obras del catálogo: *Guerra y paz* / *War and Peace*, *El viejo y el mar*, *2666*, *El maestro y Margarita* / *The Master and Margarita*, *A Confederacy of Dunces* y *Dune*. Conservan las mismas marcas, fechas y recuerdos. Las portadas representan ediciones concretas; cuando no hay una imagen verificada se usa la tarjeta tipográfica.
+
 ## Agregar una lista
 
 En **Nueva colección**, pegá un título por línea. Podés usar `Título | Autor o director | Año`. Revisá las coincidencias antes de crearla. Se admiten hasta 150 títulos por lista; se omiten las líneas idénticas y las que coinciden con una misma obra existente, aunque usen un título traducido o un año opcional.
 
 Las coincidencias requieren el mismo medio, título y creador; se reconocen las variantes de título y año ya documentadas en las colecciones. Si ambos registros tienen año, debe coincidir con la variante correspondiente. Una coincidencia ambigua no se combina automáticamente.
 
+## Imprimir o guardar como PDF
+
+Abrí una colección y pulsá **Imprimir / PDF**. En el diálogo del navegador elegí una impresora o **Guardar como PDF**. También funciona la opción de imprimir del propio navegador.
+
+La impresión incluye la colección completa en su orden original, aunque estés viendo un tramo intermedio de doce obras. Muestra título, autor, estado y fecha guardada, con las obras completadas identificadas mediante una marca y texto. Incluye el resumen de progreso y la procedencia de la colección. Las notas personales y las portadas quedan fuera de esta vista para mantenerla compacta y legible.
+
+Funciona con las colecciones incluidas y las propias. Imprimir o cancelar el diálogo no cambia tus marcas ni la página que estabas viendo. Guardá cualquier edición pendiente de una ficha antes de imprimir para incluir su estado y fecha actualizados.
+
 ## Editar y reconstruir
 
 - `src/colecciones.html`: interfaz, estilos e interacciones.
 - `src/fonts.css`: Bodoni Moda e IBM Plex Sans incrustadas.
-- `data/catalog.json`: obras, listas y procedencia de las imágenes. El orden de `items` representa el puesto en las listas NYT y el año descendente en los premios. `itemMeta` registra el año de concesión, los premios compartidos y la fuente de cada ganador.
+- `data/catalog.json`: obras, listas y procedencia de las imágenes. El orden de `items` representa el puesto en las listas NYT y /lit/, y el año descendente en los premios. `itemMeta` registra el año de concesión, los premios compartidos y la fuente de cada ganador.
 - `assets/covers/`: miniaturas locales.
 - `scripts/build.py`: genera `index.html` sin dependencias adicionales.
 - `tests/storage.cjs`: prueba reapertura, respaldos, restauración, errores de cuota y datos inválidos.
 - `tests/browser.cjs`: comprobación de catálogos, imágenes, contraste, navegación y marcas compartidas.
 - `tests/import.cjs`: coincidencias, traducciones, duplicados y conservación de datos tras importar.
+- `tests/catalog-update.cjs`: compatibilidad de los guardados anteriores al incorporar nuevas colecciones.
+- `tests/print.cjs`: lista completa, marcas, títulos traducidos y PDFs de comprobación.
 - `tests/build.py`: reconstrucción UTF-8 independiente de la configuración regional, contenido incrustado y política de scripts.
 
 ```sh
@@ -68,7 +85,7 @@ Para ejecutar la comprobación de navegador, instalá Playwright y su Chromium e
 
 ## Publicación y nuevas colecciones
 
-GitHub Pages usa el flujo `.github/workflows/pages.yml`: cada actualización de `main` reconstruye el HTML, ejecuta las seis pruebas de navegador y la prueba de reconstrucción, y publica únicamente el HTML resultante si todo pasa. Las solicitudes de cambio ejecutan las mismas comprobaciones sin publicar. El flujo fija Playwright 1.62.1 y utiliza Chromium.
+GitHub Pages usa el flujo `.github/workflows/pages.yml`: cada actualización de `main` reconstruye el HTML, ejecuta todas las pruebas de navegador y la prueba de reconstrucción, y publica únicamente el HTML resultante si todo pasa. Las solicitudes de cambio ejecutan las mismas comprobaciones sin publicar. El flujo fija Playwright 1.62.1 y utiliza Chromium.
 
 Para añadir colecciones al catálogo, conservá los IDs existentes de obras y listas, asigná IDs nuevos que no usen los prefijos personales `u` seguido de números o `custom-`, y mantené la compatibilidad del esquema de guardado. Una obra ya incluida debe reutilizar su ID para compartir progreso. Al cargar la actualización desde el mismo sitio, la app recupera marcas, notas, fechas y listas personales del navegador.
 
@@ -79,6 +96,8 @@ La procedencia, las fechas y los criterios de edición están en [SOURCES.md](SO
 El código y el diseño del prototipo son independientes del periódico. Las portadas, carteles y fuentes tipográficas conservan sus derechos y licencias de origen; ver [SOURCES.md](SOURCES.md) y `assets/licenses/`.
 
 ## Cambios y reversión
+
+Versión 0.11.0: incorpora la votación de 2025 de los 100 libros de 4chan /lit/ y una vista de impresión/PDF con todas las obras y sus estados. Conserva las obras compartidas, los identificadores anteriores y el formato de guardado v1.
 
 Versión 0.10.3: restablece «Nobel:» en los nombres «Nobel: Literatura» y «Nobel: Economía». Se conservan los IDs y el guardado personal.
 

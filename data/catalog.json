@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07",
+  "updatedAt": "2026-10-08",
   "works": [
     {
       "title": "My Brilliant Friend",
@@ -6965,6 +6965,886 @@
       "coverUrl": "https://covers.openlibrary.org/b/id/10479794-M.jpg?default=false",
       "editionUrl": "https://openlibrary.org/works/OL22587741W",
       "coverSource": "Open Library"
+    },
+    {
+      "title": "The Holy Bible",
+      "creator": "Varios autores",
+      "year": "",
+      "id": "book-44b508eba321",
+      "kind": "book",
+      "readingNote": "El gráfico incluye la Biblia como conjunto; no fija una traducción ni una edición concreta."
+    },
+    {
+      "title": "The Brothers Karamazov",
+      "creator": "Fyodor Dostoevsky",
+      "year": "",
+      "id": "book-39b49b97e169",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-39b49b97e169.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/11263774-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL32629839M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Moby-Dick",
+      "creator": "Herman Melville",
+      "year": "",
+      "id": "book-c154f97b4384",
+      "kind": "book"
+    },
+    {
+      "title": "The Iliad",
+      "creator": "Homer",
+      "year": "",
+      "id": "book-25bd576bfd2c",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-25bd576bfd2c.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12621988-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL37044698M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "The Odyssey",
+      "creator": "Homer",
+      "year": "",
+      "id": "book-c6353f334f55",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-c6353f334f55.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8100018-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL26401674M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Crime and Punishment",
+      "creator": "Fyodor Dostoevsky",
+      "year": "",
+      "id": "book-98bb7303c26e",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-98bb7303c26e.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13116014-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL44920999M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Blood Meridian",
+      "creator": "Cormac McCarthy",
+      "year": "",
+      "id": "book-d6c3dbb7ba3e",
+      "kind": "book"
+    },
+    {
+      "title": "The Metamorphosis",
+      "creator": "Franz Kafka",
+      "year": "",
+      "id": "book-338ee60e2ae9",
+      "kind": "book"
+    },
+    {
+      "title": "The Trial",
+      "creator": "Franz Kafka",
+      "year": "",
+      "id": "book-75479c4166b3",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-75479c4166b3.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14910748-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL58676051M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Lolita",
+      "creator": "Vladimir Nabokov",
+      "year": "",
+      "id": "book-b7bedbfce37c",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-b7bedbfce37c.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12984540-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL40230577M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Don Quixote",
+      "creator": "Miguel de Cervantes",
+      "year": "",
+      "id": "book-5854ac31ed10",
+      "kind": "book"
+    },
+    {
+      "title": "The Lord of the Rings",
+      "creator": "J. R. R. Tolkien",
+      "year": "",
+      "id": "book-1a817b6c9822",
+      "kind": "book",
+      "readingNote": "Una sola entrada para El Señor de los Anillos completo, habitualmente publicado en tres volúmenes; no representa solo La Comunidad del Anillo.",
+      "coverFile": "assets/covers/lit2025-book-1a817b6c9822.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14625765-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL51694024M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Dialogues",
+      "creator": "Plato",
+      "year": "",
+      "id": "book-fe944fe091b7",
+      "kind": "book",
+      "readingNote": "El gráfico agrupa los diálogos de Platón sin fijar una edición ni un diálogo individual. Se conserva esa entrada colectiva."
+    },
+    {
+      "title": "Ulysses",
+      "creator": "James Joyce",
+      "year": "",
+      "id": "book-c32e0cf4e957",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-c32e0cf4e957.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13136548-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL22136640M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Notes From Underground",
+      "creator": "Fyodor Dostoevsky",
+      "year": "",
+      "id": "book-0f8686a50518",
+      "kind": "book"
+    },
+    {
+      "title": "1984",
+      "creator": "George Orwell",
+      "year": "",
+      "id": "book-ac93b15852bb",
+      "kind": "book"
+    },
+    {
+      "title": "Anna Karenina",
+      "creator": "Leo Tolstoy",
+      "year": "",
+      "id": "book-9411b56ba5ce",
+      "kind": "book"
+    },
+    {
+      "title": "Faust",
+      "creator": "Johann Wolfgang von Goethe",
+      "year": "",
+      "id": "book-1e4193cdf5bf",
+      "kind": "book",
+      "readingNote": "La selección corresponde al Fausto de Goethe como obra; no se limita a una adaptación ni a una traducción particular.",
+      "coverFile": "assets/covers/lit2025-book-1e4193cdf5bf.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/6499459-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL24206900M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "The Divine Comedy",
+      "creator": "Dante Alighieri",
+      "year": "",
+      "id": "book-aa7d2a8a58ae",
+      "kind": "book",
+      "readingNote": "Una sola entrada para la Divina Comedia completa: Infierno, Purgatorio y Paraíso."
+    },
+    {
+      "title": "The First Folio",
+      "creator": "William Shakespeare",
+      "year": "",
+      "id": "book-2192bedb9a69",
+      "kind": "book",
+      "readingNote": "La entrada corresponde al First Folio de Shakespeare, la colección de 36 obras teatrales; no a una sola obra ni a sus sonetos."
+    },
+    {
+      "title": "In Search of Lost Time",
+      "creator": "Marcel Proust",
+      "year": "",
+      "id": "book-03a357a29ab2",
+      "kind": "book",
+      "readingNote": "Una sola entrada para el ciclo completo En busca del tiempo perdido; no solo Por el camino de Swann."
+    },
+    {
+      "title": "Stoner",
+      "creator": "John Williams",
+      "year": "",
+      "id": "book-5c939ae02e65",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-5c939ae02e65.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8310729-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL20190435M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Ficciones",
+      "creator": "Jorge Luis Borges",
+      "year": "",
+      "id": "book-245feb5d562a",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-245feb5d562a.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10832290-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL22105593M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Gravity's Rainbow",
+      "creator": "Thomas Pynchon",
+      "year": "",
+      "id": "book-6e4848d13449",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-6e4848d13449.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/97894-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL922236M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Heart of Darkness",
+      "creator": "Joseph Conrad",
+      "year": "",
+      "id": "book-025162f68a93",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-025162f68a93.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12307847-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL35601698M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Infinite Jest",
+      "creator": "David Foster Wallace",
+      "year": "",
+      "id": "book-f7e2ef55e519",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-f7e2ef55e519.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8237639-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL9674499M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Paradise Lost",
+      "creator": "John Milton",
+      "year": "",
+      "id": "book-54b4f214e772",
+      "kind": "book"
+    },
+    {
+      "title": "Dubliners",
+      "creator": "James Joyce",
+      "year": "",
+      "id": "book-94cdda69f1f7",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-94cdda69f1f7.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8216412-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL14005342M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Confessions",
+      "creator": "Augustine of Hippo",
+      "year": "",
+      "id": "book-406f618aa9dc",
+      "kind": "book"
+    },
+    {
+      "title": "The Idiot",
+      "creator": "Fyodor Dostoevsky",
+      "year": "",
+      "id": "book-f18976633958",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-f18976633958.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10249475-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL28319936M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "The Stranger",
+      "creator": "Albert Camus",
+      "year": "",
+      "id": "book-47deb3418513",
+      "kind": "book"
+    },
+    {
+      "title": "The Hobbit",
+      "creator": "J. R. R. Tolkien",
+      "year": "",
+      "id": "book-a9f624ddda39",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-a9f624ddda39.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14627509-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL51711263M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Pale Fire",
+      "creator": "Vladimir Nabokov",
+      "year": "",
+      "id": "book-2a7b4b265a81",
+      "kind": "book"
+    },
+    {
+      "title": "Siddhartha",
+      "creator": "Hermann Hesse",
+      "year": "",
+      "id": "book-e529458ab772",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-e529458ab772.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/6562535-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL21265353M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "The Epic of Gilgamesh",
+      "creator": "Anónimo",
+      "year": "",
+      "id": "book-97cd4181c613",
+      "kind": "book"
+    },
+    {
+      "title": "Brave New World",
+      "creator": "Aldous Huxley",
+      "year": "",
+      "id": "book-9f04977054a5",
+      "kind": "book"
+    },
+    {
+      "title": "The Count of Monte Cristo",
+      "creator": "Alexandre Dumas",
+      "year": "",
+      "id": "book-38464f2344df",
+      "kind": "book"
+    },
+    {
+      "title": "The Castle",
+      "creator": "Franz Kafka",
+      "year": "",
+      "id": "book-24be2d4b0151",
+      "kind": "book"
+    },
+    {
+      "title": "Tragedies",
+      "creator": "Aeschylus",
+      "year": "",
+      "id": "book-5d9bc233d726",
+      "kind": "book",
+      "readingNote": "El gráfico agrupa las tragedias de Esquilo sin fijar una edición concreta; se mantiene el conjunto en una sola ficha."
+    },
+    {
+      "title": "Journey to the End of the Night",
+      "creator": "Louis-Ferdinand Céline",
+      "year": "",
+      "id": "book-86da7bffccf8",
+      "kind": "book"
+    },
+    {
+      "title": "Slaughterhouse-Five",
+      "creator": "Kurt Vonnegut",
+      "year": "",
+      "id": "book-05ff0583723d",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-05ff0583723d.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12727001-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL13788314M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Beowulf",
+      "creator": "Anónimo",
+      "year": "",
+      "id": "book-591b2d2f4049",
+      "kind": "book"
+    },
+    {
+      "title": "The Death of Ivan Ilyich",
+      "creator": "Leo Tolstoy",
+      "year": "",
+      "id": "book-013481d941e0",
+      "kind": "book"
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "creator": "J. D. Salinger",
+      "year": "",
+      "id": "book-9d47754eee30",
+      "kind": "book"
+    },
+    {
+      "title": "Industrial Society and its Future",
+      "creator": "Theodore Kaczynski",
+      "year": "",
+      "id": "book-5e23b0f6aec8",
+      "kind": "book"
+    },
+    {
+      "title": "Tragedies",
+      "creator": "Sophocles",
+      "year": "",
+      "id": "book-ff24adcc2f08",
+      "kind": "book",
+      "readingNote": "El gráfico agrupa las tragedias de Sófocles sin fijar una edición concreta; se mantiene el conjunto en una sola ficha."
+    },
+    {
+      "title": "Demons",
+      "creator": "Fyodor Dostoevsky",
+      "year": "",
+      "id": "book-05a819dd2e92",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-05a819dd2e92.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/15220861-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL61902504M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "The Sailor who Fell From Grace With the Sea",
+      "creator": "Yukio Mishima",
+      "year": "",
+      "id": "book-5d9b8e4a40ff",
+      "kind": "book"
+    },
+    {
+      "title": "A Portrait of the Artist as a Young Man",
+      "creator": "James Joyce",
+      "year": "",
+      "id": "book-5ad00ea4cab6",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-5ad00ea4cab6.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9328410-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL7188133M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "The Sound and the Fury",
+      "creator": "William Faulkner",
+      "year": "",
+      "id": "book-ad94e8793022",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-ad94e8793022.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8292212-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL24220162M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Beyond Good and Evil",
+      "creator": "Friedrich Nietzsche",
+      "year": "",
+      "id": "book-a59045f9f326",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-a59045f9f326.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9681801-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL25548650M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Wuthering Heights",
+      "creator": "Emily Brontë",
+      "year": "",
+      "id": "book-27e8b298f8ff",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-27e8b298f8ff.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12818862-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL38586477M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Metamorphoses",
+      "creator": "Ovid",
+      "year": "",
+      "id": "book-fd69bcb77ee4",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-fd69bcb77ee4.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7212118-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL24441769M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Thus Spake Zarathustra",
+      "creator": "Friedrich Nietzsche",
+      "year": "",
+      "id": "book-098762adf69e",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-098762adf69e.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12467848-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL35727878M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Fear and Trembling",
+      "creator": "Søren Kierkegaard",
+      "year": "",
+      "id": "book-1d3d3969a1a8",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-1d3d3969a1a8.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/15095511-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL57729018M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Do Androids Dream of Electric Sheep?",
+      "creator": "Philip K. Dick",
+      "year": "",
+      "id": "book-0b92d008b4eb",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-0b92d008b4eb.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/207515-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL9387971M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Storm of Steel",
+      "creator": "Ernst Jünger",
+      "year": "",
+      "id": "book-5365925ac9fc",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-5365925ac9fc.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/108090-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL7359185M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "The World as Will and Representation",
+      "creator": "Arthur Schopenhauer",
+      "year": "",
+      "id": "book-a745d15f0912",
+      "kind": "book"
+    },
+    {
+      "title": "The Picture of Dorian Gray",
+      "creator": "Oscar Wilde",
+      "year": "",
+      "id": "book-d598487aad8d",
+      "kind": "book"
+    },
+    {
+      "title": "The Book of Disquiet",
+      "creator": "Fernando Pessoa",
+      "year": "",
+      "id": "book-9fca9258ac34",
+      "kind": "book"
+    },
+    {
+      "title": "Nicomachean Ethics",
+      "creator": "Aristotle",
+      "year": "",
+      "id": "book-723772b5e2d3",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-723772b5e2d3.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12593945-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL7668954M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "The Sorrows of Young Werther",
+      "creator": "Johann Wolfgang von Goethe",
+      "year": "",
+      "id": "book-19bf94402f29",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-19bf94402f29.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9197454-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL27799519M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "No Longer Human",
+      "creator": "Osamu Dazai",
+      "year": "",
+      "id": "book-588c22e6cce4",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-588c22e6cce4.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14611513-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL50641484M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Finnegans Wake",
+      "creator": "James Joyce",
+      "year": "",
+      "id": "book-ca6da4a03e56",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-ca6da4a03e56.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/6609259-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL24371908M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Catch-22",
+      "creator": "Joseph Heller",
+      "year": "",
+      "id": "book-41ee05d2a572",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-41ee05d2a572.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/6468653-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL24202886M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "The Aeneid",
+      "creator": "Virgil",
+      "year": "",
+      "id": "book-7726e959b918",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-7726e959b918.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/6715695-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL24620756M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Confessions of a Mask",
+      "creator": "Yukio Mishima",
+      "year": "",
+      "id": "book-1bafabd9d478",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-1bafabd9d478.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/597870-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL7999689M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Poems",
+      "creator": "T. S. Eliot",
+      "year": "",
+      "id": "book-e53dfb1a435a",
+      "kind": "book",
+      "readingNote": "El gráfico incluye «Poems» de T. S. Eliot como conjunto poético, sin especificar una edición ni un poema individual."
+    },
+    {
+      "title": "East of Eden",
+      "creator": "John Steinbeck",
+      "year": "",
+      "id": "book-6907d65f9f77",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-6907d65f9f77.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/11386937-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL22640535M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "The Crying of Lot 49",
+      "creator": "Thomas Pynchon",
+      "year": "",
+      "id": "book-27f2cd127a00",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-27f2cd127a00.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/39754-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL9238913M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "To the Lighthouse",
+      "creator": "Virginia Woolf",
+      "year": "",
+      "id": "book-3677ca636eab",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-3677ca636eab.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8231846-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL16857601M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "A Christmas Carol",
+      "creator": "Charles Dickens",
+      "year": "",
+      "id": "book-393f43db4829",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-393f43db4829.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13670274-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL47230319M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "The Prince",
+      "creator": "Niccolò Machiavelli",
+      "year": "",
+      "id": "book-b31d279df747",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-b31d279df747.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12726168-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL37826838M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Frankenstein",
+      "creator": "Mary Shelley",
+      "year": "",
+      "id": "book-7c835ce0a1db",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-7c835ce0a1db.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/15118068-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL36938301M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "The Magic Mountain",
+      "creator": "Thomas Mann",
+      "year": "",
+      "id": "book-a16a0b8f3786",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-a16a0b8f3786.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/15010225-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL58676190M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "The Canterbury Tales",
+      "creator": "Geoffrey Chaucer",
+      "year": "",
+      "id": "book-aedfd8486723",
+      "kind": "book"
+    },
+    {
+      "title": "The Name of the Rose",
+      "creator": "Umberto Eco",
+      "year": "",
+      "id": "book-644d2a522092",
+      "kind": "book"
+    },
+    {
+      "title": "Hunger",
+      "creator": "Knut Hamsun",
+      "year": "",
+      "id": "book-ff017febebc1",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-ff017febebc1.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14634050-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL51733446M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Pride and Prejudice",
+      "creator": "Jane Austen",
+      "year": "",
+      "id": "book-b08b21ed1806",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-b08b21ed1806.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14348537-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL47044678M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Poems",
+      "creator": "W. B. Yeats",
+      "year": "",
+      "id": "book-1ff100efd84c",
+      "kind": "book",
+      "readingNote": "El gráfico incluye «Poems» de W. B. Yeats como conjunto poético, sin especificar una edición ni un poema individual."
+    },
+    {
+      "title": "Animal Farm",
+      "creator": "George Orwell",
+      "year": "",
+      "id": "book-67a03fb80536",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-67a03fb80536.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/11261770-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL23269355M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "The City of God",
+      "creator": "Augustine of Hippo",
+      "year": "",
+      "id": "book-7758088ac4a9",
+      "kind": "book"
+    },
+    {
+      "title": "The Ring of the Nibelung",
+      "creator": "Richard Wagner",
+      "year": "",
+      "id": "book-e75f964d9983",
+      "kind": "book",
+      "readingNote": "Una sola entrada para El anillo del nibelungo de Wagner como ciclo de cuatro dramas. En esta lista de libros se registra la lectura de sus textos, no una grabación musical."
+    },
+    {
+      "title": "Alice in Wonderland",
+      "creator": "Lewis Carroll",
+      "year": "",
+      "id": "book-55091c4dda8e",
+      "kind": "book"
+    },
+    {
+      "title": "Dracula",
+      "creator": "Bram Stoker",
+      "year": "",
+      "id": "book-bcc61c468087",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-bcc61c468087.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12216503-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL35373336M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "The Trilogy",
+      "creator": "Samuel Beckett",
+      "year": "",
+      "id": "book-10319cf0fd6c",
+      "kind": "book",
+      "readingNote": "La trilogía de Samuel Beckett comprende Molloy, Malone muere y El innombrable. Se conserva una sola ficha para el conjunto."
+    },
+    {
+      "title": "Waiting for Godot",
+      "creator": "Samuel Beckett",
+      "year": "",
+      "id": "book-ae70357d7931",
+      "kind": "book"
+    },
+    {
+      "title": "Mason & Dixon",
+      "creator": "Thomas Pynchon",
+      "year": "",
+      "id": "book-34669d3b90b8",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-34669d3b90b8.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/579445-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL661049M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "Cthulhu Mythos",
+      "creator": "H. P. Lovecraft",
+      "year": "",
+      "id": "book-bef7cb8294da",
+      "kind": "book",
+      "readingNote": "El gráfico agrupa los relatos de los mitos de Cthulhu de H. P. Lovecraft sin fijar una edición ni un relato individual."
+    },
+    {
+      "title": "The Myth of Sisyphus",
+      "creator": "Albert Camus",
+      "year": "",
+      "id": "book-cc26b5096c03",
+      "kind": "book"
+    },
+    {
+      "title": "One Hundred Years of Solitude",
+      "creator": "Gabriel García Márquez",
+      "year": "",
+      "id": "book-932f11e6a1bd",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-932f11e6a1bd.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/15185412-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL61417747M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "On the Genealogy of Morals",
+      "creator": "Friedrich Nietzsche",
+      "year": "",
+      "id": "book-80a7933a0cb8",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-80a7933a0cb8.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/15175053-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL28510340M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "The Sun Also Rises",
+      "creator": "Ernest Hemingway",
+      "year": "",
+      "id": "book-e72e1cfc3e18",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-e72e1cfc3e18.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/78741-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL9274797M",
+      "coverSource": "Open Library"
+    },
+    {
+      "title": "A Clockwork Orange",
+      "creator": "Anthony Burgess",
+      "year": "",
+      "id": "book-0a54b20392c0",
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-0a54b20392c0.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14430663-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL23821832M",
+      "coverSource": "Open Library"
     }
   ],
   "lists": [
@@ -10040,6 +10920,134 @@
           "title": "A Separation",
           "creator": "Asghar Farhadi",
           "year": "2011"
+        }
+      }
+    },
+    {
+      "id": "4chan-lit-2025",
+      "title": "4chan /lit/: 100 libros",
+      "kind": "book",
+      "source": "4chan /lit/ · Top 100 Books · Votación 2025",
+      "sourceUrl": "https://i.warosu.org/data/lit/img/0250/04/1767927719687207.png",
+      "sourceArchiveUrl": "https://warosu.org/lit/thread/25004995",
+      "sourcePublishedAt": "2026-01-09",
+      "verifiedAt": "2026-10-08",
+      "ranked": true,
+      "orderLabel": "Orden de la votación original · 2025",
+      "note": "Lista anual de la comunidad /lit/ de 4chan, publicada en enero de 2026. Conserva los 100 puestos del gráfico final; algunos corresponden a ciclos o conjuntos de obras.",
+      "footer": "4chan /lit/ · Edición 2025 · Portadas de distintas ediciones",
+      "items": [
+        "book-44b508eba321",
+        "book-39b49b97e169",
+        "book-c154f97b4384",
+        "book-25bd576bfd2c",
+        "book-c6353f334f55",
+        "book-98bb7303c26e",
+        "book-d6c3dbb7ba3e",
+        "book-338ee60e2ae9",
+        "book-75479c4166b3",
+        "book-b7bedbfce37c",
+        "book-5854ac31ed10",
+        "book-1a817b6c9822",
+        "book-fe944fe091b7",
+        "book-c32e0cf4e957",
+        "book-0f8686a50518",
+        "book-ac93b15852bb",
+        "book-9411b56ba5ce",
+        "book-1e4193cdf5bf",
+        "book-aa7d2a8a58ae",
+        "book-2192bedb9a69",
+        "book-78a2b01b61d5",
+        "book-03a357a29ab2",
+        "book-5c939ae02e65",
+        "book-245feb5d562a",
+        "book-6e4848d13449",
+        "book-025162f68a93",
+        "book-f7e2ef55e519",
+        "book-54b4f214e772",
+        "book-94cdda69f1f7",
+        "book-406f618aa9dc",
+        "book-f18976633958",
+        "book-47deb3418513",
+        "book-a9f624ddda39",
+        "book-07f334a488bc",
+        "book-2741d808c2f4",
+        "book-2a7b4b265a81",
+        "book-e529458ab772",
+        "book-97cd4181c613",
+        "book-9f04977054a5",
+        "book-38464f2344df",
+        "book-24be2d4b0151",
+        "book-5d9bc233d726",
+        "book-86da7bffccf8",
+        "book-05ff0583723d",
+        "book-591b2d2f4049",
+        "book-013481d941e0",
+        "book-9d47754eee30",
+        "book-5e23b0f6aec8",
+        "book-ff24adcc2f08",
+        "book-05a819dd2e92",
+        "book-5d9b8e4a40ff",
+        "book-963089b250ea",
+        "book-5ad00ea4cab6",
+        "book-ad94e8793022",
+        "book-a59045f9f326",
+        "book-27e8b298f8ff",
+        "book-fd69bcb77ee4",
+        "book-098762adf69e",
+        "book-1d3d3969a1a8",
+        "book-0b92d008b4eb",
+        "book-5365925ac9fc",
+        "book-a745d15f0912",
+        "book-d598487aad8d",
+        "book-9fca9258ac34",
+        "book-723772b5e2d3",
+        "book-19bf94402f29",
+        "book-588c22e6cce4",
+        "book-ca6da4a03e56",
+        "book-41ee05d2a572",
+        "book-7726e959b918",
+        "book-1bafabd9d478",
+        "book-e53dfb1a435a",
+        "book-6907d65f9f77",
+        "book-27f2cd127a00",
+        "book-3677ca636eab",
+        "book-393f43db4829",
+        "book-b31d279df747",
+        "book-7c835ce0a1db",
+        "book-a16a0b8f3786",
+        "book-59dd8d4d2b48",
+        "book-aedfd8486723",
+        "book-644d2a522092",
+        "book-ff017febebc1",
+        "book-b08b21ed1806",
+        "book-1ff100efd84c",
+        "book-67a03fb80536",
+        "book-7758088ac4a9",
+        "book-e75f964d9983",
+        "book-55091c4dda8e",
+        "book-bcc61c468087",
+        "book-10319cf0fd6c",
+        "book-ae70357d7931",
+        "book-af9ebc5bf554",
+        "book-34669d3b90b8",
+        "book-bef7cb8294da",
+        "book-cc26b5096c03",
+        "book-932f11e6a1bd",
+        "book-80a7933a0cb8",
+        "book-e72e1cfc3e18",
+        "book-0a54b20392c0"
+      ],
+      "displayItems": {
+        "book-78a2b01b61d5": {
+          "title": "War and Peace",
+          "creator": "Leo Tolstoy",
+          "year": ""
+        },
+        "book-963089b250ea": {
+          "title": "The Master and Margarita",
+          "creator": "Mikhail Bulgakov",
+          "year": ""
         }
       }
     }

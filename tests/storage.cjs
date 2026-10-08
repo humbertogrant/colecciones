@@ -1,12 +1,13 @@
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 const assert=require('node:assert/strict');const fs=require('node:fs');const path=require('node:path');
 const base=path.resolve(__dirname,'..'),url='file://'+base+'/index.html',key='canto.colecciones.personal.v1';
+const builtInCount=JSON.parse(fs.readFileSync(path.join(base,'data/catalog.json'),'utf8')).lists.length;
 (async()=>{
 const b=await chromium.launch({executablePath:process.env.CHROMIUM_PATH,args:['--no-sandbox','--disable-gpu','--disable-dev-shm-usage']});
 const ctx=await b.newContext({acceptDownloads:true});let p=await ctx.newPage();const errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto(url);
 const id=await p.locator('[data-punch]').first().getAttribute('data-punch');await p.locator('[data-punch]').first().click();await p.locator('[data-open]').first().click();await p.locator('[data-note]').fill('Recuerdo persistente <script>');await p.locator('[data-date]').fill('2026-10-07');await p.locator('[data-save-note]').click();
 await p.locator('[data-new]').click();await p.locator('[name=listTitle]').fill('Mi lista persistente');await p.locator('[name=kind]').selectOption('book');await p.locator('[name=entries]').fill('Mi libro | Yo | 2026');await p.locator('[data-import-form] button[type=submit]').click();await p.locator('[data-confirm-import]').click();await p.locator('[data-punch]').click();
-await p.close();p=await ctx.newPage();await p.goto(url);assert.equal(await p.locator('[data-list-count]').textContent(),'18');assert.equal(await p.locator('[data-count]').textContent(),'1');await p.locator('[data-open="'+id+'"]').click();assert.equal(await p.locator('[data-note]').inputValue(),'Recuerdo persistente <script>');assert.equal(await p.locator('[data-date]').inputValue(),'2026-10-07');await p.locator('[data-list^="custom-"]').click();assert.equal(await p.locator('[data-count]').textContent(),'1');
+await p.close();p=await ctx.newPage();await p.goto(url);assert.equal(await p.locator('[data-list-count]').textContent(),String(builtInCount+1));assert.equal(await p.locator('[data-count]').textContent(),'1');await p.locator('[data-open="'+id+'"]').click();assert.equal(await p.locator('[data-note]').inputValue(),'Recuerdo persistente <script>');assert.equal(await p.locator('[data-date]').inputValue(),'2026-10-07');await p.locator('[data-list^="custom-"]').click();assert.equal(await p.locator('[data-count]').textContent(),'1');
 await p.locator('.cr-storage summary').click();const download=p.waitForEvent('download');await p.locator('[data-export]').click();const d=await download;const backup=JSON.parse(fs.readFileSync(await d.path(),'utf8'));assert.equal(backup.lists.length,1);assert.equal(backup.works.filter(w=>w.status==='done').length,2);assert.ok(!JSON.stringify(backup).includes('base64'));
 const before=await p.evaluate(k=>localStorage.getItem(k),key);
 const rejectBackup=async text=>{
@@ -21,7 +22,7 @@ for(const mutate of [value=>value.works.push({...value.works[0]}),value=>value.l
   const invalid=structuredClone(backup);mutate(invalid);
   await rejectBackup(JSON.stringify(invalid));
 }
-const ctx2=await b.newContext();const q=await ctx2.newPage();await q.goto(url);await q.locator('.cr-storage summary').click();await q.locator('[data-backup-file]').setInputFiles({name:'backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});assert.equal(await q.locator('[data-list-count]').textContent(),'17');await q.locator('[data-restore]').click();assert.equal(await q.locator('[data-list-count]').textContent(),'18');await q.reload();assert.equal(await q.locator('[data-count]').textContent(),'1');await q.locator('.cr-storage summary').click();await q.locator('[data-undo-restore]').click();assert.equal(await q.locator('[data-count]').textContent(),'0');assert.equal(await q.locator('[data-list-count]').textContent(),'17');
+const ctx2=await b.newContext();const q=await ctx2.newPage();await q.goto(url);await q.locator('.cr-storage summary').click();await q.locator('[data-backup-file]').setInputFiles({name:'backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});assert.equal(await q.locator('[data-list-count]').textContent(),String(builtInCount));await q.locator('[data-restore]').click();assert.equal(await q.locator('[data-list-count]').textContent(),String(builtInCount+1));await q.reload();assert.equal(await q.locator('[data-count]').textContent(),'1');await q.locator('.cr-storage summary').click();await q.locator('[data-undo-restore]').click();assert.equal(await q.locator('[data-count]').textContent(),'0');assert.equal(await q.locator('[data-list-count]').textContent(),String(builtInCount));
 // Quota failures preserve the prior saved value and announce the unsaved state.
 await q.evaluate(()=>{Storage.prototype.setItem=function(){throw new DOMException('Full','QuotaExceededError')}});await q.locator('[data-punch]').first().click();assert.match(await q.locator('[data-storage-status]').textContent(),/No se pudo guardar/);await q.reload();assert.equal(await q.locator('[data-count]').textContent(),'0');
 // Corrupt/future saves stay untouched until the user explicitly restores a backup.
@@ -29,7 +30,7 @@ for(const raw of ['{oops','{"version":99}']){
   await q.evaluate(({key,raw})=>localStorage.setItem(key,raw),{key,raw});await q.reload();await q.locator('[data-punch]').first().click();
   assert.equal(await q.evaluate(k=>localStorage.getItem(k),key),raw);assert.match(await q.locator('[data-storage-status]').textContent(),/No lo sobrescribiremos/);
   await q.locator('[data-backup-file]').setInputFiles({name:'backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});await q.locator('[data-restore]').click();
-  assert.match(await q.locator('[data-storage-status]').textContent(),/Respaldo restaurado y guardado/);await q.reload();assert.equal(await q.locator('[data-count]').textContent(),'1');assert.equal(await q.locator('[data-list-count]').textContent(),'18');
+  assert.match(await q.locator('[data-storage-status]').textContent(),/Respaldo restaurado y guardado/);await q.reload();assert.equal(await q.locator('[data-count]').textContent(),'1');assert.equal(await q.locator('[data-list-count]').textContent(),String(builtInCount+1));
 }
 // A real storage event must not disable the restore conflict check or replace its undo copy.
 const stale=await ctx2.newPage();stale.on('pageerror',e=>errors.push(e.message));await stale.goto(url);await stale.locator('.cr-storage summary').click();

@@ -1,4 +1,18 @@
-# Validación de 0.10.1
+# Validación de 0.11.0
+
+Revisión del 8 de octubre de 2026 en Windows, con Python 3.14 y Microsoft Edge 154 mediante Playwright 1.62.1.
+
+- Catálogo: 18 colecciones, 804 entradas y 726 obras distintas. Los 100 puestos, títulos y autores de /lit/ coinciden con la transcripción cotejada visualmente contra el gráfico final de 2025.
+- Las 632 obras y 17 listas anteriores conservan exactamente sus datos e IDs. La colección nueva reutiliza seis obras y agrega 94; incorpora 52 portadas verificadas y conserva el indicador tipográfico donde falta una imagen confirmada.
+- `tests/build.py` y las ocho pruebas de navegador aprobaron: catálogo, compatibilidad de actualización, países, Economía, importación, Literatura, impresión y almacenamiento.
+- El guardado v1 de prueba previo a /lit/ conserva todas sus marcas, notas, fechas, obras y listas propias; las obras nuevas se pueden guardar sin alterar las anteriores. La carga inicial no sobrescribe el respaldo existente.
+- Impresión: incluye las 100 obras aunque se active desde la segunda página de la interfaz, con estados y fechas actuales. Respeta títulos traducidos, años de premios y listas propias; los títulos con HTML se imprimen como texto. Abrir o cancelar no cambia el guardado, la selección ni la página de navegación.
+- PDFs A4 renderizados y revisados visualmente en todas sus páginas: /lit/ completo en cuatro páginas y colección propia con títulos largos en una página. Marcas legibles, encabezados repetidos, filas completas y sin recortes ni solapamientos. Se verificó también la muestra NYT de 100 obras.
+- Se recorrieron todas las colecciones y se comprobaron las 684 imágenes incorporadas. Contraste mínimo del texto: 4,92:1; sin desbordamiento en los tamaños de pantalla comprobados, errores de JavaScript ni solicitudes de red para recorrer el HTML local.
+
+La vista de impresión usa el diálogo del navegador para elegir una impresora o guardar como PDF. El tamaño final puede variar con la configuración de impresión. La comprobación local se realizó en Edge/Chromium; no se ha validado Safari/iOS.
+
+## Validación previa de 0.10.1
 
 Revisión del 8 de octubre de 2026 en Windows, con Python 3.14 y Microsoft Edge mediante Playwright 1.62.1.
 
