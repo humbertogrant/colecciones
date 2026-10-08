@@ -50,6 +50,7 @@ async function audit(page, label) {
  const ids=new Set(data.works.map(w=>w.id));assert.equal(ids.size,sourceCatalog.works.length);
  assert.ok(data.lists.every(l=>new Set(l.items).size===l.items.length&&l.items.every(id=>ids.has(id))));
  assert.ok(['nyt-books-critics-2024','nyt-books-readers-2024','nyt-films-2025','nyt-series-2026'].every(id=>data.lists.find(l=>l.id===id).items.length===100));
+ const lit=data.lists.find(l=>l.id==='4chan-lit-2025');assert.equal(lit.items.length,100);assert.ok(lit.items.every(id=>data.works.find(w=>w.id===id).cover),'Every /lit/ entry has a locally embedded cover');
  const shared=data.lists[0].items.filter(id=>data.lists[1].items.includes(id));assert.equal(shared.length,39);
  assert.ok(data.works.filter(w=>w.cover).every(w=>w.cover.startsWith('data:image/webp;base64,')&&w.editionUrl));
  assert.ok(data.lists.slice(0,4).every(l=>l.sourceUrl.startsWith('https://www.nytimes.com/')));

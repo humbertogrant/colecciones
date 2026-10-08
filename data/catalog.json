@@ -6972,7 +6972,11 @@
       "year": "",
       "id": "book-44b508eba321",
       "kind": "book",
-      "readingNote": "El gráfico incluye la Biblia como conjunto; no fija una traducción ni una edición concreta."
+      "readingNote": "El gráfico incluye la Biblia como conjunto; no fija una traducción ni una edición concreta.",
+      "coverFile": "assets/covers/lit2025-book-44b508eba321.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780804109062",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/138017/the-holy-bible-by-random-house/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "The Brothers Karamazov",
@@ -6990,7 +6994,11 @@
       "creator": "Herman Melville",
       "year": "",
       "id": "book-c154f97b4384",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-c154f97b4384.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780142437247",
+      "editionUrl": "https://penguinrandomhouselibrary.com/book/?isbn=9780142437247",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "The Iliad",
@@ -7030,14 +7038,22 @@
       "creator": "Cormac McCarthy",
       "year": "",
       "id": "book-d6c3dbb7ba3e",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-d6c3dbb7ba3e.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780679728757",
+      "editionUrl": "https://penguinrandomhousehighereducation.com/book/?isbn=9780679728757",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "The Metamorphosis",
       "creator": "Franz Kafka",
       "year": "",
       "id": "book-338ee60e2ae9",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-338ee60e2ae9.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780553213690",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/621164/the-metamorphosis-by-franz-kafka/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "The Trial",
@@ -7046,9 +7062,9 @@
       "id": "book-75479c4166b3",
       "kind": "book",
       "coverFile": "assets/covers/lit2025-book-75479c4166b3.webp",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14910748-M.jpg?default=false",
-      "editionUrl": "https://openlibrary.org/books/OL58676051M",
-      "coverSource": "Open Library"
+      "coverUrl": "https://images3.penguinrandomhouse.com/cover/9780805209990",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/89257/the-trial-by-franz-kafka/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "Lolita",
@@ -7066,7 +7082,11 @@
       "creator": "Miguel de Cervantes",
       "year": "",
       "id": "book-5854ac31ed10",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-5854ac31ed10.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780142437230",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/286572/don-quixote-by-miguel-de-cervantes-saavedra-translated-with-notes-by-john-rutherford-introduction-by-roberto-gonzalez-echevarria/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "The Lord of the Rings",
@@ -7076,9 +7096,9 @@
       "kind": "book",
       "readingNote": "Una sola entrada para El Señor de los Anillos completo, habitualmente publicado en tres volúmenes; no representa solo La Comunidad del Anillo.",
       "coverFile": "assets/covers/lit2025-book-1a817b6c9822.webp",
-      "coverUrl": "https://covers.openlibrary.org/b/id/14625765-M.jpg?default=false",
-      "editionUrl": "https://openlibrary.org/books/OL51694024M",
-      "coverSource": "Open Library"
+      "coverUrl": "https://i.harperapps.com/hcuk/covers/9780008471286/x400.jpg?ph=harperreach_coming_soon.png",
+      "editionUrl": "https://www.harperreach.com/products/the-lord-of-the-rings-j-r-r-tolkien-9780008471286/",
+      "coverSource": "HarperCollins / HarperReach"
     },
     {
       "title": "Dialogues",
@@ -7086,7 +7106,11 @@
       "year": "",
       "id": "book-fe944fe091b7",
       "kind": "book",
-      "readingNote": "El gráfico agrupa los diálogos de Platón sin fijar una edición ni un diálogo individual. Se conserva esa entrada colectiva."
+      "readingNote": "El gráfico agrupa los diálogos de Platón sin fijar una edición ni un diálogo individual. Se conserva esa entrada colectiva.",
+      "coverFile": "assets/covers/lit2025-book-fe944fe091b7.webp",
+      "coverUrl": "https://hackettpublishing.com/media/catalog/product/cache/c65e0e17dae7692cc57629e92960e909/p/l/plato_complete_works_173x260_2.png",
+      "editionUrl": "https://hackettpublishing.com/complete-works",
+      "coverSource": "Hackett Publishing"
     },
     {
       "title": "Ulysses",
@@ -7104,21 +7128,33 @@
       "creator": "Fyodor Dostoevsky",
       "year": "",
       "id": "book-0f8686a50518",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-0f8686a50518.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780679734529",
+      "editionUrl": "https://penguinrandomhouselibrary.com/book/?isbn=9780679734529",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "1984",
       "creator": "George Orwell",
       "year": "",
       "id": "book-ac93b15852bb",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-ac93b15852bb.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780452284234",
+      "editionUrl": "https://www.penguinrandomhouseretail.com/book/?isbn=9780452284234",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "Anna Karenina",
       "creator": "Leo Tolstoy",
       "year": "",
       "id": "book-9411b56ba5ce",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-9411b56ba5ce.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780143035008",
+      "editionUrl": "https://www.penguinrandomhouseretail.com/book/?isbn=9780143035008",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "Faust",
@@ -7138,7 +7174,11 @@
       "year": "",
       "id": "book-aa7d2a8a58ae",
       "kind": "book",
-      "readingNote": "Una sola entrada para la Divina Comedia completa: Infierno, Purgatorio y Paraíso."
+      "readingNote": "Una sola entrada para la Divina Comedia completa: Infierno, Purgatorio y Paraíso.",
+      "coverFile": "assets/covers/lit2025-book-aa7d2a8a58ae.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780804169127",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/36728/the-divine-comedy-by-dante-alighieri/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "The First Folio",
@@ -7146,7 +7186,11 @@
       "year": "",
       "id": "book-2192bedb9a69",
       "kind": "book",
-      "readingNote": "La entrada corresponde al First Folio de Shakespeare, la colección de 36 obras teatrales; no a una sola obra ni a sus sonetos."
+      "readingNote": "La entrada corresponde al First Folio de Shakespeare, la colección de 36 obras teatrales; no a una sola obra ni a sus sonetos.",
+      "coverFile": "assets/covers/lit2025-book-2192bedb9a69.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780847873821",
+      "editionUrl": "https://www.rizzoliusa.com/book/9780847873821/",
+      "coverSource": "Rizzoli / Penguin Random House"
     },
     {
       "title": "In Search of Lost Time",
@@ -7154,7 +7198,11 @@
       "year": "",
       "id": "book-03a357a29ab2",
       "kind": "book",
-      "readingNote": "Una sola entrada para el ciclo completo En busca del tiempo perdido; no solo Por el camino de Swann."
+      "readingNote": "Una sola entrada para el ciclo completo En busca del tiempo perdido; no solo Por el camino de Swann.",
+      "coverFile": "assets/covers/lit2025-book-03a357a29ab2.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780679645689",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/226026/the-modern-library-in-search-of-lost-time-complete-and-unabridged-6-book-bundle-by-marcel-proust-translated-by-c-k-scott-moncrieff-terence-kilmartin-and-andreas-mayor-revised-by-d-j-enright/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "Stoner",
@@ -7216,7 +7264,11 @@
       "creator": "John Milton",
       "year": "",
       "id": "book-54b4f214e772",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-54b4f214e772.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780241240618",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/286278/paradise-lost-by-john-milton/9780241240618/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "Dubliners",
@@ -7234,7 +7286,11 @@
       "creator": "Augustine of Hippo",
       "year": "",
       "id": "book-406f618aa9dc",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-406f618aa9dc.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780140441147",
+      "editionUrl": "https://penguinrandomhousehighereducation.com/book/?isbn=9780140441147",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "The Idiot",
@@ -7252,7 +7308,11 @@
       "creator": "Albert Camus",
       "year": "",
       "id": "book-47deb3418513",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-47deb3418513.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780679720201",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/23477/the-stranger-by-albert-camus-translated-by-matthew-ward-introduction-by-keith-gore/9780679720201/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "The Hobbit",
@@ -7270,7 +7330,11 @@
       "creator": "Vladimir Nabokov",
       "year": "",
       "id": "book-2a7b4b265a81",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-2a7b4b265a81.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780679410775",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/119451/pale-fire-by-vladimir-nabokov-introduction-by-richard-rorty/9780679410775/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "Siddhartha",
@@ -7288,28 +7352,44 @@
       "creator": "Anónimo",
       "year": "",
       "id": "book-97cd4181c613",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-97cd4181c613.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780140449198",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/670028/the-epic-of-gilgamesh-by-translated-with-an-introduction-by-andrew-george/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "Brave New World",
       "creator": "Aldous Huxley",
       "year": "",
       "id": "book-9f04977054a5",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-9f04977054a5.webp",
+      "coverUrl": "https://cdn2.penguin.com.au/covers/400/9780099518471.jpg",
+      "editionUrl": "https://www.penguin.com.au/books/brave-new-world-9780099518471",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "The Count of Monte Cristo",
       "creator": "Alexandre Dumas",
       "year": "",
       "id": "book-38464f2344df",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-38464f2344df.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780140449266",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/286345/the-count-of-monte-cristo-by-alexandre-dumas-pere-translated-with-an-introduction-and-notes-by-robin-buss-cover-ilustration-by-coralie-bickford-smith/9780140449266/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "The Castle",
       "creator": "Franz Kafka",
       "year": "",
       "id": "book-24be2d4b0151",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-24be2d4b0151.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780805211061",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/89248/the-castle-by-franz-kafka/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "Tragedies",
@@ -7317,14 +7397,22 @@
       "year": "",
       "id": "book-5d9bc233d726",
       "kind": "book",
-      "readingNote": "El gráfico agrupa las tragedias de Esquilo sin fijar una edición concreta; se mantiene el conjunto en una sola ficha."
+      "readingNote": "El gráfico agrupa las tragedias de Esquilo sin fijar una edición concreta; se mantiene el conjunto en una sola ficha.",
+      "coverFile": "assets/covers/lit2025-book-5d9bc233d726.webp",
+      "coverUrl": "https://www.rbalibros.com/medio/2024/05/10/tragedias-los-persas-los-siete-contra-tebas-las-suplicantes-agemenon-las-coeforas_6ee9c09c_500x796.jpg",
+      "editionUrl": "https://www.rbalibros.com/gredos/tragedias-los-persas-los-siete-contra-tebas-las-suplicantes-agemenon-las-coeforas_7508",
+      "coverSource": "Gredos / RBA"
     },
     {
       "title": "Journey to the End of the Night",
       "creator": "Louis-Ferdinand Céline",
       "year": "",
       "id": "book-86da7bffccf8",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-86da7bffccf8.webp",
+      "coverUrl": "https://cdn.sanity.io/images/p34gzxcg/production/e60bcdd68dc21a1127dffe9add4ef3f2f1b8254b-500x771.jpg?auto=format&w=500",
+      "editionUrl": "https://www.ndbooks.com/book/journey-to-the-end-of-the-night/",
+      "coverSource": "New Directions"
     },
     {
       "title": "Slaughterhouse-Five",
@@ -7342,28 +7430,44 @@
       "creator": "Anónimo",
       "year": "",
       "id": "book-591b2d2f4049",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-591b2d2f4049.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780451530967",
+      "editionUrl": "https://penguinrandomhouselibrary.com/book/?isbn=9780451530967",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "The Death of Ivan Ilyich",
       "creator": "Leo Tolstoy",
       "year": "",
       "id": "book-013481d941e0",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-013481d941e0.webp",
+      "coverUrl": "https://whitecrowbooks.com/wp-content/uploads/2025/04/tolstoy-death-of-ivan-ilyich.jpg",
+      "editionUrl": "https://whitecrowbooks.com/book/the_death_of_ivan_ilyich/",
+      "coverSource": "White Crow Books"
     },
     {
       "title": "The Catcher in the Rye",
       "creator": "J. D. Salinger",
       "year": "",
       "id": "book-9d47754eee30",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-9d47754eee30.webp",
+      "coverUrl": "https://www.hachettebookgroup.com/wp-content/uploads/2017/06/9780316769488.jpg?w=640",
+      "editionUrl": "https://www.hachettebookgroup.com/titles/j-d-salinger/the-catcher-in-the-rye/9780316769488/",
+      "coverSource": "Little, Brown / Hachette"
     },
     {
       "title": "Industrial Society and its Future",
       "creator": "Theodore Kaczynski",
       "year": "",
       "id": "book-5e23b0f6aec8",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-5e23b0f6aec8.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9241274-L.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL27850516M/Industrial_Society_and_Its_Future",
+      "coverSource": "Open Library"
     },
     {
       "title": "Tragedies",
@@ -7371,7 +7475,11 @@
       "year": "",
       "id": "book-ff24adcc2f08",
       "kind": "book",
-      "readingNote": "El gráfico agrupa las tragedias de Sófocles sin fijar una edición concreta; se mantiene el conjunto en una sola ficha."
+      "readingNote": "El gráfico agrupa las tragedias de Sófocles sin fijar una edición concreta; se mantiene el conjunto en una sola ficha.",
+      "coverFile": "assets/covers/lit2025-book-ff24adcc2f08.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780451531537",
+      "editionUrl": "https://penguinrandomhouselibrary.com/book/?isbn=9780451531537",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "Demons",
@@ -7389,7 +7497,11 @@
       "creator": "Yukio Mishima",
       "year": "",
       "id": "book-5d9b8e4a40ff",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-5d9b8e4a40ff.webp",
+      "coverUrl": "https://images.penguinrandomhouse.com/cover/9780679750154",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/115350/the-sailor-who-fell-from-grace-with-the-sea-by-yukio-mishima/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "A Portrait of the Artist as a Young Man",
@@ -7398,9 +7510,9 @@
       "id": "book-5ad00ea4cab6",
       "kind": "book",
       "coverFile": "assets/covers/lit2025-book-5ad00ea4cab6.webp",
-      "coverUrl": "https://covers.openlibrary.org/b/id/9328410-M.jpg?default=false",
-      "editionUrl": "https://openlibrary.org/books/OL7188133M",
-      "coverSource": "Open Library"
+      "coverUrl": "https://images2.penguinrandomhouse.com/cover/9780679739890",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/88922/a-portrait-of-the-artist-as-a-young-man-by-james-joyce/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "The Sound and the Fury",
@@ -7495,21 +7607,33 @@
       "creator": "Arthur Schopenhauer",
       "year": "",
       "id": "book-a745d15f0912",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-a745d15f0912.webp",
+      "coverUrl": "https://www.akal.com/media/akal/images/thumbs/cover-31453-236x354.jpg",
+      "editionUrl": "https://www.akal.com/libro/el-mundo-como-voluntad-y-representacion_31453/",
+      "coverSource": "Akal"
     },
     {
       "title": "The Picture of Dorian Gray",
       "creator": "Oscar Wilde",
       "year": "",
       "id": "book-d598487aad8d",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-d598487aad8d.webp",
+      "coverUrl": "https://images4.penguinrandomhouse.com/cover/9780141439570",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/286391/the-picture-of-dorian-gray-by-oscar-wilde/9780141439570/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "The Book of Disquiet",
       "creator": "Fernando Pessoa",
       "year": "",
       "id": "book-9fca9258ac34",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-9fca9258ac34.webp",
+      "coverUrl": "https://images1.penguinrandomhouse.com/cover/9780141183046",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/286380/the-book-of-disquiet-by-fernando-pessoa-edited-and-translated-by-richard-zenith/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "Nicomachean Ethics",
@@ -7594,7 +7718,11 @@
       "year": "",
       "id": "book-e53dfb1a435a",
       "kind": "book",
-      "readingNote": "El gráfico incluye «Poems» de T. S. Eliot como conjunto poético, sin especificar una edición ni un poema individual."
+      "readingNote": "El gráfico incluye «Poems» de T. S. Eliot como conjunto poético, sin especificar una edición ni un poema individual.",
+      "coverFile": "assets/covers/lit2025-book-e53dfb1a435a.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/112479-L.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL7362674M",
+      "coverSource": "Open Library"
     },
     {
       "title": "East of Eden",
@@ -7647,9 +7775,9 @@
       "id": "book-b31d279df747",
       "kind": "book",
       "coverFile": "assets/covers/lit2025-book-b31d279df747.webp",
-      "coverUrl": "https://covers.openlibrary.org/b/id/12726168-M.jpg?default=false",
-      "editionUrl": "https://openlibrary.org/books/OL37826838M",
-      "coverSource": "Open Library"
+      "coverUrl": "https://images4.penguinrandomhouse.com/cover/9780143105862",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/531157/the-prince-by-niccolo-machiavelli/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "Frankenstein",
@@ -7678,14 +7806,22 @@
       "creator": "Geoffrey Chaucer",
       "year": "",
       "id": "book-aedfd8486723",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-aedfd8486723.webp",
+      "coverUrl": "https://images4.penguinrandomhouse.com/cover/9781101663769",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/286277/the-canterbury-tales-by-geoffrey-chaucer-translated-with-an-introduction-and-notes-by-nevill-coghill-cover-illustrated-by-coralie-bickford-smith/9781101663769/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "The Name of the Rose",
       "creator": "Umberto Eco",
       "year": "",
       "id": "book-644d2a522092",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-644d2a522092.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/15023290-L.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL50561212M",
+      "coverSource": "Open Library"
     },
     {
       "title": "Hunger",
@@ -7715,7 +7851,11 @@
       "year": "",
       "id": "book-1ff100efd84c",
       "kind": "book",
-      "readingNote": "El gráfico incluye «Poems» de W. B. Yeats como conjunto poético, sin especificar una edición ni un poema individual."
+      "readingNote": "El gráfico incluye «Poems» de W. B. Yeats como conjunto poético, sin especificar una edición ni un poema individual.",
+      "coverFile": "assets/covers/lit2025-book-1ff100efd84c.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/426780-L.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL676792M",
+      "coverSource": "Open Library"
     },
     {
       "title": "Animal Farm",
@@ -7733,7 +7873,11 @@
       "creator": "Augustine of Hippo",
       "year": "",
       "id": "book-7758088ac4a9",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-7758088ac4a9.webp",
+      "coverUrl": "https://images4.penguinrandomhouse.com/cover/9780679783190",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/172160/the-city-of-god-by-saint-augustine/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "The Ring of the Nibelung",
@@ -7741,14 +7885,22 @@
       "year": "",
       "id": "book-e75f964d9983",
       "kind": "book",
-      "readingNote": "Una sola entrada para El anillo del nibelungo de Wagner como ciclo de cuatro dramas. En esta lista de libros se registra la lectura de sus textos, no una grabación musical."
+      "readingNote": "Una sola entrada para El anillo del nibelungo de Wagner como ciclo de cuatro dramas. En esta lista de libros se registra la lectura de sus textos, no una grabación musical.",
+      "coverFile": "assets/covers/lit2025-book-e75f964d9983.webp",
+      "coverUrl": "https://images4.penguinrandomhouse.com/cover/9780241422281",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/566850/the-ring-of-the-nibelung-by-richard-wagner-translated-and-edited-with-an-introduction-and-notes-by-john-deathridge/9780241422281/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "Alice in Wonderland",
       "creator": "Lewis Carroll",
       "year": "",
       "id": "book-55091c4dda8e",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-55091c4dda8e.webp",
+      "coverUrl": "https://images2.penguinrandomhouse.com/cover/9780141321073",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/286659/alices-adventures-in-wonderland-by-lewis-carroll/9780141321073/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "Dracula",
@@ -7767,14 +7919,22 @@
       "year": "",
       "id": "book-10319cf0fd6c",
       "kind": "book",
-      "readingNote": "La trilogía de Samuel Beckett comprende Molloy, Malone muere y El innombrable. Se conserva una sola ficha para el conjunto."
+      "readingNote": "La trilogía de Samuel Beckett comprende Molloy, Malone muere y El innombrable. Se conserva una sola ficha para el conjunto.",
+      "coverFile": "assets/covers/lit2025-book-10319cf0fd6c.webp",
+      "coverUrl": "https://groveatlantic.com/core/wp-content/uploads/2017/04/9780802144478.jpg",
+      "editionUrl": "https://groveatlantic.com/book/three-novels/",
+      "coverSource": "Grove Atlantic"
     },
     {
       "title": "Waiting for Godot",
       "creator": "Samuel Beckett",
       "year": "",
       "id": "book-ae70357d7931",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-ae70357d7931.webp",
+      "coverUrl": "https://groveatlantic.com/core/wp-content/uploads/2017/04/9780802144423.jpg",
+      "editionUrl": "https://groveatlantic.com/book/waiting-for-godot/",
+      "coverSource": "Grove Atlantic"
     },
     {
       "title": "Mason & Dixon",
@@ -7793,14 +7953,22 @@
       "year": "",
       "id": "book-bef7cb8294da",
       "kind": "book",
-      "readingNote": "El gráfico agrupa los relatos de los mitos de Cthulhu de H. P. Lovecraft sin fijar una edición ni un relato individual."
+      "readingNote": "El gráfico agrupa los relatos de los mitos de Cthulhu de H. P. Lovecraft sin fijar una edición ni un relato individual.",
+      "coverFile": "assets/covers/lit2025-book-bef7cb8294da.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8448434-L.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL26794307M",
+      "coverSource": "Open Library"
     },
     {
       "title": "The Myth of Sisyphus",
       "creator": "Albert Camus",
       "year": "",
       "id": "book-cc26b5096c03",
-      "kind": "book"
+      "kind": "book",
+      "coverFile": "assets/covers/lit2025-book-cc26b5096c03.webp",
+      "coverUrl": "https://images4.penguinrandomhouse.com/cover/9780525564454",
+      "editionUrl": "https://www.penguinrandomhouse.com/books/23470/the-myth-of-sisyphus-by-albert-camus/",
+      "coverSource": "Penguin Random House"
     },
     {
       "title": "One Hundred Years of Solitude",

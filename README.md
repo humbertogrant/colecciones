@@ -47,7 +47,7 @@ Once obras reutilizan IDs anteriores; los títulos traducidos se presentan segú
 
 Votación anual de 2025, publicada en enero de 2026: la edición anual más reciente localizada al verificar el 8 de octubre de 2026. Se conservan los 100 puestos del gráfico final, incluidos los conjuntos de obras como los diálogos de Platón, las tragedias y los poemas. Las fichas de estos conjuntos aclaran su alcance.
 
-Seis títulos reutilizan obras del catálogo: *Guerra y paz* / *War and Peace*, *El viejo y el mar*, *2666*, *El maestro y Margarita* / *The Master and Margarita*, *A Confederacy of Dunces* y *Dune*. Conservan las mismas marcas, fechas y recuerdos. Las portadas representan ediciones concretas; cuando no hay una imagen verificada se usa la tarjeta tipográfica.
+Seis títulos reutilizan obras del catálogo: *Guerra y paz* / *War and Peace*, *El viejo y el mar*, *2666*, *El maestro y Margarita* / *The Master and Margarita*, *A Confederacy of Dunces* y *Dune*. Conservan las mismas marcas, fechas y recuerdos. Las 100 entradas tienen portada de una edición identificada. Los ciclos y conjuntos usan ediciones completas o recopilaciones correspondientes; cada ficha conserva el enlace de procedencia de su imagen.
 
 ## Agregar una lista
 
@@ -96,6 +96,8 @@ La procedencia, las fechas y los criterios de edición están en [SOURCES.md](SO
 El código y el diseño del prototipo son independientes del periódico. Las portadas, carteles y fuentes tipográficas conservan sus derechos y licencias de origen; ver [SOURCES.md](SOURCES.md) y `assets/licenses/`.
 
 ## Cambios y reversión
+
+Versión 0.11.1: completa las 42 portadas que faltaban en la lista de 4chan /lit/ y sustituye imágenes poco legibles. Las 100 entradas incluyen una imagen local verificada, sin modificar obras, orden ni guardado personal.
 
 Versión 0.11.0: incorpora la votación de 2025 de los 100 libros de 4chan /lit/ y una vista de impresión/PDF con todas las obras y sus estados. Conserva las obras compartidas, los identificadores anteriores y el formato de guardado v1.
 

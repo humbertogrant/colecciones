@@ -1,4 +1,14 @@
-# Validación de 0.11.0
+# Validación de 0.11.1
+
+Revisión del 8 de octubre de 2026 en Windows, con Microsoft Edge 154 mediante Playwright 1.62.1.
+
+- Las 100 fichas de 4chan /lit/ tienen portada: 42 imágenes añadidas y cuatro escaneos poco legibles sustituidos. Se contrastaron las ediciones y se revisaron visualmente todas las imágenes incorporadas o sustituidas.
+- Sólo cambian los cuatro campos de procedencia/archivo de imagen de 46 obras; las 726 obras conservan sus IDs y demás metadatos. Las 18 listas mantienen exactamente su contenido y orden.
+- Reconstrucción autónoma: 726 imágenes incrustadas en el HTML. La prueba de navegador recorrió todas las colecciones y decodificó las imágenes sin errores ni solicitudes de red; /lit/ requiere ahora portada en las 100 entradas.
+- Contraste mínimo: 4,92:1, sin desbordamiento en los tamaños de pantalla comprobados.
+- La prueba de compatibilidad confirmó que el guardado anterior conserva marcas, notas, fechas y listas propias, incluso después de guardar obras nuevas y recargar.
+
+## Validación previa de 0.11.0
 
 Revisión del 8 de octubre de 2026 en Windows, con Python 3.14 y Microsoft Edge 154 mediante Playwright 1.62.1.
 
