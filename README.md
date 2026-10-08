@@ -10,7 +10,7 @@ Abrí `index.html` en un navegador. Incluye fuentes, catálogo e imágenes; no n
 
 No hay cuenta ni sincronización entre dispositivos. El guardado de archivos `file://` depende del navegador y la ubicación del HTML; mover o renombrar el archivo, cambiar de navegador o borrar los datos puede separar o eliminar ese almacenamiento. Exportá un respaldo antes. Para uso continuo conviene una dirección web estable; esta versión no se ha desplegado.
 
-Un respaldo contiene marcas, notas, fechas y listas propias, sin imágenes. Restaurarlo **reemplaza** esos datos; las seis colecciones incluidas permanecen. La versión previa se conserva localmente para deshacer. Los respaldos son archivos JSON legibles: guardalos donde guardás tus documentos personales. Ningún dato se envía a un servidor.
+Un respaldo contiene marcas, notas, fechas y listas propias, sin imágenes. Restaurarlo **reemplaza** esos datos; las colecciones incluidas incluidas permanecen. La versión previa se conserva localmente para deshacer. Los respaldos son archivos JSON legibles: guardalos donde guardás tus documentos personales. Ningún dato se envía a un servidor.
 
 ## Colecciones incluidas
 
@@ -22,10 +22,17 @@ Un respaldo contiene marcas, notas, fechas y listas propias, sin imágenes. Rest
 | Series del siglo XXI | 2026 | 100 |
 | Hugo: mejor novela | 1953–2026 | 75 |
 | Pulitzer: ficción | 1953–2026 | 68 |
+| Descubrimiento de países | Selección personal · 9 países | 56 |
 
-Hay 543 entradas y 486 obras distintas. Las dos listas de libros del NYT comparten 39 títulos; 18 ganadores de premios ya figuran en ellas. Una obra compartida conserva el mismo estado, fecha y nota. Una adaptación a otro medio tiene una ficha independiente. Las listas comienzan sin marcas; se retiraron las cuatro colecciones de muestra.
+Hay 599 entradas y 538 obras distintas. Las dos listas de libros del NYT comparten 39 títulos; 18 ganadores de premios ya figuran en ellas. Una obra compartida conserva el mismo estado, fecha y nota. Una adaptación a otro medio tiene una ficha independiente. Las listas comienzan sin marcas; se retiraron las cuatro colecciones de muestra.
 
 Se respetan los puestos originales y las selecciones de temporadas: *Beef* y *True Detective* incluyen sólo la primera; *Twin Peaks: The Return* corresponde a 2017. Las versiones británica y estadounidense de *The Office* tienen fichas distintas.
+
+## Descubrimiento de países
+
+Nueve recorridos que combinan libros y películas: Japón, China, India, México, Rusia, Alemania, Brasil, Turquía e Irán. Se respeta el orden y los títulos proporcionados por Humberto. México contiene ocho obras porque los tres libros de la trilogía de Enrique Krauze se marcan por separado; los otros países contienen seis.
+
+*Roma*, *A Separation*, *La vida de los otros* y *Secondhand Time* comparten sus marcas y recuerdos con las listas existentes. Cada tarjeta conserva su tipo: leído para libros, vista para películas; el contador del país dice «completadas». En Alemania se muestra el estreno original de *La vida de los otros* (2006), mientras que NYT conserva su convención de estreno estadounidense (2007).
 
 ## Agregar una lista
 
@@ -57,7 +64,9 @@ El código y el diseño del prototipo son independientes del periódico. Las por
 
 ## Cambios y reversión
 
-Versión 0.7.0: guardado local versionado, respaldo JSON, restauración revisable y reversible, validación de entradas y protección ante errores de guardado o cambios en otra pestaña. Se conservan las seis colecciones.
+Versión 0.8.0: incorpora nueve recorridos de países, navegación agrupada y colecciones mixtas de libros y cine. Conserva IDs y formato de almacenamiento de 0.7.0.
+
+Versión 0.7.0: guardado local versionado, respaldo JSON, restauración revisable y reversible, validación de entradas y protección ante errores de guardado o cambios en otra pestaña. Se conservan las colecciones incluidas.
 
 Versión 0.6.0: añade dos colecciones de ganadores, Hugo a mejor novela y Pulitzer de ficción, para 1953–2026. Se incluyen los premios compartidos, se explicitan los años sin ganador y se excluyen los Retro-Hugos. El año de premio no se confunde con el año de publicación. *Blackout/All Clear* conserva una ficha para ambos volúmenes. Se conserva la corrección de contraste de los contadores y la tipografía aprobada.
 

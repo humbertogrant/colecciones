@@ -37,3 +37,11 @@ No se otorga una licencia nueva sobre las portadas, carteles, listas o identidad
 - Premios Hugo compartidos en 1966, 1993 y 2010; Pulitzer compartido en 2023. Cada obra cuenta por separado. *Blackout/All Clear* (2011) es una sola entrada: novela en dos volúmenes.
 - Se muestran *Way Station* y *This Immortal* con sus títulos editoriales conocidos; sus fichas conservan los títulos de concesión, *Here Gather the Stars* y *...And Call Me Conrad*. Las colecciones de Katherine Anne Porter y Jean Stafford incluyen el nombre de la autora para evitar ambigüedad.
 - 18 ganadores reutilizan las fichas existentes del NYT. Las 125 obras nuevas incorporan portadas de Open Library. Cada ficha conserva el enlace de procedencia. Una portada puede corresponder a una edición distinta a la premiada.
+
+## Descubrimiento de países · 8 de octubre de 2026
+
+Selección y orden proporcionados directamente por Humberto en la conversación: nueve países, 56 obras. No se presenta como lista del NYT ni como selección premiada. La trilogía de Enrique Krauze se desglosa en tres títulos. La selección de *Rostam* acredita a Dick Davis en la ficha.
+
+Los títulos y nombres dados se conservan por recorrido mediante `displayItems`, sin duplicar las cuatro obras ya existentes. Esa presentación no modifica los IDs ni el estado personal; permite mostrar títulos traducidos y la fecha de estreno original de *La vida de los otros* sin alterar la lista NYT.
+
+Las nuevas portadas proceden de Open Library, salvo *The Japanese*, de la ficha editorial de Penguin (https://www.penguin.co.uk/books/316626/the-japanese-by-harding-christopher/9780141992280); los carteles proceden de las fichas de Wikipedia; cada imagen incorporada conserva su crédito y URL. Las ediciones pueden estar en un idioma diferente al título del recorrido. Cuando no se ha identificado una portada con suficiente certeza, la tarjeta lo indica y continúa funcionando.

@@ -5350,6 +5350,582 @@
       "coverUrl": "https://covers.openlibrary.org/b/id/14899799-M.jpg?default=false",
       "editionUrl": "https://openlibrary.org/books/OL50992667M",
       "coverSource": "Open Library"
+    },
+    {
+      "id": "book-f76de7e0aa29",
+      "title": "The Roads to Sata",
+      "creator": "Alan Booth",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-f76de7e0aa29.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/811283-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL8689194M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-82fe8a633e89",
+      "title": "The Japanese: A History in Twenty Lives",
+      "creator": "Christopher Harding",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-82fe8a633e89.webp",
+      "coverUrl": "https://cdn.penguin.co.uk/dam-assets/books/9780141992280/9780141992280-jacket-large.jpg",
+      "editionUrl": "https://www.penguin.co.uk/books/316626/the-japanese-by-harding-christopher/9780141992280",
+      "coverSource": "Penguin"
+    },
+    {
+      "id": "book-7ea179957d19",
+      "title": "Kokoro",
+      "creator": "Natsume Sōseki",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-7ea179957d19.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/3970410-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL1553248M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-ff6ffae3c6fd",
+      "title": "The Makioka Sisters",
+      "creator": "Jun'ichirō Tanizaki",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-ff6ffae3c6fd.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8260876-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL4114982M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-b895e5d830d8",
+      "title": "Embracing Defeat",
+      "creator": "John Dower",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-b895e5d830d8.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/249898-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL7457197M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "film-01cf4ba60685",
+      "title": "Tokyo Story",
+      "creator": "Yasujirō Ozu",
+      "kind": "film",
+      "year": "1953",
+      "coverFile": "assets/covers/country-film-01cf4ba60685.webp",
+      "coverUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Tokyo_monogatari_poster.jpg/250px-Tokyo_monogatari_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "editionUrl": "https://en.wikipedia.org/wiki/Tokyo_Story",
+      "coverSource": "Wikipedia"
+    },
+    {
+      "id": "book-52f1b7615199",
+      "title": "Country Driving",
+      "creator": "Peter Hessler",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-52f1b7615199.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/6417692-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL24268603M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-340bc3543b4a",
+      "title": "The Story of China",
+      "creator": "Michael Wood",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-340bc3543b4a.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10121798-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL28185302M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-6ecdb52fd13c",
+      "title": "To Live (¡Vivir!)",
+      "creator": "Yu Hua",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-6ecdb52fd13c.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/6823968-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL24770141M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "film-c6d18222c0ef",
+      "title": "Farewell My Concubine",
+      "creator": "Chen Kaige",
+      "kind": "film",
+      "year": "1993",
+      "coverFile": "assets/covers/country-film-c6d18222c0ef.webp",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/c/c5/Farewell_My_Concubine_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+      "editionUrl": "https://en.wikipedia.org/wiki/Farewell_My_Concubine_%28film%29",
+      "coverSource": "Wikipedia"
+    },
+    {
+      "id": "book-4f397d8f272e",
+      "title": "Deng Xiaoping and the Transformation of China",
+      "creator": "Ezra Vogel",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-4f397d8f272e.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8481392-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL26820270M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-a872b0fc3946",
+      "title": "Life and Death Are Wearing Me Out",
+      "creator": "Mo Yan",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-a872b0fc3946.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/11226731-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL32586680M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-be3689c6ebf0",
+      "title": "The Mahabharata",
+      "creator": "R. K. Narayan",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-be3689c6ebf0.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/142259-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL6783374M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-aa6d80679342",
+      "title": "India: A Million Mutinies Now",
+      "creator": "V. S. Naipaul",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-aa6d80679342.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9661340-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL23260756M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-4dcf2e1bcaf2",
+      "title": "Incarnations: India in 50 Lives",
+      "creator": "Sunil Khilnani",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-4dcf2e1bcaf2.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8861591-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL27399205M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "film-5ceb0b8253ac",
+      "title": "Pather Panchali",
+      "creator": "Satyajit Ray",
+      "kind": "film",
+      "year": "1955",
+      "coverFile": "assets/covers/country-film-5ceb0b8253ac.webp",
+      "coverUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/77/Pather_panchali_poster_in_color_1.jpg/250px-Pather_panchali_poster_in_color_1.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "editionUrl": "https://en.wikipedia.org/wiki/Pather_Panchali",
+      "coverSource": "Wikipedia"
+    },
+    {
+      "id": "book-95faea36ae75",
+      "title": "India After Gandhi",
+      "creator": "Ramachandra Guha",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-95faea36ae75.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/6821235-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL24767387M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-c7d0d71ed101",
+      "title": "Midnight's Children",
+      "creator": "Salman Rushdie",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-c7d0d71ed101.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8346713-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL1878138M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-0bf96ff74571",
+      "title": "On the Plain of Snakes",
+      "creator": "Paul Theroux",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-0bf96ff74571.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/11121559-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL32464326M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-f05d8948be8e",
+      "title": "Siglo de caudillos",
+      "creator": "Enrique Krauze",
+      "kind": "book",
+      "year": "",
+      "readingNote": "Parte de la trilogía propuesta: Siglo de caudillos, Biografía del poder y La presidencia imperial. Cada libro se marca por separado.",
+      "coverFile": "assets/covers/country-book-f05d8948be8e.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/4912168-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL1170496M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-4e9999691e83",
+      "title": "Biografía del poder",
+      "creator": "Enrique Krauze",
+      "kind": "book",
+      "year": "",
+      "readingNote": "Parte de la trilogía propuesta: Siglo de caudillos, Biografía del poder y La presidencia imperial. Cada libro se marca por separado.",
+      "coverFile": "assets/covers/country-book-4e9999691e83.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/4928158-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL9179450M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-e6f15f7daf9b",
+      "title": "La presidencia imperial",
+      "creator": "Enrique Krauze",
+      "kind": "book",
+      "year": "",
+      "readingNote": "Parte de la trilogía propuesta: Siglo de caudillos, Biografía del poder y La presidencia imperial. Cada libro se marca por separado.",
+      "coverFile": "assets/covers/country-book-e6f15f7daf9b.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/4928228-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL9179451M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-31f7e55f2044",
+      "title": "Pedro Páramo",
+      "creator": "Juan Rulfo",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-31f7e55f2044.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/5419076-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL18434271M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-1b66f0b20eab",
+      "title": "La muerte de Artemio Cruz",
+      "creator": "Carlos Fuentes",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-1b66f0b20eab.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/5417277-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL18378907M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-7e9e8738a9b8",
+      "title": "El laberinto de la soledad",
+      "creator": "Octavio Paz",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-7e9e8738a9b8.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/5349674-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL16707195M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-63f01ab97a75",
+      "title": "In Siberia",
+      "creator": "Colin Thubron",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-63f01ab97a75.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/4342635-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL3950275M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-12abe0610b5e",
+      "title": "Natasha's Dance",
+      "creator": "Orlando Figes",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-12abe0610b5e.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/580185-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL3569622M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "film-0dc9562f23a3",
+      "title": "Andrei Rublev",
+      "creator": "Andréi Tarkovski",
+      "kind": "film",
+      "year": "1966",
+      "coverFile": "assets/covers/country-film-0dc9562f23a3.webp",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/a/ae/Andrei_Rublev_Russian_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+      "editionUrl": "https://en.wikipedia.org/wiki/Andrei_Rublev_%28film%29",
+      "coverSource": "Wikipedia"
+    },
+    {
+      "id": "book-78a2b01b61d5",
+      "title": "Guerra y paz",
+      "creator": "Lev Tolstói",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-78a2b01b61d5.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12621906-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/works/OL267171W",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-963089b250ea",
+      "title": "El maestro y Margarita",
+      "creator": "Mijaíl Bulgákov",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-963089b250ea.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/15013644-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL49952037M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-e4c8f0e3c1f0",
+      "title": "Germania",
+      "creator": "Simon Winder",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-e4c8f0e3c1f0.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9353088-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL27964741M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-cb7149c57385",
+      "title": "Germany: Memories of a Nation",
+      "creator": "Neil MacGregor",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-cb7149c57385.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8851251-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL27388393M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-42eedb34be01",
+      "title": "Los Buddenbrook",
+      "creator": "Thomas Mann",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-42eedb34be01.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8244437-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL7227259M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-b134083e0203",
+      "title": "El tambor de hojalata",
+      "creator": "Günter Grass",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-b134083e0203.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/1468148-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL8106025M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-303aebb32408",
+      "title": "Exorcising Hitler",
+      "creator": "Frederick Taylor",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-303aebb32408.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10088029-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL28146802M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-79d7eca3930b",
+      "title": "A Death in Brazil",
+      "creator": "Peter Robb",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-79d7eca3930b.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/181938-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL9724549M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-12f5eb49811d",
+      "title": "Brasil: una biografía",
+      "creator": "Lilia Schwarcz y Heloisa Starling",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-12f5eb49811d.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12326934-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL35619786M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-ae6d830e3d6f",
+      "title": "Memorias póstumas de Brás Cubas",
+      "creator": "Machado de Assis",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-ae6d830e3d6f.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/123152-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL1004410M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-c7191e016258",
+      "title": "Gabriela, clavo y canela",
+      "creator": "Jorge Amado",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-c7191e016258.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/15114322-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL59858670M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-10ec89e08243",
+      "title": "Raíces del Brasil",
+      "creator": "Sérgio Buarque de Holanda",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-10ec89e08243.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/15131487-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL60465300M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "film-9d7d6b8b564a",
+      "title": "Central do Brasil",
+      "creator": "Walter Salles",
+      "kind": "film",
+      "year": "1998",
+      "coverFile": "assets/covers/country-film-9d7d6b8b564a.webp",
+      "coverUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/12/Central-do-brasil-poster04.jpg/250px-Central-do-brasil-poster04.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "editionUrl": "https://en.wikipedia.org/wiki/Central_Station_%28film%29",
+      "coverSource": "Wikipedia"
+    },
+    {
+      "id": "book-5f727e8cfd36",
+      "title": "Estambul",
+      "creator": "Orhan Pamuk",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-5f727e8cfd36.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13695871-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL47249736M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-3b16f1b78d69",
+      "title": "The Ottomans",
+      "creator": "Marc David Baer",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-3b16f1b78d69.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12364491-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL34139715M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-d91378089d0b",
+      "title": "Atatürk",
+      "creator": "Andrew Mango",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-d91378089d0b.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/457791-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL7860849M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-c5a8a42f9f18",
+      "title": "Memed, My Hawk",
+      "creator": "Yaşar Kemal",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-c5a8a42f9f18.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/4456601-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL4906837M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-900cae0046a9",
+      "title": "Nieve",
+      "creator": "Orhan Pamuk",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-900cae0046a9.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/6881426-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL24962910M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "film-99d89cc42dfb",
+      "title": "Once Upon a Time in Anatolia",
+      "creator": "Nuri Bilge Ceylan",
+      "kind": "film",
+      "year": "2011",
+      "coverFile": "assets/covers/country-film-99d89cc42dfb.webp",
+      "coverUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/6f/Once_Upon_a_Time_in_Anatolia.jpg/250px-Once_Upon_a_Time_in_Anatolia.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "editionUrl": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Anatolia",
+      "coverSource": "Wikipedia"
+    },
+    {
+      "id": "book-66568905a519",
+      "title": "Rostam: Tales of Love and War from the Shahnameh",
+      "creator": "Ferdusi",
+      "kind": "book",
+      "year": "",
+      "readingNote": "Selección y traducción al inglés de Dick Davis.",
+      "coverFile": "assets/covers/country-book-66568905a519.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/2130777-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL9398330M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-23ec6775137b",
+      "title": "Mirrors of the Unseen",
+      "creator": "Jason Elliot",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-23ec6775137b.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/178902-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL9616960M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-d52138678f2c",
+      "title": "Iran: Empire of the Mind",
+      "creator": "Michael Axworthy",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-d52138678f2c.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/6436573-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL24311502M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-cb5e4207b9d4",
+      "title": "My Uncle Napoleon",
+      "creator": "Iraj Pezeshkzad",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-cb5e4207b9d4.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/606431-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL8021106M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-cbffa9467869",
+      "title": "El Sha",
+      "creator": "Ryszard Kapuściński",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/country-book-cbffa9467869.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/420353-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL7700055M",
+      "coverSource": "Open Library"
     }
   ],
   "lists": [
@@ -6705,6 +7281,479 @@
           "awardYear": 1953,
           "sourceUrl": "https://www.pulitzer.org/winners/ernest-hemingway",
           "shared": false
+        }
+      }
+    },
+    {
+      "id": "countries-japan",
+      "title": "Japón",
+      "kind": "mixed",
+      "group": "Descubrimiento de países",
+      "source": "Descubrimiento de países · Selección personal",
+      "ranked": false,
+      "artwork": true,
+      "orderLabel": "Orden del recorrido propuesto",
+      "footer": "Selección de Humberto · Libros y cine",
+      "items": [
+        "book-f76de7e0aa29",
+        "book-82fe8a633e89",
+        "book-7ea179957d19",
+        "book-ff6ffae3c6fd",
+        "book-b895e5d830d8",
+        "film-01cf4ba60685"
+      ],
+      "displayItems": {
+        "book-f76de7e0aa29": {
+          "title": "The Roads to Sata",
+          "creator": "Alan Booth",
+          "year": ""
+        },
+        "book-82fe8a633e89": {
+          "title": "The Japanese: A History in Twenty Lives",
+          "creator": "Christopher Harding",
+          "year": ""
+        },
+        "book-7ea179957d19": {
+          "title": "Kokoro",
+          "creator": "Natsume Sōseki",
+          "year": ""
+        },
+        "book-ff6ffae3c6fd": {
+          "title": "The Makioka Sisters",
+          "creator": "Jun'ichirō Tanizaki",
+          "year": ""
+        },
+        "book-b895e5d830d8": {
+          "title": "Embracing Defeat",
+          "creator": "John Dower",
+          "year": ""
+        },
+        "film-01cf4ba60685": {
+          "title": "Tokyo Story",
+          "creator": "Yasujirō Ozu",
+          "year": "1953"
+        }
+      }
+    },
+    {
+      "id": "countries-china",
+      "title": "China",
+      "kind": "mixed",
+      "group": "Descubrimiento de países",
+      "source": "Descubrimiento de países · Selección personal",
+      "ranked": false,
+      "artwork": true,
+      "orderLabel": "Orden del recorrido propuesto",
+      "footer": "Selección de Humberto · Libros y cine",
+      "items": [
+        "book-52f1b7615199",
+        "book-340bc3543b4a",
+        "book-6ecdb52fd13c",
+        "film-c6d18222c0ef",
+        "book-4f397d8f272e",
+        "book-a872b0fc3946"
+      ],
+      "displayItems": {
+        "book-52f1b7615199": {
+          "title": "Country Driving",
+          "creator": "Peter Hessler",
+          "year": ""
+        },
+        "book-340bc3543b4a": {
+          "title": "The Story of China",
+          "creator": "Michael Wood",
+          "year": ""
+        },
+        "book-6ecdb52fd13c": {
+          "title": "To Live (¡Vivir!)",
+          "creator": "Yu Hua",
+          "year": ""
+        },
+        "film-c6d18222c0ef": {
+          "title": "Farewell My Concubine",
+          "creator": "Chen Kaige",
+          "year": "1993"
+        },
+        "book-4f397d8f272e": {
+          "title": "Deng Xiaoping and the Transformation of China",
+          "creator": "Ezra Vogel",
+          "year": ""
+        },
+        "book-a872b0fc3946": {
+          "title": "Life and Death Are Wearing Me Out",
+          "creator": "Mo Yan",
+          "year": ""
+        }
+      }
+    },
+    {
+      "id": "countries-india",
+      "title": "India",
+      "kind": "mixed",
+      "group": "Descubrimiento de países",
+      "source": "Descubrimiento de países · Selección personal",
+      "ranked": false,
+      "artwork": true,
+      "orderLabel": "Orden del recorrido propuesto",
+      "footer": "Selección de Humberto · Libros y cine",
+      "items": [
+        "book-be3689c6ebf0",
+        "book-aa6d80679342",
+        "book-4dcf2e1bcaf2",
+        "film-5ceb0b8253ac",
+        "book-95faea36ae75",
+        "book-c7d0d71ed101"
+      ],
+      "displayItems": {
+        "book-be3689c6ebf0": {
+          "title": "The Mahabharata",
+          "creator": "R. K. Narayan",
+          "year": ""
+        },
+        "book-aa6d80679342": {
+          "title": "India: A Million Mutinies Now",
+          "creator": "V. S. Naipaul",
+          "year": ""
+        },
+        "book-4dcf2e1bcaf2": {
+          "title": "Incarnations: India in 50 Lives",
+          "creator": "Sunil Khilnani",
+          "year": ""
+        },
+        "film-5ceb0b8253ac": {
+          "title": "Pather Panchali",
+          "creator": "Satyajit Ray",
+          "year": "1955"
+        },
+        "book-95faea36ae75": {
+          "title": "India After Gandhi",
+          "creator": "Ramachandra Guha",
+          "year": ""
+        },
+        "book-c7d0d71ed101": {
+          "title": "Midnight's Children",
+          "creator": "Salman Rushdie",
+          "year": ""
+        }
+      }
+    },
+    {
+      "id": "countries-mexico",
+      "title": "México",
+      "kind": "mixed",
+      "group": "Descubrimiento de países",
+      "source": "Descubrimiento de países · Selección personal",
+      "ranked": false,
+      "artwork": true,
+      "orderLabel": "Orden del recorrido propuesto",
+      "footer": "Selección de Humberto · Libros y cine",
+      "items": [
+        "book-0bf96ff74571",
+        "book-f05d8948be8e",
+        "book-4e9999691e83",
+        "book-e6f15f7daf9b",
+        "book-31f7e55f2044",
+        "book-1b66f0b20eab",
+        "book-7e9e8738a9b8",
+        "film-05341da6d9a1"
+      ],
+      "displayItems": {
+        "book-0bf96ff74571": {
+          "title": "On the Plain of Snakes",
+          "creator": "Paul Theroux",
+          "year": ""
+        },
+        "book-f05d8948be8e": {
+          "title": "Siglo de caudillos",
+          "creator": "Enrique Krauze",
+          "year": ""
+        },
+        "book-4e9999691e83": {
+          "title": "Biografía del poder",
+          "creator": "Enrique Krauze",
+          "year": ""
+        },
+        "book-e6f15f7daf9b": {
+          "title": "La presidencia imperial",
+          "creator": "Enrique Krauze",
+          "year": ""
+        },
+        "book-31f7e55f2044": {
+          "title": "Pedro Páramo",
+          "creator": "Juan Rulfo",
+          "year": ""
+        },
+        "book-1b66f0b20eab": {
+          "title": "La muerte de Artemio Cruz",
+          "creator": "Carlos Fuentes",
+          "year": ""
+        },
+        "book-7e9e8738a9b8": {
+          "title": "El laberinto de la soledad",
+          "creator": "Octavio Paz",
+          "year": ""
+        },
+        "film-05341da6d9a1": {
+          "title": "Roma",
+          "creator": "Alfonso Cuarón",
+          "year": "2018"
+        }
+      },
+      "note": "La trilogía de Enrique Krauze se desglosa en tres libros para registrar cada lectura."
+    },
+    {
+      "id": "countries-russia",
+      "title": "Rusia",
+      "kind": "mixed",
+      "group": "Descubrimiento de países",
+      "source": "Descubrimiento de países · Selección personal",
+      "ranked": false,
+      "artwork": true,
+      "orderLabel": "Orden del recorrido propuesto",
+      "footer": "Selección de Humberto · Libros y cine",
+      "items": [
+        "book-63f01ab97a75",
+        "book-12abe0610b5e",
+        "film-0dc9562f23a3",
+        "book-78a2b01b61d5",
+        "book-963089b250ea",
+        "book-b2f8d595746b"
+      ],
+      "displayItems": {
+        "book-63f01ab97a75": {
+          "title": "In Siberia",
+          "creator": "Colin Thubron",
+          "year": ""
+        },
+        "book-12abe0610b5e": {
+          "title": "Natasha's Dance",
+          "creator": "Orlando Figes",
+          "year": ""
+        },
+        "film-0dc9562f23a3": {
+          "title": "Andrei Rublev",
+          "creator": "Andréi Tarkovski",
+          "year": "1966"
+        },
+        "book-78a2b01b61d5": {
+          "title": "Guerra y paz",
+          "creator": "Lev Tolstói",
+          "year": ""
+        },
+        "book-963089b250ea": {
+          "title": "El maestro y Margarita",
+          "creator": "Mijaíl Bulgákov",
+          "year": ""
+        },
+        "book-b2f8d595746b": {
+          "title": "Secondhand Time",
+          "creator": "Svetlana Alexiévich",
+          "year": ""
+        }
+      }
+    },
+    {
+      "id": "countries-germany",
+      "title": "Alemania",
+      "kind": "mixed",
+      "group": "Descubrimiento de países",
+      "source": "Descubrimiento de países · Selección personal",
+      "ranked": false,
+      "artwork": true,
+      "orderLabel": "Orden del recorrido propuesto",
+      "footer": "Selección de Humberto · Libros y cine",
+      "items": [
+        "book-e4c8f0e3c1f0",
+        "book-cb7149c57385",
+        "book-42eedb34be01",
+        "book-b134083e0203",
+        "book-303aebb32408",
+        "film-c93790f6b0f3"
+      ],
+      "displayItems": {
+        "book-e4c8f0e3c1f0": {
+          "title": "Germania",
+          "creator": "Simon Winder",
+          "year": ""
+        },
+        "book-cb7149c57385": {
+          "title": "Germany: Memories of a Nation",
+          "creator": "Neil MacGregor",
+          "year": ""
+        },
+        "book-42eedb34be01": {
+          "title": "Los Buddenbrook",
+          "creator": "Thomas Mann",
+          "year": ""
+        },
+        "book-b134083e0203": {
+          "title": "El tambor de hojalata",
+          "creator": "Günter Grass",
+          "year": ""
+        },
+        "book-303aebb32408": {
+          "title": "Exorcising Hitler",
+          "creator": "Frederick Taylor",
+          "year": ""
+        },
+        "film-c93790f6b0f3": {
+          "title": "La vida de los otros",
+          "creator": "Florian Henckel von Donnersmarck",
+          "year": "2006"
+        }
+      },
+      "note": "La vida de los otros figura aquí con su estreno original de 2006; la lista NYT usa el estreno estadounidense de 2007. Es la misma ficha y comparte su marca."
+    },
+    {
+      "id": "countries-brazil",
+      "title": "Brasil",
+      "kind": "mixed",
+      "group": "Descubrimiento de países",
+      "source": "Descubrimiento de países · Selección personal",
+      "ranked": false,
+      "artwork": true,
+      "orderLabel": "Orden del recorrido propuesto",
+      "footer": "Selección de Humberto · Libros y cine",
+      "items": [
+        "book-79d7eca3930b",
+        "book-12f5eb49811d",
+        "book-ae6d830e3d6f",
+        "book-c7191e016258",
+        "book-10ec89e08243",
+        "film-9d7d6b8b564a"
+      ],
+      "displayItems": {
+        "book-79d7eca3930b": {
+          "title": "A Death in Brazil",
+          "creator": "Peter Robb",
+          "year": ""
+        },
+        "book-12f5eb49811d": {
+          "title": "Brasil: una biografía",
+          "creator": "Lilia Schwarcz y Heloisa Starling",
+          "year": ""
+        },
+        "book-ae6d830e3d6f": {
+          "title": "Memorias póstumas de Brás Cubas",
+          "creator": "Machado de Assis",
+          "year": ""
+        },
+        "book-c7191e016258": {
+          "title": "Gabriela, clavo y canela",
+          "creator": "Jorge Amado",
+          "year": ""
+        },
+        "book-10ec89e08243": {
+          "title": "Raíces del Brasil",
+          "creator": "Sérgio Buarque de Holanda",
+          "year": ""
+        },
+        "film-9d7d6b8b564a": {
+          "title": "Central do Brasil",
+          "creator": "Walter Salles",
+          "year": "1998"
+        }
+      }
+    },
+    {
+      "id": "countries-turkey",
+      "title": "Turquía",
+      "kind": "mixed",
+      "group": "Descubrimiento de países",
+      "source": "Descubrimiento de países · Selección personal",
+      "ranked": false,
+      "artwork": true,
+      "orderLabel": "Orden del recorrido propuesto",
+      "footer": "Selección de Humberto · Libros y cine",
+      "items": [
+        "book-5f727e8cfd36",
+        "book-3b16f1b78d69",
+        "book-d91378089d0b",
+        "book-c5a8a42f9f18",
+        "book-900cae0046a9",
+        "film-99d89cc42dfb"
+      ],
+      "displayItems": {
+        "book-5f727e8cfd36": {
+          "title": "Estambul",
+          "creator": "Orhan Pamuk",
+          "year": ""
+        },
+        "book-3b16f1b78d69": {
+          "title": "The Ottomans",
+          "creator": "Marc David Baer",
+          "year": ""
+        },
+        "book-d91378089d0b": {
+          "title": "Atatürk",
+          "creator": "Andrew Mango",
+          "year": ""
+        },
+        "book-c5a8a42f9f18": {
+          "title": "Memed, My Hawk",
+          "creator": "Yaşar Kemal",
+          "year": ""
+        },
+        "book-900cae0046a9": {
+          "title": "Nieve",
+          "creator": "Orhan Pamuk",
+          "year": ""
+        },
+        "film-99d89cc42dfb": {
+          "title": "Once Upon a Time in Anatolia",
+          "creator": "Nuri Bilge Ceylan",
+          "year": "2011"
+        }
+      }
+    },
+    {
+      "id": "countries-iran",
+      "title": "Irán",
+      "kind": "mixed",
+      "group": "Descubrimiento de países",
+      "source": "Descubrimiento de países · Selección personal",
+      "ranked": false,
+      "artwork": true,
+      "orderLabel": "Orden del recorrido propuesto",
+      "footer": "Selección de Humberto · Libros y cine",
+      "items": [
+        "book-66568905a519",
+        "book-23ec6775137b",
+        "book-d52138678f2c",
+        "book-cb5e4207b9d4",
+        "book-cbffa9467869",
+        "film-a09744e7146a"
+      ],
+      "displayItems": {
+        "book-66568905a519": {
+          "title": "Rostam: Tales of Love and War from the Shahnameh",
+          "creator": "Ferdusi",
+          "year": ""
+        },
+        "book-23ec6775137b": {
+          "title": "Mirrors of the Unseen",
+          "creator": "Jason Elliot",
+          "year": ""
+        },
+        "book-d52138678f2c": {
+          "title": "Iran: Empire of the Mind",
+          "creator": "Michael Axworthy",
+          "year": ""
+        },
+        "book-cb5e4207b9d4": {
+          "title": "My Uncle Napoleon",
+          "creator": "Iraj Pezeshkzad",
+          "year": ""
+        },
+        "book-cbffa9467869": {
+          "title": "El Sha",
+          "creator": "Ryszard Kapuściński",
+          "year": ""
+        },
+        "film-a09744e7146a": {
+          "title": "A Separation",
+          "creator": "Asghar Farhadi",
+          "year": "2011"
         }
       }
     }
