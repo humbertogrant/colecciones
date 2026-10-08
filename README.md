@@ -16,15 +16,15 @@ Un respaldo contiene marcas, notas, fechas y listas propias, sin imágenes. Rest
 
 | Colección | Edición | Obras |
 | --- | --- | ---: |
-| Libros: la crítica | 2024 | 100 |
-| Libros: el público | 2024 | 100 |
-| Películas del siglo XXI | 2025 | 100 |
-| Series del siglo XXI | 2026 | 100 |
+| NYT: libros (crítica) | 2024 | 100 |
+| NYT: libros (público) | 2024 | 100 |
+| NYT: películas del siglo XXI | 2025 | 100 |
+| NYT: series del siglo XXI | 2026 | 100 |
 | Hugo: mejor novela | 1953–2026 | 75 |
 | Pulitzer: ficción | 1953–2026 | 68 |
 | Descubrimiento de países | Selección personal · 9 países | 56 |
-| Nobel: lecturas y escuchas | 2000–2026 · 27 autores | 78 |
-| Nobel: economía | 2000–2025 · 23 años seleccionados | 27 |
+| Literatura | 2000–2026 · 27 autores | 78 |
+| Economía | 2000–2025 · 23 años seleccionados | 27 |
 
 Hay 704 entradas y 632 obras distintas. Las dos listas de libros del NYT comparten 39 títulos; 18 ganadores de premios ya figuran en ellas. Una obra compartida conserva el mismo estado, fecha y nota. Una adaptación a otro medio tiene una ficha independiente. Las listas comienzan sin marcas; se retiraron las cuatro colecciones de muestra.
 
@@ -36,7 +36,7 @@ Nueve recorridos que combinan libros y películas: Japón, China, India, México
 
 *Roma*, *A Separation*, *La vida de los otros* y *Secondhand Time* comparten sus marcas y recuerdos con las listas existentes. Cada tarjeta conserva su tipo: leído para libros, vista para películas; el contador del país dice «completadas». En Alemania se muestra el estreno original de *La vida de los otros* (2006), mientras que NYT conserva su convención de estreno estadounidense (2007).
 
-## Nobel: lecturas y escuchas
+## Literatura
 
 Selección de Humberto para conocer a los 27 laureados de Literatura de 2000 a 2026. Son 78 obras, ordenadas como fueron propuestas, y no una lista de libros galardonados: el Nobel se concede al autor. Se incluyen las tres obras teatrales de Pinter, la antología de Tranströmer y tres discos de Dylan, que se registran como «Escuchado».
 
@@ -80,6 +80,8 @@ El código y el diseño del prototipo son independientes del periódico. Las por
 
 ## Cambios y reversión
 
+Versión 0.10.2: los nombres de las cuatro listas del New York Times incluyen «NYT»; las colecciones Nobel se llaman «Literatura» y «Economía». Se conservan los IDs, las obras, el orden y el guardado personal.
+
 Versión 0.10.1: corrige la importación duplicada y la restauración desde pestañas desactualizadas; reconoce títulos traducidos del catálogo, recupera listas antiguas con referencias repetidas y reconstruye en UTF-8 también en Windows. Incorpora pruebas de regresión y publicación verificada en GitHub Pages. Conserva los IDs y el esquema v1.
 
 Versión 0.9.0: recorrido Nobel de 2000–2026, 78 obras y tipo Música con estado Escuchado; reconoce al autor en la ficha, conserva los IDs compartidos y los guardados previos.
@@ -106,4 +108,4 @@ Los respaldos de 0.9.0 mantienen el esquema v1 y agregan el tipo `music`. La app
 
 ## Economía · 0.10.0
 
-Colección independiente «Nobel: economía»: 27 libros en 23 años seleccionados de 2000 a 2025. Conserva coautorías, premiados de cada año y la nota sobre *Reforming Pensions*. Los años omitidos se mantienen fuera de la selección. El reconocimiento económico se distingue del Nobel de Literatura.
+Colección independiente «Economía»: 27 libros en 23 años seleccionados de 2000 a 2025. Conserva coautorías, premiados de cada año y la nota sobre *Reforming Pensions*. Los años omitidos se mantienen fuera de la selección. El reconocimiento económico se distingue del Nobel de Literatura.

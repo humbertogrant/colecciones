@@ -6970,7 +6970,7 @@
   "lists": [
     {
       "id": "nyt-books-critics-2024",
-      "title": "Libros: la crítica",
+      "title": "NYT: libros (crítica)",
       "kind": "book",
       "source": "The New York Times · 100 libros del siglo XXI · 2024",
       "sourceUrl": "https://www.nytimes.com/interactive/2024/books/best-books-21st-century.html",
@@ -7082,7 +7082,7 @@
     },
     {
       "id": "nyt-books-readers-2024",
-      "title": "Libros: el público",
+      "title": "NYT: libros (público)",
       "kind": "book",
       "source": "The New York Times · 100 libros del siglo XXI · 2024",
       "sourceUrl": "https://www.nytimes.com/interactive/2024/books/reader-best-books-21st-century.html",
@@ -7194,7 +7194,7 @@
     },
     {
       "id": "nyt-films-2025",
-      "title": "Películas del siglo XXI",
+      "title": "NYT: películas del siglo XXI",
       "kind": "film",
       "source": "The New York Times · Selección de 100 películas · 2025",
       "sourceUrl": "https://www.nytimes.com/interactive/2025/movies/best-movies-21st-century.html",
@@ -7306,7 +7306,7 @@
     },
     {
       "id": "nyt-series-2026",
-      "title": "Series del siglo XXI",
+      "title": "NYT: series del siglo XXI",
       "kind": "series",
       "source": "The New York Times · Selección de 100 series · 2026",
       "sourceUrl": "https://www.nytimes.com/interactive/2026/arts/television/best-tv-shows-21st-century.html",
@@ -8325,7 +8325,7 @@
     },
     {
       "id": "nobel-literature-2000-2026",
-      "title": "Nobel: lecturas y escuchas",
+      "title": "Literatura",
       "kind": "mixed",
       "source": "Nobel de Literatura · 2000–2026",
       "sourceUrl": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/",
@@ -9202,7 +9202,7 @@
     },
     {
       "id": "nobel-economics-2000-2025",
-      "title": "Nobel: economía",
+      "title": "Economía",
       "kind": "book",
       "category": "Economía",
       "source": "Premio de Economía en memoria de Alfred Nobel · 2000–2025",
