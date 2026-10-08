@@ -5926,6 +5926,747 @@
       "coverUrl": "https://covers.openlibrary.org/b/id/420353-M.jpg?default=false",
       "editionUrl": "https://openlibrary.org/books/OL7700055M",
       "coverSource": "Open Library"
+    },
+    {
+      "id": "book-e484c2c3ae56",
+      "title": "La montaña del alma",
+      "creator": "Gao Xingjian",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-e484c2c3ae56.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/52610-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/works/OL4049087W",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-1c90eb6a22aa",
+      "title": "El libro de un hombre solo",
+      "creator": "Gao Xingjian",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-1c90eb6a22aa.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10932268-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL32307546M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-0a6db34fddd1",
+      "title": "A House for Mr Biswas",
+      "creator": "V. S. Naipaul",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-0a6db34fddd1.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/228789-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL6789273M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-895ffaa0cbd1",
+      "title": "A Bend in the River",
+      "creator": "V. S. Naipaul",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-895ffaa0cbd1.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8304124-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL4732867M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-a4d596d3a587",
+      "title": "The Enigma of Arrival",
+      "creator": "V. S. Naipaul",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-a4d596d3a587.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/4176583-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/works/OL103095W",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-99c1df2fee38",
+      "title": "Sin destino",
+      "creator": "Imre Kertész",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-99c1df2fee38.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9295586-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL27080719M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-dc08207f8995",
+      "title": "Kaddish por el hijo no nacido",
+      "creator": "Imre Kertész",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-dc08207f8995.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/6521713-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL24211614M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-6011db245b9f",
+      "title": "Fiasco",
+      "creator": "Imre Kertész",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-6011db245b9f.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14256258-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL47629510M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-eeadcac4bfa2",
+      "title": "Disgrace",
+      "creator": "J. M. Coetzee",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-eeadcac4bfa2.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/11434870-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL3989045M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-b6951a1b39a5",
+      "title": "Waiting for the Barbarians",
+      "creator": "J. M. Coetzee",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-b6951a1b39a5.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/6984133-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL24949199M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-be6df9ac76b3",
+      "title": "Life & Times of Michael K",
+      "creator": "J. M. Coetzee",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-be6df9ac76b3.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12703026-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL2843101M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-117c1af5d7d0",
+      "title": "La pianista",
+      "creator": "Elfriede Jelinek",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-117c1af5d7d0.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/900652-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL53978M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-fce0165648ff",
+      "title": "Las amantes",
+      "creator": "Elfriede Jelinek",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-fce0165648ff.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/5271047-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL13307767M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-0ba30f1a5142",
+      "title": "Deseo",
+      "creator": "Elfriede Jelinek",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-0ba30f1a5142.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/2269753-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL9118116M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-6dfb7f8d74ec",
+      "title": "The Homecoming",
+      "creator": "Harold Pinter",
+      "kind": "book",
+      "year": "",
+      "readingNote": "Teatro: esta ficha registra la lectura de la obra.",
+      "coverFile": "assets/covers/nobel-book-6dfb7f8d74ec.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/376785-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL7856492M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-1716bf7064d3",
+      "title": "The Birthday Party",
+      "creator": "Harold Pinter",
+      "kind": "book",
+      "year": "",
+      "readingNote": "Teatro: esta ficha registra la lectura de la obra.",
+      "coverFile": "assets/covers/nobel-book-1716bf7064d3.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/376783-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL7856490M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-eeaa10ee5ca5",
+      "title": "Betrayal",
+      "creator": "Harold Pinter",
+      "kind": "book",
+      "year": "",
+      "readingNote": "Teatro: esta ficha registra la lectura de la obra.",
+      "coverFile": "assets/covers/nobel-book-eeaa10ee5ca5.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/4440691-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL4747165M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-a237f92532d1",
+      "title": "Me llamo Rojo",
+      "creator": "Orhan Pamuk",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-a237f92532d1.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/1054459-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/works/OL1019598W",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-f2d0d49723b8",
+      "title": "The Golden Notebook",
+      "creator": "Doris Lessing",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-f2d0d49723b8.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/42601-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL1432579M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-956206e0ff8c",
+      "title": "The Grass Is Singing",
+      "creator": "Doris Lessing",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-956206e0ff8c.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/296181-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL1864168M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-d87d6b5f95b0",
+      "title": "The Fifth Child",
+      "creator": "Doris Lessing",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-d87d6b5f95b0.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8778074-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/works/OL31243W",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-2f5ad5de717f",
+      "title": "Desierto",
+      "creator": "J. M. G. Le Clézio",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-2f5ad5de717f.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/966041-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL8837128M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-772ab4eebb90",
+      "title": "El africano",
+      "creator": "J. M. G. Le Clézio",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-772ab4eebb90.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10287991-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL25223570M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-e8e36cc76917",
+      "title": "El buscador de oro",
+      "creator": "J. M. G. Le Clézio",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-e8e36cc76917.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/969630-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL2688177M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-cc56a0cec5f5",
+      "title": "La bestia del corazón",
+      "creator": "Herta Müller",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-cc56a0cec5f5.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/579611-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL970573M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-bbb79234adbc",
+      "title": "Todo lo que tengo lo llevo conmigo",
+      "creator": "Herta Müller",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-bbb79234adbc.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/6254291-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL23845326M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-9a7fe33abf63",
+      "title": "El hombre es un gran faisán en el mundo",
+      "creator": "Herta Müller",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-9a7fe33abf63.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/5522095-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL19634108M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-619e14a2bf57",
+      "title": "La ciudad y los perros",
+      "creator": "Mario Vargas Llosa",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-619e14a2bf57.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/3221667-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/works/OL857544W",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-066731986f15",
+      "title": "Conversación en La Catedral",
+      "creator": "Mario Vargas Llosa",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-066731986f15.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12532400-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL23834606M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-6db7bd1e93ca",
+      "title": "La fiesta del Chivo",
+      "creator": "Mario Vargas Llosa",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-6db7bd1e93ca.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/1047728-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL9133932M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-9504b463c5fc",
+      "title": "El cielo a medio hacer",
+      "creator": "Tomas Tranströmer",
+      "kind": "book",
+      "year": "",
+      "readingNote": "Antología: El cielo a medio hacer, según la selección propuesta.",
+      "coverFile": "assets/covers/nobel-book-9504b463c5fc.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7341904-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL25670669M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-8e685bbf228d",
+      "title": "Sorgo rojo",
+      "creator": "Mo Yan",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-8e685bbf228d.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/4009437-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL1743235M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-4874a6f3e9b9",
+      "title": "Grandes pechos, amplias caderas",
+      "creator": "Mo Yan",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-4874a6f3e9b9.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7264871-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL25432899M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-08c2dd0dd502",
+      "title": "Lives of Girls and Women",
+      "creator": "Alice Munro",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-08c2dd0dd502.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8363507-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL6794657M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-0b61969ef86a",
+      "title": "Dora Bruder",
+      "creator": "Patrick Modiano",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-0b61969ef86a.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/326265-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL372261M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-fcc925797dc9",
+      "title": "Calle de las Tiendas Oscuras",
+      "creator": "Patrick Modiano",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-fcc925797dc9.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/810247-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL8687663M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-586334abb784",
+      "title": "Un pedigrí",
+      "creator": "Patrick Modiano",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-586334abb784.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/970385-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL3456531M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-48d3b716e1aa",
+      "title": "Voces de Chernóbil",
+      "creator": "Svetlana Alexiévich",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-48d3b716e1aa.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/9310554-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL23111983M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-5f3d40c28157",
+      "title": "La guerra no tiene rostro de mujer",
+      "creator": "Svetlana Alexiévich",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-5f3d40c28157.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13135723-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL26330896M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "music-a53a18caa1b3",
+      "title": "Highway 61 Revisited",
+      "creator": "Bob Dylan",
+      "kind": "music",
+      "year": "",
+      "coverFile": "assets/covers/nobel-music-a53a18caa1b3.webp",
+      "coverUrl": "https://cdn-p.smehost.net/sites/f6f0621f88184e56b557836255a6628a/wp-content/uploads/2011/10/5701850_126.jpg",
+      "editionUrl": "https://www.bobdylan.com/albums/highway-61-revisited/",
+      "coverSource": "Bob Dylan · Sitio oficial"
+    },
+    {
+      "id": "music-a9ef71248353",
+      "title": "Blood on the Tracks",
+      "creator": "Bob Dylan",
+      "kind": "music",
+      "year": "",
+      "coverFile": "assets/covers/nobel-music-a9ef71248353.webp",
+      "coverUrl": "https://cdn-p.smehost.net/sites/f6f0621f88184e56b557836255a6628a/wp-content/uploads/2011/10/3992174_218.jpg",
+      "editionUrl": "https://www.bobdylan.com/albums/blood-tracks/",
+      "coverSource": "Bob Dylan · Sitio oficial"
+    },
+    {
+      "id": "music-ede3b11607ce",
+      "title": "The Freewheelin' Bob Dylan",
+      "creator": "Bob Dylan",
+      "kind": "music",
+      "year": "",
+      "coverFile": "assets/covers/nobel-music-ede3b11607ce.webp",
+      "coverUrl": "https://cdn-p.smehost.net/sites/f6f0621f88184e56b557836255a6628a/wp-content/uploads/2011/10/5701835_170.jpg",
+      "editionUrl": "https://www.bobdylan.com/albums/freewheelin-bob-dylan/",
+      "coverSource": "Bob Dylan · Sitio oficial"
+    },
+    {
+      "id": "book-6d3a24316668",
+      "title": "The Remains of the Day",
+      "creator": "Kazuo Ishiguro",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-6d3a24316668.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/95742-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL7856480M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-896260eaf1c7",
+      "title": "An Artist of the Floating World",
+      "creator": "Kazuo Ishiguro",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-896260eaf1c7.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/4342830-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL3949867M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-3f18c56cb56b",
+      "title": "Los errantes",
+      "creator": "Olga Tokarczuk",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-3f18c56cb56b.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/11426109-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL19565744M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-2c2206835ef9",
+      "title": "Los libros de Jacob",
+      "creator": "Olga Tokarczuk",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-2c2206835ef9.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8979140-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL27523191M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-ea1d0c24ad5a",
+      "title": "Desgracia impeorable",
+      "creator": "Peter Handke",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-ea1d0c24ad5a.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/15182492-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL61409258M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-da1ef60d2f1d",
+      "title": "El miedo del portero al penalty",
+      "creator": "Peter Handke",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-da1ef60d2f1d.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10453428-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL30405598M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-34e1643dc576",
+      "title": "Ensayo sobre el cansancio",
+      "creator": "Peter Handke",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-34e1643dc576.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/5258885-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL13192700M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-b1743aaf7ade",
+      "title": "The Wild Iris",
+      "creator": "Louise Glück",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-b1743aaf7ade.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/676381-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL1556023M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-b42847c26bd0",
+      "title": "Averno",
+      "creator": "Louise Glück",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-b42847c26bd0.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/225305-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL7424680M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-96c333996b0c",
+      "title": "Meadowlands",
+      "creator": "Louise Glück",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-96c333996b0c.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/676476-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL797548M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-a109be35d831",
+      "title": "Paradise",
+      "creator": "Abdulrazak Gurnah",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-a109be35d831.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/488279-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL7962612M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-c40ec10749b0",
+      "title": "By the Sea",
+      "creator": "Abdulrazak Gurnah",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-c40ec10749b0.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/805172-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL6788945M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-d1c41546a6b9",
+      "title": "Desertion",
+      "creator": "Abdulrazak Gurnah",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-d1c41546a6b9.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/226965-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL3310873M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-d912b5ba5d65",
+      "title": "El lugar",
+      "creator": "Annie Ernaux",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-d912b5ba5d65.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/3949712-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL1447904M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-53198fca3fb8",
+      "title": "El acontecimiento",
+      "creator": "Annie Ernaux",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-53198fca3fb8.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/2138733-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL9703087M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-a8ea38535b98",
+      "title": "Mañana y tarde",
+      "creator": "Jon Fosse",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-a8ea38535b98.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14555018-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL50481832M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-2cd2c66416f9",
+      "title": "Trilogía",
+      "creator": "Jon Fosse",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-2cd2c66416f9.webp",
+      "coverUrl": "http://dalkeyarchive.store/cdn/shop/files/Trilogy.Fosse.FrontCover-Nobel_1.jpg?v=1698329714",
+      "editionUrl": "https://dalkeyarchive.store/products/trilogy",
+      "coverSource": "Dalkey Archive Press"
+    },
+    {
+      "id": "book-01678f69c385",
+      "title": "Actos humanos",
+      "creator": "Han Kang",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-01678f69c385.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13572041-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/works/OL34809632W",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-fb4c2b793f15",
+      "title": "Blanco",
+      "creator": "Han Kang",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-fb4c2b793f15.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10227226-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL28301261M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-446dd7d4a67a",
+      "title": "Melancolía de la resistencia",
+      "creator": "László Krasznahorkai",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-446dd7d4a67a.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7666646-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/works/OL3428973W",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-98bbce60f5e7",
+      "title": "Tango satánico",
+      "creator": "László Krasznahorkai",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-98bbce60f5e7.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/11097728-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL32437736M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-2ebd1cb00507",
+      "title": "Al Norte la montaña, al Sur el lago, al Oeste el camino, al Este el río",
+      "creator": "László Krasznahorkai",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-2ebd1cb00507.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7262651-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL25431501M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-45b363bd6cd3",
+      "title": "Autobiography of Red",
+      "creator": "Anne Carson",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-45b363bd6cd3.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/415257-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL7695031M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-acf51923d5d7",
+      "title": "Glass, Irony and God",
+      "creator": "Anne Carson",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-acf51923d5d7.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/598200-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL794814M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-f64ad082f037",
+      "title": "Eros the Bittersweet",
+      "creator": "Anne Carson",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-f64ad082f037.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14730735-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL29235626M",
+      "coverSource": "Open Library"
     }
   ],
   "lists": [
@@ -7283,6 +8024,883 @@
           "shared": false
         }
       }
+    },
+    {
+      "id": "nobel-literature-2000-2026",
+      "title": "Nobel: lecturas y escuchas",
+      "kind": "mixed",
+      "source": "Nobel de Literatura · 2000–2026",
+      "sourceUrl": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-literature/",
+      "ranked": false,
+      "artwork": true,
+      "orderLabel": "Por año del Nobel · 2000–2026",
+      "note": "27 autores · 78 obras elegidas por Humberto. El Nobel distingue al autor; estas obras forman un recorrido personal, no una lista de libros premiados. Incluye teatro, poesía y tres discos de Bob Dylan.",
+      "footer": "Selección personal · Año del premio al autor",
+      "items": [
+        "book-e484c2c3ae56",
+        "book-1c90eb6a22aa",
+        "book-0a6db34fddd1",
+        "book-895ffaa0cbd1",
+        "book-a4d596d3a587",
+        "book-99c1df2fee38",
+        "book-dc08207f8995",
+        "book-6011db245b9f",
+        "book-eeadcac4bfa2",
+        "book-b6951a1b39a5",
+        "book-be6df9ac76b3",
+        "book-117c1af5d7d0",
+        "book-fce0165648ff",
+        "book-0ba30f1a5142",
+        "book-6dfb7f8d74ec",
+        "book-1716bf7064d3",
+        "book-eeaa10ee5ca5",
+        "book-a237f92532d1",
+        "book-900cae0046a9",
+        "book-5f727e8cfd36",
+        "book-f2d0d49723b8",
+        "book-956206e0ff8c",
+        "book-d87d6b5f95b0",
+        "book-2f5ad5de717f",
+        "book-772ab4eebb90",
+        "book-e8e36cc76917",
+        "book-cc56a0cec5f5",
+        "book-bbb79234adbc",
+        "book-9a7fe33abf63",
+        "book-619e14a2bf57",
+        "book-066731986f15",
+        "book-6db7bd1e93ca",
+        "book-9504b463c5fc",
+        "book-8e685bbf228d",
+        "book-a872b0fc3946",
+        "book-4874a6f3e9b9",
+        "book-4f6aa76398b4",
+        "book-aab7d5ebd6d6",
+        "book-08c2dd0dd502",
+        "book-0b61969ef86a",
+        "book-fcc925797dc9",
+        "book-586334abb784",
+        "book-48d3b716e1aa",
+        "book-5f3d40c28157",
+        "book-b2f8d595746b",
+        "music-a53a18caa1b3",
+        "music-a9ef71248353",
+        "music-ede3b11607ce",
+        "book-6d3a24316668",
+        "book-2797f86e2362",
+        "book-896260eaf1c7",
+        "book-3f18c56cb56b",
+        "book-5471f0c90e5e",
+        "book-2c2206835ef9",
+        "book-ea1d0c24ad5a",
+        "book-da1ef60d2f1d",
+        "book-34e1643dc576",
+        "book-b1743aaf7ade",
+        "book-b42847c26bd0",
+        "book-96c333996b0c",
+        "book-a109be35d831",
+        "book-c40ec10749b0",
+        "book-d1c41546a6b9",
+        "book-a8db245bf281",
+        "book-d912b5ba5d65",
+        "book-53198fca3fb8",
+        "book-a8ea38535b98",
+        "book-2cd2c66416f9",
+        "book-ee64eafb3193",
+        "book-4ef8d6122e3d",
+        "book-01678f69c385",
+        "book-fb4c2b793f15",
+        "book-446dd7d4a67a",
+        "book-98bbce60f5e7",
+        "book-2ebd1cb00507",
+        "book-45b363bd6cd3",
+        "book-acf51923d5d7",
+        "book-f64ad082f037"
+      ],
+      "itemMeta": {
+        "book-e484c2c3ae56": {
+          "laureateYear": 2000,
+          "laureate": "Gao Xingjian",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2000/summary/"
+        },
+        "book-1c90eb6a22aa": {
+          "laureateYear": 2000,
+          "laureate": "Gao Xingjian",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2000/summary/"
+        },
+        "book-0a6db34fddd1": {
+          "laureateYear": 2001,
+          "laureate": "V. S. Naipaul",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2001/summary/"
+        },
+        "book-895ffaa0cbd1": {
+          "laureateYear": 2001,
+          "laureate": "V. S. Naipaul",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2001/summary/"
+        },
+        "book-a4d596d3a587": {
+          "laureateYear": 2001,
+          "laureate": "V. S. Naipaul",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2001/summary/"
+        },
+        "book-99c1df2fee38": {
+          "laureateYear": 2002,
+          "laureate": "Imre Kertész",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2002/summary/"
+        },
+        "book-dc08207f8995": {
+          "laureateYear": 2002,
+          "laureate": "Imre Kertész",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2002/summary/"
+        },
+        "book-6011db245b9f": {
+          "laureateYear": 2002,
+          "laureate": "Imre Kertész",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2002/summary/"
+        },
+        "book-eeadcac4bfa2": {
+          "laureateYear": 2003,
+          "laureate": "J. M. Coetzee",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2003/summary/"
+        },
+        "book-b6951a1b39a5": {
+          "laureateYear": 2003,
+          "laureate": "J. M. Coetzee",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2003/summary/"
+        },
+        "book-be6df9ac76b3": {
+          "laureateYear": 2003,
+          "laureate": "J. M. Coetzee",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2003/summary/"
+        },
+        "book-117c1af5d7d0": {
+          "laureateYear": 2004,
+          "laureate": "Elfriede Jelinek",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2004/summary/"
+        },
+        "book-fce0165648ff": {
+          "laureateYear": 2004,
+          "laureate": "Elfriede Jelinek",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2004/summary/"
+        },
+        "book-0ba30f1a5142": {
+          "laureateYear": 2004,
+          "laureate": "Elfriede Jelinek",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2004/summary/"
+        },
+        "book-6dfb7f8d74ec": {
+          "laureateYear": 2005,
+          "laureate": "Harold Pinter",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2005/summary/"
+        },
+        "book-1716bf7064d3": {
+          "laureateYear": 2005,
+          "laureate": "Harold Pinter",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2005/summary/"
+        },
+        "book-eeaa10ee5ca5": {
+          "laureateYear": 2005,
+          "laureate": "Harold Pinter",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2005/summary/"
+        },
+        "book-a237f92532d1": {
+          "laureateYear": 2006,
+          "laureate": "Orhan Pamuk",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2006/summary/"
+        },
+        "book-900cae0046a9": {
+          "laureateYear": 2006,
+          "laureate": "Orhan Pamuk",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2006/summary/"
+        },
+        "book-5f727e8cfd36": {
+          "laureateYear": 2006,
+          "laureate": "Orhan Pamuk",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2006/summary/"
+        },
+        "book-f2d0d49723b8": {
+          "laureateYear": 2007,
+          "laureate": "Doris Lessing",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2007/summary/"
+        },
+        "book-956206e0ff8c": {
+          "laureateYear": 2007,
+          "laureate": "Doris Lessing",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2007/summary/"
+        },
+        "book-d87d6b5f95b0": {
+          "laureateYear": 2007,
+          "laureate": "Doris Lessing",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2007/summary/"
+        },
+        "book-2f5ad5de717f": {
+          "laureateYear": 2008,
+          "laureate": "J. M. G. Le Clézio",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2008/summary/"
+        },
+        "book-772ab4eebb90": {
+          "laureateYear": 2008,
+          "laureate": "J. M. G. Le Clézio",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2008/summary/"
+        },
+        "book-e8e36cc76917": {
+          "laureateYear": 2008,
+          "laureate": "J. M. G. Le Clézio",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2008/summary/"
+        },
+        "book-cc56a0cec5f5": {
+          "laureateYear": 2009,
+          "laureate": "Herta Müller",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2009/summary/"
+        },
+        "book-bbb79234adbc": {
+          "laureateYear": 2009,
+          "laureate": "Herta Müller",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2009/summary/"
+        },
+        "book-9a7fe33abf63": {
+          "laureateYear": 2009,
+          "laureate": "Herta Müller",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2009/summary/"
+        },
+        "book-619e14a2bf57": {
+          "laureateYear": 2010,
+          "laureate": "Mario Vargas Llosa",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2010/summary/"
+        },
+        "book-066731986f15": {
+          "laureateYear": 2010,
+          "laureate": "Mario Vargas Llosa",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2010/summary/"
+        },
+        "book-6db7bd1e93ca": {
+          "laureateYear": 2010,
+          "laureate": "Mario Vargas Llosa",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2010/summary/"
+        },
+        "book-9504b463c5fc": {
+          "laureateYear": 2011,
+          "laureate": "Tomas Tranströmer",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2011/summary/"
+        },
+        "book-8e685bbf228d": {
+          "laureateYear": 2012,
+          "laureate": "Mo Yan",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2012/summary/"
+        },
+        "book-a872b0fc3946": {
+          "laureateYear": 2012,
+          "laureate": "Mo Yan",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2012/summary/"
+        },
+        "book-4874a6f3e9b9": {
+          "laureateYear": 2012,
+          "laureate": "Mo Yan",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2012/summary/"
+        },
+        "book-4f6aa76398b4": {
+          "laureateYear": 2013,
+          "laureate": "Alice Munro",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2013/summary/"
+        },
+        "book-aab7d5ebd6d6": {
+          "laureateYear": 2013,
+          "laureate": "Alice Munro",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2013/summary/"
+        },
+        "book-08c2dd0dd502": {
+          "laureateYear": 2013,
+          "laureate": "Alice Munro",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2013/summary/"
+        },
+        "book-0b61969ef86a": {
+          "laureateYear": 2014,
+          "laureate": "Patrick Modiano",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2014/summary/"
+        },
+        "book-fcc925797dc9": {
+          "laureateYear": 2014,
+          "laureate": "Patrick Modiano",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2014/summary/"
+        },
+        "book-586334abb784": {
+          "laureateYear": 2014,
+          "laureate": "Patrick Modiano",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2014/summary/"
+        },
+        "book-48d3b716e1aa": {
+          "laureateYear": 2015,
+          "laureate": "Svetlana Alexiévich",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2015/summary/"
+        },
+        "book-5f3d40c28157": {
+          "laureateYear": 2015,
+          "laureate": "Svetlana Alexiévich",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2015/summary/"
+        },
+        "book-b2f8d595746b": {
+          "laureateYear": 2015,
+          "laureate": "Svetlana Alexiévich",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2015/summary/"
+        },
+        "music-a53a18caa1b3": {
+          "laureateYear": 2016,
+          "laureate": "Bob Dylan",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2016/summary/"
+        },
+        "music-a9ef71248353": {
+          "laureateYear": 2016,
+          "laureate": "Bob Dylan",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2016/summary/"
+        },
+        "music-ede3b11607ce": {
+          "laureateYear": 2016,
+          "laureate": "Bob Dylan",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2016/summary/"
+        },
+        "book-6d3a24316668": {
+          "laureateYear": 2017,
+          "laureate": "Kazuo Ishiguro",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2017/summary/"
+        },
+        "book-2797f86e2362": {
+          "laureateYear": 2017,
+          "laureate": "Kazuo Ishiguro",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2017/summary/"
+        },
+        "book-896260eaf1c7": {
+          "laureateYear": 2017,
+          "laureate": "Kazuo Ishiguro",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2017/summary/"
+        },
+        "book-3f18c56cb56b": {
+          "laureateYear": 2018,
+          "laureate": "Olga Tokarczuk",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2018/summary/"
+        },
+        "book-5471f0c90e5e": {
+          "laureateYear": 2018,
+          "laureate": "Olga Tokarczuk",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2018/summary/"
+        },
+        "book-2c2206835ef9": {
+          "laureateYear": 2018,
+          "laureate": "Olga Tokarczuk",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2018/summary/"
+        },
+        "book-ea1d0c24ad5a": {
+          "laureateYear": 2019,
+          "laureate": "Peter Handke",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2019/summary/"
+        },
+        "book-da1ef60d2f1d": {
+          "laureateYear": 2019,
+          "laureate": "Peter Handke",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2019/summary/"
+        },
+        "book-34e1643dc576": {
+          "laureateYear": 2019,
+          "laureate": "Peter Handke",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2019/summary/"
+        },
+        "book-b1743aaf7ade": {
+          "laureateYear": 2020,
+          "laureate": "Louise Glück",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2020/summary/"
+        },
+        "book-b42847c26bd0": {
+          "laureateYear": 2020,
+          "laureate": "Louise Glück",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2020/summary/"
+        },
+        "book-96c333996b0c": {
+          "laureateYear": 2020,
+          "laureate": "Louise Glück",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2020/summary/"
+        },
+        "book-a109be35d831": {
+          "laureateYear": 2021,
+          "laureate": "Abdulrazak Gurnah",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2021/summary/"
+        },
+        "book-c40ec10749b0": {
+          "laureateYear": 2021,
+          "laureate": "Abdulrazak Gurnah",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2021/summary/"
+        },
+        "book-d1c41546a6b9": {
+          "laureateYear": 2021,
+          "laureate": "Abdulrazak Gurnah",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2021/summary/"
+        },
+        "book-a8db245bf281": {
+          "laureateYear": 2022,
+          "laureate": "Annie Ernaux",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2022/summary/"
+        },
+        "book-d912b5ba5d65": {
+          "laureateYear": 2022,
+          "laureate": "Annie Ernaux",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2022/summary/"
+        },
+        "book-53198fca3fb8": {
+          "laureateYear": 2022,
+          "laureate": "Annie Ernaux",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2022/summary/"
+        },
+        "book-a8ea38535b98": {
+          "laureateYear": 2023,
+          "laureate": "Jon Fosse",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2023/summary/"
+        },
+        "book-2cd2c66416f9": {
+          "laureateYear": 2023,
+          "laureate": "Jon Fosse",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2023/summary/"
+        },
+        "book-ee64eafb3193": {
+          "laureateYear": 2023,
+          "laureate": "Jon Fosse",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2023/summary/"
+        },
+        "book-4ef8d6122e3d": {
+          "laureateYear": 2024,
+          "laureate": "Han Kang",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2024/summary/"
+        },
+        "book-01678f69c385": {
+          "laureateYear": 2024,
+          "laureate": "Han Kang",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2024/summary/"
+        },
+        "book-fb4c2b793f15": {
+          "laureateYear": 2024,
+          "laureate": "Han Kang",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2024/summary/"
+        },
+        "book-446dd7d4a67a": {
+          "laureateYear": 2025,
+          "laureate": "László Krasznahorkai",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2025/summary/"
+        },
+        "book-98bbce60f5e7": {
+          "laureateYear": 2025,
+          "laureate": "László Krasznahorkai",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2025/summary/"
+        },
+        "book-2ebd1cb00507": {
+          "laureateYear": 2025,
+          "laureate": "László Krasznahorkai",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2025/summary/"
+        },
+        "book-45b363bd6cd3": {
+          "laureateYear": 2026,
+          "laureate": "Anne Carson",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2026/summary/"
+        },
+        "book-acf51923d5d7": {
+          "laureateYear": 2026,
+          "laureate": "Anne Carson",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2026/summary/"
+        },
+        "book-f64ad082f037": {
+          "laureateYear": 2026,
+          "laureate": "Anne Carson",
+          "sourceUrl": "https://www.nobelprize.org/prizes/literature/2026/summary/"
+        }
+      },
+      "displayItems": {
+        "book-e484c2c3ae56": {
+          "title": "La montaña del alma",
+          "creator": "Gao Xingjian",
+          "year": ""
+        },
+        "book-1c90eb6a22aa": {
+          "title": "El libro de un hombre solo",
+          "creator": "Gao Xingjian",
+          "year": ""
+        },
+        "book-0a6db34fddd1": {
+          "title": "A House for Mr Biswas",
+          "creator": "V. S. Naipaul",
+          "year": ""
+        },
+        "book-895ffaa0cbd1": {
+          "title": "A Bend in the River",
+          "creator": "V. S. Naipaul",
+          "year": ""
+        },
+        "book-a4d596d3a587": {
+          "title": "The Enigma of Arrival",
+          "creator": "V. S. Naipaul",
+          "year": ""
+        },
+        "book-99c1df2fee38": {
+          "title": "Sin destino",
+          "creator": "Imre Kertész",
+          "year": ""
+        },
+        "book-dc08207f8995": {
+          "title": "Kaddish por el hijo no nacido",
+          "creator": "Imre Kertész",
+          "year": ""
+        },
+        "book-6011db245b9f": {
+          "title": "Fiasco",
+          "creator": "Imre Kertész",
+          "year": ""
+        },
+        "book-eeadcac4bfa2": {
+          "title": "Disgrace",
+          "creator": "J. M. Coetzee",
+          "year": ""
+        },
+        "book-b6951a1b39a5": {
+          "title": "Waiting for the Barbarians",
+          "creator": "J. M. Coetzee",
+          "year": ""
+        },
+        "book-be6df9ac76b3": {
+          "title": "Life & Times of Michael K",
+          "creator": "J. M. Coetzee",
+          "year": ""
+        },
+        "book-117c1af5d7d0": {
+          "title": "La pianista",
+          "creator": "Elfriede Jelinek",
+          "year": ""
+        },
+        "book-fce0165648ff": {
+          "title": "Las amantes",
+          "creator": "Elfriede Jelinek",
+          "year": ""
+        },
+        "book-0ba30f1a5142": {
+          "title": "Deseo",
+          "creator": "Elfriede Jelinek",
+          "year": ""
+        },
+        "book-6dfb7f8d74ec": {
+          "title": "The Homecoming",
+          "creator": "Harold Pinter",
+          "year": ""
+        },
+        "book-1716bf7064d3": {
+          "title": "The Birthday Party",
+          "creator": "Harold Pinter",
+          "year": ""
+        },
+        "book-eeaa10ee5ca5": {
+          "title": "Betrayal",
+          "creator": "Harold Pinter",
+          "year": ""
+        },
+        "book-a237f92532d1": {
+          "title": "Me llamo Rojo",
+          "creator": "Orhan Pamuk",
+          "year": ""
+        },
+        "book-900cae0046a9": {
+          "title": "Nieve",
+          "creator": "Orhan Pamuk",
+          "year": ""
+        },
+        "book-5f727e8cfd36": {
+          "title": "Estambul. Ciudad y recuerdos",
+          "creator": "Orhan Pamuk",
+          "year": ""
+        },
+        "book-f2d0d49723b8": {
+          "title": "The Golden Notebook",
+          "creator": "Doris Lessing",
+          "year": ""
+        },
+        "book-956206e0ff8c": {
+          "title": "The Grass Is Singing",
+          "creator": "Doris Lessing",
+          "year": ""
+        },
+        "book-d87d6b5f95b0": {
+          "title": "The Fifth Child",
+          "creator": "Doris Lessing",
+          "year": ""
+        },
+        "book-2f5ad5de717f": {
+          "title": "Desierto",
+          "creator": "J. M. G. Le Clézio",
+          "year": ""
+        },
+        "book-772ab4eebb90": {
+          "title": "El africano",
+          "creator": "J. M. G. Le Clézio",
+          "year": ""
+        },
+        "book-e8e36cc76917": {
+          "title": "El buscador de oro",
+          "creator": "J. M. G. Le Clézio",
+          "year": ""
+        },
+        "book-cc56a0cec5f5": {
+          "title": "La bestia del corazón",
+          "creator": "Herta Müller",
+          "year": ""
+        },
+        "book-bbb79234adbc": {
+          "title": "Todo lo que tengo lo llevo conmigo",
+          "creator": "Herta Müller",
+          "year": ""
+        },
+        "book-9a7fe33abf63": {
+          "title": "El hombre es un gran faisán en el mundo",
+          "creator": "Herta Müller",
+          "year": ""
+        },
+        "book-619e14a2bf57": {
+          "title": "La ciudad y los perros",
+          "creator": "Mario Vargas Llosa",
+          "year": ""
+        },
+        "book-066731986f15": {
+          "title": "Conversación en La Catedral",
+          "creator": "Mario Vargas Llosa",
+          "year": ""
+        },
+        "book-6db7bd1e93ca": {
+          "title": "La fiesta del Chivo",
+          "creator": "Mario Vargas Llosa",
+          "year": ""
+        },
+        "book-9504b463c5fc": {
+          "title": "El cielo a medio hacer",
+          "creator": "Tomas Tranströmer",
+          "year": ""
+        },
+        "book-8e685bbf228d": {
+          "title": "Sorgo rojo",
+          "creator": "Mo Yan",
+          "year": ""
+        },
+        "book-a872b0fc3946": {
+          "title": "La vida y la muerte me están desgastando",
+          "creator": "Mo Yan",
+          "year": ""
+        },
+        "book-4874a6f3e9b9": {
+          "title": "Grandes pechos, amplias caderas",
+          "creator": "Mo Yan",
+          "year": ""
+        },
+        "book-4f6aa76398b4": {
+          "title": "Hateship, Friendship, Courtship, Loveship, Marriage",
+          "creator": "Alice Munro",
+          "year": ""
+        },
+        "book-aab7d5ebd6d6": {
+          "title": "Runaway",
+          "creator": "Alice Munro",
+          "year": ""
+        },
+        "book-08c2dd0dd502": {
+          "title": "Lives of Girls and Women",
+          "creator": "Alice Munro",
+          "year": ""
+        },
+        "book-0b61969ef86a": {
+          "title": "Dora Bruder",
+          "creator": "Patrick Modiano",
+          "year": ""
+        },
+        "book-fcc925797dc9": {
+          "title": "Calle de las Tiendas Oscuras",
+          "creator": "Patrick Modiano",
+          "year": ""
+        },
+        "book-586334abb784": {
+          "title": "Un pedigrí",
+          "creator": "Patrick Modiano",
+          "year": ""
+        },
+        "book-48d3b716e1aa": {
+          "title": "Voces de Chernóbil",
+          "creator": "Svetlana Alexiévich",
+          "year": ""
+        },
+        "book-5f3d40c28157": {
+          "title": "La guerra no tiene rostro de mujer",
+          "creator": "Svetlana Alexiévich",
+          "year": ""
+        },
+        "book-b2f8d595746b": {
+          "title": "El fin del «Homo sovieticus»",
+          "creator": "Svetlana Alexiévich",
+          "year": ""
+        },
+        "music-a53a18caa1b3": {
+          "title": "Highway 61 Revisited",
+          "creator": "Bob Dylan",
+          "year": ""
+        },
+        "music-a9ef71248353": {
+          "title": "Blood on the Tracks",
+          "creator": "Bob Dylan",
+          "year": ""
+        },
+        "music-ede3b11607ce": {
+          "title": "The Freewheelin' Bob Dylan",
+          "creator": "Bob Dylan",
+          "year": ""
+        },
+        "book-6d3a24316668": {
+          "title": "The Remains of the Day",
+          "creator": "Kazuo Ishiguro",
+          "year": ""
+        },
+        "book-2797f86e2362": {
+          "title": "Never Let Me Go",
+          "creator": "Kazuo Ishiguro",
+          "year": ""
+        },
+        "book-896260eaf1c7": {
+          "title": "An Artist of the Floating World",
+          "creator": "Kazuo Ishiguro",
+          "year": ""
+        },
+        "book-3f18c56cb56b": {
+          "title": "Los errantes",
+          "creator": "Olga Tokarczuk",
+          "year": ""
+        },
+        "book-5471f0c90e5e": {
+          "title": "Sobre los huesos de los muertos",
+          "creator": "Olga Tokarczuk",
+          "year": ""
+        },
+        "book-2c2206835ef9": {
+          "title": "Los libros de Jacob",
+          "creator": "Olga Tokarczuk",
+          "year": ""
+        },
+        "book-ea1d0c24ad5a": {
+          "title": "Desgracia impeorable",
+          "creator": "Peter Handke",
+          "year": ""
+        },
+        "book-da1ef60d2f1d": {
+          "title": "El miedo del portero al penalty",
+          "creator": "Peter Handke",
+          "year": ""
+        },
+        "book-34e1643dc576": {
+          "title": "Ensayo sobre el cansancio",
+          "creator": "Peter Handke",
+          "year": ""
+        },
+        "book-b1743aaf7ade": {
+          "title": "The Wild Iris",
+          "creator": "Louise Glück",
+          "year": ""
+        },
+        "book-b42847c26bd0": {
+          "title": "Averno",
+          "creator": "Louise Glück",
+          "year": ""
+        },
+        "book-96c333996b0c": {
+          "title": "Meadowlands",
+          "creator": "Louise Glück",
+          "year": ""
+        },
+        "book-a109be35d831": {
+          "title": "Paradise",
+          "creator": "Abdulrazak Gurnah",
+          "year": ""
+        },
+        "book-c40ec10749b0": {
+          "title": "By the Sea",
+          "creator": "Abdulrazak Gurnah",
+          "year": ""
+        },
+        "book-d1c41546a6b9": {
+          "title": "Desertion",
+          "creator": "Abdulrazak Gurnah",
+          "year": ""
+        },
+        "book-a8db245bf281": {
+          "title": "Los años",
+          "creator": "Annie Ernaux",
+          "year": ""
+        },
+        "book-d912b5ba5d65": {
+          "title": "El lugar",
+          "creator": "Annie Ernaux",
+          "year": ""
+        },
+        "book-53198fca3fb8": {
+          "title": "El acontecimiento",
+          "creator": "Annie Ernaux",
+          "year": ""
+        },
+        "book-a8ea38535b98": {
+          "title": "Mañana y tarde",
+          "creator": "Jon Fosse",
+          "year": ""
+        },
+        "book-2cd2c66416f9": {
+          "title": "Trilogía",
+          "creator": "Jon Fosse",
+          "year": ""
+        },
+        "book-ee64eafb3193": {
+          "title": "Septología",
+          "creator": "Jon Fosse",
+          "year": ""
+        },
+        "book-4ef8d6122e3d": {
+          "title": "La vegetariana",
+          "creator": "Han Kang",
+          "year": ""
+        },
+        "book-01678f69c385": {
+          "title": "Actos humanos",
+          "creator": "Han Kang",
+          "year": ""
+        },
+        "book-fb4c2b793f15": {
+          "title": "Blanco",
+          "creator": "Han Kang",
+          "year": ""
+        },
+        "book-446dd7d4a67a": {
+          "title": "Melancolía de la resistencia",
+          "creator": "László Krasznahorkai",
+          "year": ""
+        },
+        "book-98bbce60f5e7": {
+          "title": "Tango satánico",
+          "creator": "László Krasznahorkai",
+          "year": ""
+        },
+        "book-2ebd1cb00507": {
+          "title": "Al Norte la montaña, al Sur el lago, al Oeste el camino, al Este el río",
+          "creator": "László Krasznahorkai",
+          "year": ""
+        },
+        "book-45b363bd6cd3": {
+          "title": "Autobiography of Red",
+          "creator": "Anne Carson",
+          "year": ""
+        },
+        "book-acf51923d5d7": {
+          "title": "Glass, Irony and God",
+          "creator": "Anne Carson",
+          "year": ""
+        },
+        "book-f64ad082f037": {
+          "title": "Eros the Bittersweet",
+          "creator": "Anne Carson",
+          "year": ""
+        }
+      },
+      "category": "Libros, teatro, poesía y música"
     },
     {
       "id": "countries-japan",

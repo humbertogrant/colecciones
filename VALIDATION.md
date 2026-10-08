@@ -1,8 +1,8 @@
-# Validación de 0.8.0
+# Validación de 0.9.0
 
 Prueba local del 7 de octubre de 2026, con Chromium y el HTML autónomo.
 
-- 15 colecciones, 599 entradas y 538 obras distintas: cuatro listas NYT de 100 títulos, 75 ganadores Hugo, 68 Pulitzer y 56 entradas en nueve países.
+- 16 colecciones, 677 entradas y 605 obras distintas: cuatro listas NYT de 100 títulos, 75 ganadores Hugo, 68 Pulitzer y 56 entradas en nueve países y 78 obras del recorrido Nobel.
 - 39 libros compartidos; marcar, desmarcar, fecha y nota se reflejan en ambas listas.
 - Navegación completa del catálogo y decodificación de las imágenes incorporadas.
 - Años de premio, años sin ganador y premios compartidos comprobados. Los ganadores se ordenan de 2026 a 1953.
@@ -12,7 +12,7 @@ Prueba local del 7 de octubre de 2026, con Chromium y el HTML autónomo.
 - Selecciones de temporada y las dos versiones de *The Office* separadas.
 - Importación con revisión, coincidencias y omisión de líneas repetidas. Texto HTML tratado como texto.
 - Contraste mínimo del texto visible: **4,92:1**, también con estilos blancos impuestos desde el anfitrión.
-- Sin desbordamiento horizontal a 320, 390, 736 y 1024 píxeles; revisadas las quince colecciones.
+- Sin desbordamiento horizontal a 320, 390, 736 y 1024 píxeles; revisadas las dieciséis colecciones.
 - Sin errores de JavaScript ni solicitudes de red al abrir o recorrer el catálogo.
 - Marcas, fechas, notas y listas propias sobreviven a recargar y cerrar/reabrir la página en Chromium.
 - Exportación JSON descargada y restauración en un contexto limpio verificadas; restauración reversible tras recargar.
@@ -34,3 +34,12 @@ Riesgo R1: prototipo local reversible. No se han desplegado servicios ni migrado
 - Reversión: volver al commit anterior del código; exportar antes un respaldo para conservar las marcas de obras nuevas.
 
 Riesgo R1. Decisión: promover la actualización al repositorio privado después de las pruebas locales.
+
+## Recorrido Nobel
+
+- 78 obras y 27 años/autores (2000–2026), con las excepciones de dos obras en 2000 y una antología en 2011.
+- 11 IDs existentes reutilizados, sin perder marcas ni notas compartidas.
+- Tres discos guardan el estado «Escuchado» tras recargar; teatro identificado como lectura.
+- Las fichas indican «premio al autor» y enlazan el resumen oficial del año.
+- La presentación traducida del título no altera la ficha base ni el almacenamiento.
+- Reversión al commit 0.8.0 posible; exportar antes un respaldo y conservar 0.9.0 para leer datos del nuevo tipo Música.

@@ -6,7 +6,7 @@
   </header>
   <div class="cr-workspace">
     <aside class="cr-sidebar" aria-label="Colecciones">
-      <div class="cr-sidebar-head"><span class="cr-kicker">Mis colecciones</span><span class="cr-small" data-list-count>15</span></div>
+      <div class="cr-sidebar-head"><span class="cr-kicker">Mis colecciones</span><span class="cr-small" data-list-count>16</span></div>
       <nav class="cr-collections" data-collections aria-label="Elegir colección"></nav>
       <label class="cr-mobile-picker">Colección<select data-mobile-picker></select></label>
       <button class="cr-new cursor-interaction" type="button" data-new>+ Nueva colección</button>
@@ -52,7 +52,7 @@
       <section data-import-screen hidden aria-labelledby="cr-import-title">
         <p class="cr-kicker">Nueva colección</p><h2 id="cr-import-title">Un recorrido propio.</h2>
         <form data-import-form>
-          <div class="cr-import-fields"><label>Nombre de la lista<input name="listTitle" placeholder="Las películas que queremos ver" maxlength="140" required></label><label>Tipo<select name="kind"><option value="film">Cine</option><option value="book">Libros</option><option value="series">Series</option><option value="other">Otras experiencias</option></select></label></div>
+          <div class="cr-import-fields"><label>Nombre de la lista<input name="listTitle" placeholder="Las películas que queremos ver" maxlength="140" required></label><label>Tipo<select name="kind"><option value="film">Cine</option><option value="book">Libros</option><option value="series">Series</option><option value="music">Música</option><option value="other">Otras experiencias</option></select></label></div>
           <label>Fuente o edición, si la hay<input name="source" placeholder="Publicación, premio, año o selección propia" maxlength="200"></label>
           <label>Un título por línea<span class="cr-form-hint">Opcional: Título | Autor o director | Año</span><textarea name="entries" rows="7" required placeholder="Parasite | Bong Joon-ho | 2019&#10;Una obra por descubrir"></textarea></label>
           <p class="cr-error" data-import-error role="alert" hidden></p>
@@ -204,7 +204,7 @@
   const catalog=JSON.parse($('[data-catalog]').textContent);
   const works=catalog.works.map(w=>({...w,status:'pending',note:'',date:''}));
   const lists=catalog.lists.map(l=>({...l,items:[...l.items]}));
-  const types={mixed:{label:'Libros y cine',noun:'completadas',done:'Completada',verb:'completada'},film:{label:'Cine',noun:'vistas',done:'Vista',verb:'vista'},book:{label:'Libros',noun:'leídos',done:'Leído',verb:'leído'},series:{label:'Series',noun:'vistas',done:'Vista',verb:'vista'},other:{label:'Experiencias',noun:'completadas',done:'Completada',verb:'completada'}};
+  const types={music:{label:'Música',noun:'escuchados',done:'Escuchado',verb:'escuchado'},mixed:{label:'Libros y cine',noun:'completadas',done:'Completada',verb:'completada'},film:{label:'Cine',noun:'vistas',done:'Vista',verb:'vista'},book:{label:'Libros',noun:'leídos',done:'Leído',verb:'leído'},series:{label:'Series',noun:'vistas',done:'Vista',verb:'vista'},other:{label:'Experiencias',noun:'completadas',done:'Completada',verb:'completada'}};
   let current=lists[0].id,selected=null,review=null,sequence=0,page=0;
   const pageSize=12;
   const work=id=>works.find(w=>w.id===id);
@@ -299,7 +299,7 @@
     $('[data-list-count]').textContent=pad(lists.length);
     const groups=[...new Set(lists.map(l=>l.group||(baseListIds.has(l.id)?'Listas y premios':'Mis recorridos')))];
     const inGroup=g=>lists.filter(l=>(l.group||(baseListIds.has(l.id)?'Listas y premios':'Mis recorridos'))===g);
-    $('[data-collections]').innerHTML=groups.map(g=>'<div class="cr-nav-group"><p class="cr-kicker">'+esc(g)+'</p>'+inGroup(g).map(l=>'<button type="button" class="cr-collection cursor-interaction'+(l.group?' cr-country':'')+'" data-list="'+l.id+'" aria-current="'+(l.id===current)+'"><span class="cr-collection-name">'+esc(l.title)+'</span><span class="cr-collection-meta"><span>'+types[l.kind].label+'</span><span>'+pad(count(l))+' / '+pad(l.items.length)+'</span></span></button>').join('')+'</div>').join('');
+    $('[data-collections]').innerHTML=groups.map(g=>'<div class="cr-nav-group"><p class="cr-kicker">'+esc(g)+'</p>'+inGroup(g).map(l=>'<button type="button" class="cr-collection cursor-interaction'+(l.group?' cr-country':'')+'" data-list="'+l.id+'" aria-current="'+(l.id===current)+'"><span class="cr-collection-name">'+esc(l.title)+'</span><span class="cr-collection-meta"><span>'+(l.category||types[l.kind].label)+'</span><span>'+pad(count(l))+' / '+pad(l.items.length)+'</span></span></button>').join('')+'</div>').join('');
     $('[data-mobile-picker]').innerHTML=groups.map(g=>'<optgroup label="'+esc(g)+'">'+inGroup(g).map(l=>'<option value="'+l.id+'"'+(l.id===current?' selected':'')+'>'+esc(l.title)+'</option>').join('')+'</optgroup>').join('');
   }
   function summary(){
@@ -311,8 +311,8 @@
   }
   function tile(w,i){
     w=displayWork(w);const done=w.status==='done';
-    const meta=itemMeta(list(),w.id),marker=meta.awardYear?String(meta.awardYear):pad(i+1);
-    const markerLabel=meta.awardYear?'Año del premio '+marker:((list().ranked||list().itemMeta||list().artwork)?'Puesto ':'Obra ')+marker;
+    const meta=itemMeta(list(),w.id),marker=meta.laureateYear?'Nobel '+meta.laureateYear:meta.awardYear?String(meta.awardYear):pad(i+1);
+    const markerLabel=meta.laureateYear?'Nobel del autor en '+meta.laureateYear:meta.awardYear?'Año del premio '+marker:((list().ranked||list().itemMeta||list().artwork)?'Puesto ':'Obra ')+marker;
     const awardNote=meta.shared?'<p class="cr-award-note">Premio compartido</p>':'';
     const label=done?types[w.kind].done:w.status==='doing'?'En curso':w.status==='skipped'?'La dejo pasar':'Pendiente';
     const cover=w.cover?'<span class="cr-cover"><img src="'+esc(w.cover)+'" width="112" height="164" alt="" decoding="async"><span class="cr-cover-fallback" hidden>Imagen no disponible</span></span>':((list().ranked||list().itemMeta||list().artwork)?'<span class="cr-cover"><span class="cr-cover-fallback">Imagen no disponible</span></span>':'');
@@ -347,7 +347,7 @@
     $('[data-order-label]').textContent=l.orderLabel||(l.ranked?'Orden de la lista original':'Obras');
     $('[data-collection-note]').hidden=!l.note;$('[data-collection-note]').textContent=l.note||'';
     $('[data-footer-source]').textContent=l.footer||'Colección propia';
-    $('[data-category]').textContent=types[l.kind].label;
+    $('[data-category]').textContent=(l.category||types[l.kind].label);
     renderGrid();summary();
   }
   function openDetail(id){
@@ -359,7 +359,7 @@
     const memberships=lists.filter(l=>l.items.includes(id)).map(l=>l.title);
     $('[data-membership]').textContent='En '+memberships.length+' '+(memberships.length===1?'colección':'colecciones')+': '+memberships.join(' · ');
     $('[data-reading-note]').hidden=!w.readingNote;$('[data-reading-note]').textContent=w.readingNote||'';
-    const awards=lists.filter(l=>l.itemMeta?.[id]).map(l=>{const m=itemMeta(l,id);return '<p><a class="cr-source-link" href="'+esc(m.sourceUrl)+'" target="_blank" rel="noopener noreferrer">'+esc(l.title+' · '+m.awardYear+(m.shared?' · Premio compartido':''))+'</a>'+(m.awardedAs?'<span class="cr-source"> · Premiado como '+esc(m.awardedAs)+'</span>':'')+'</p>';});
+    const awards=lists.filter(l=>l.itemMeta?.[id]).map(l=>{const m=itemMeta(l,id);return '<p><a class="cr-source-link" href="'+esc(m.sourceUrl)+'" target="_blank" rel="noopener noreferrer">'+esc(m.laureateYear?'Nobel de Literatura '+m.laureateYear+' · '+m.laureate+' (premio al autor)':l.title+' · '+m.awardYear+(m.shared?' · Premio compartido':''))+'</a>'+(m.awardedAs?'<span class="cr-source"> · Premiado como '+esc(m.awardedAs)+'</span>':'')+'</p>';});
     $('[data-recognition]').hidden=!awards.length;$('[data-recognition]').innerHTML=awards.join('');
     $('[data-status]').value=w.status;$('[data-date]').value=w.date;$('[data-note]').value=w.note;
     $('[data-detail]').hidden=false;

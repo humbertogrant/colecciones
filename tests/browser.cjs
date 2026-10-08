@@ -36,10 +36,10 @@ async function audit(page, label) {
  await page.goto('file://'+base+'/index.html');await page.evaluate(()=>document.fonts.ready);
  assert.equal(await page.title(),'Colecciones');
  assert.equal(await page.locator('.cr-signature strong').textContent(),'Colecciones');
- assert.equal(await page.locator('[data-list-count]').textContent(),'15');
+ assert.equal(await page.locator('[data-list-count]').textContent(),'16');
  const data=await page.locator('[data-catalog]').evaluate(el=>JSON.parse(el.textContent));
- assert.equal(data.lists.length,15);assert.equal(data.works.length,538);
- const ids=new Set(data.works.map(w=>w.id));assert.equal(ids.size,538);
+ assert.equal(data.lists.length,16);assert.equal(data.works.length,605);
+ const ids=new Set(data.works.map(w=>w.id));assert.equal(ids.size,605);
  assert.ok(data.lists.every(l=>new Set(l.items).size===l.items.length&&l.items.every(id=>ids.has(id))));
  const shared=data.lists[0].items.filter(id=>data.lists[1].items.includes(id));assert.equal(shared.length,39);
  assert.ok(data.works.filter(w=>w.cover).every(w=>w.cover.startsWith('data:image/webp;base64,')&&w.editionUrl));
@@ -54,7 +54,7 @@ async function audit(page, label) {
    assert.ok((await page.locator('[data-grid] img').evaluateAll(imgs=>imgs.map(i=>i.complete&&i.naturalWidth>30&&i.naturalHeight>50))).every(Boolean));
    seen.push(...await page.locator('.cr-work-num').allTextContents());
   }
-  assert.deepEqual(seen,l.items.map((id,i)=>String(l.itemMeta?.[id]?.awardYear||i+1)));
+  assert.deepEqual(seen,l.items.map((id,i)=>l.itemMeta?.[id]?.laureateYear?'Nobel '+l.itemMeta[id].laureateYear:String(l.itemMeta?.[id]?.awardYear||i+1)));
   assert.ok(await page.locator('[data-page-next]').isDisabled());
   if(l.items.length>12)await page.locator('[data-page-picker]').selectOption('0');checks.push(await audit(page,l.id+' desktop'));
   for(const width of [320,390,736]){await page.setViewportSize({width,height:1100});checks.push(await audit(page,l.id+' '+width));}
@@ -96,9 +96,9 @@ async function audit(page, label) {
  await page.addStyleTag({content:'strong,span,p,h2,h3,label,button{color:white;-webkit-text-fill-color:white}body{background:#181818;color:white}'});
  checks.push(await audit(page,'white host styles and imported titles'));assert.equal(await page.locator('[data-count]').evaluate(el=>getComputedStyle(el).webkitTextFillColor),'rgb(33, 102, 175)');
  await page.locator('[data-open="'+book.id+'"]').click();checks.push(await audit(page,'detail'));await page.locator('[data-new]').click();checks.push(await audit(page,'import form'));
- await page.reload();assert.equal(await page.locator('[data-list-count]').textContent(),'16');await page.locator('.cr-storage summary').click();checks.push(await audit(page,'storage controls'));for(const width of [320,390]){await page.setViewportSize({width,height:1100});checks.push(await audit(page,'storage controls '+width));}
+ await page.reload();assert.equal(await page.locator('[data-list-count]').textContent(),'17');await page.locator('.cr-storage summary').click();checks.push(await audit(page,'storage controls'));for(const width of [320,390]){await page.setViewportSize({width,height:1100});checks.push(await audit(page,'storage controls '+width));}
  await page.locator('[data-grid] img').first().evaluate(el=>el.dispatchEvent(new Event('error')));assert.ok(await page.locator('.cr-cover-fallback').first().isVisible());
  assert.deepEqual(requests,[],'offline: no remote requests');assert.deepEqual(errors,[],'no browser errors');
- const report={passed:true,collections:15,memberships:599,works:538,sharedBooks:39,images:data.works.filter(w=>w.cover).length,minTextContrast:Math.min(...checks.map(c=>c.minContrast)),checks};
+ const report={passed:true,collections:16,memberships:677,works:605,sharedBooks:39,images:data.works.filter(w=>w.cover).length,minTextContrast:Math.min(...checks.map(c=>c.minContrast)),checks};
  fs.mkdirSync(base+'/test-results',{recursive:true});fs.writeFileSync(base+'/test-results/browser-audit.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});

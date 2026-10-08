@@ -23,8 +23,9 @@ Un respaldo contiene marcas, notas, fechas y listas propias, sin imágenes. Rest
 | Hugo: mejor novela | 1953–2026 | 75 |
 | Pulitzer: ficción | 1953–2026 | 68 |
 | Descubrimiento de países | Selección personal · 9 países | 56 |
+| Nobel: lecturas y escuchas | 2000–2026 · 27 autores | 78 |
 
-Hay 599 entradas y 538 obras distintas. Las dos listas de libros del NYT comparten 39 títulos; 18 ganadores de premios ya figuran en ellas. Una obra compartida conserva el mismo estado, fecha y nota. Una adaptación a otro medio tiene una ficha independiente. Las listas comienzan sin marcas; se retiraron las cuatro colecciones de muestra.
+Hay 677 entradas y 605 obras distintas. Las dos listas de libros del NYT comparten 39 títulos; 18 ganadores de premios ya figuran en ellas. Una obra compartida conserva el mismo estado, fecha y nota. Una adaptación a otro medio tiene una ficha independiente. Las listas comienzan sin marcas; se retiraron las cuatro colecciones de muestra.
 
 Se respetan los puestos originales y las selecciones de temporadas: *Beef* y *True Detective* incluyen sólo la primera; *Twin Peaks: The Return* corresponde a 2017. Las versiones británica y estadounidense de *The Office* tienen fichas distintas.
 
@@ -33,6 +34,12 @@ Se respetan los puestos originales y las selecciones de temporadas: *Beef* y *Tr
 Nueve recorridos que combinan libros y películas: Japón, China, India, México, Rusia, Alemania, Brasil, Turquía e Irán. Se respeta el orden y los títulos proporcionados por Humberto. México contiene ocho obras porque los tres libros de la trilogía de Enrique Krauze se marcan por separado; los otros países contienen seis.
 
 *Roma*, *A Separation*, *La vida de los otros* y *Secondhand Time* comparten sus marcas y recuerdos con las listas existentes. Cada tarjeta conserva su tipo: leído para libros, vista para películas; el contador del país dice «completadas». En Alemania se muestra el estreno original de *La vida de los otros* (2006), mientras que NYT conserva su convención de estreno estadounidense (2007).
+
+## Nobel: lecturas y escuchas
+
+Selección de Humberto para conocer a los 27 laureados de Literatura de 2000 a 2026. Son 78 obras, ordenadas como fueron propuestas, y no una lista de libros galardonados: el Nobel se concede al autor. Se incluyen las tres obras teatrales de Pinter, la antología de Tranströmer y tres discos de Dylan, que se registran como «Escuchado».
+
+Once obras reutilizan IDs anteriores; los títulos traducidos se presentan según el recorrido. Se comparten, entre otras, *El fin del «Homo sovieticus»* / *Secondhand Time*, *Septología* / *Septology*, *Los años* / *The Years* y *Estambul. Ciudad y recuerdos* / *Estambul*.
 
 ## Agregar una lista
 
@@ -64,6 +71,8 @@ El código y el diseño del prototipo son independientes del periódico. Las por
 
 ## Cambios y reversión
 
+Versión 0.9.0: recorrido Nobel de 2000–2026, 78 obras y tipo Música con estado Escuchado; reconoce al autor en la ficha, conserva los IDs compartidos y los guardados previos.
+
 Versión 0.8.0: incorpora nueve recorridos de países, navegación agrupada y colecciones mixtas de libros y cine. Conserva IDs y formato de almacenamiento de 0.7.0.
 
 Versión 0.7.0: guardado local versionado, respaldo JSON, restauración revisable y reversible, validación de entradas y protección ante errores de guardado o cambios en otra pestaña. Se conservan las colecciones incluidas.
@@ -81,3 +90,5 @@ Se rechazan versiones desconocidas, IDs duplicados o inseguros, referencias rota
 La última restauración puede deshacerse desde la interfaz, incluso tras recargar. Antes de volver al HTML anterior, exportá un respaldo: la versión 0.6.0 no lee estos datos y volvería a funcionar sólo por sesión. No se borran claves al actualizar el HTML.
 
 Riesgo R1, prototipo local. Decisión: promover a prueba personal con respaldos; sincronización y cuentas siguen pendientes.
+
+Los respaldos de 0.9.0 mantienen el esquema v1 y agregan el tipo `music`. La app actual lee respaldos anteriores; versiones anteriores sin soporte para música pueden rechazar los nuevos. Para restaurar un respaldo que incluya discos, usar 0.9.0 o posterior.
