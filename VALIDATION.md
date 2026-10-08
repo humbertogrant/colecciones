@@ -1,4 +1,19 @@
-# Validación de 0.10.0
+# Validación de 0.10.1
+
+Revisión del 8 de octubre de 2026 en Windows, con Python 3.14 y Microsoft Edge mediante Playwright 1.62.1.
+
+- Reconstrucción en la configuración regional predeterminada de Windows, sin activar el modo UTF-8 global. La prueba `tests/build.py` verifica Unicode, incrustación segura del catálogo, hash de scripts y salida reproducible.
+- Las seis pruebas de navegador cubren el catálogo, países, Nobel de Literatura y Economía, almacenamiento e importación.
+- Importar una obra con y sin año produce una sola referencia y conserva notas, fechas, marcas y colecciones anteriores tras recargar.
+- Los títulos traducidos reconocidos por el catálogo reutilizan la obra existente. Se respetan años de estreno alternativos documentados y se mantienen separados los medios, años incompatibles y coincidencias ambiguas.
+- Restaurar desde una pestaña que ya recibió cambios de otra se rechaza sin modificar el guardado reciente ni su copia para deshacer.
+- Guardados y respaldos antiguos con referencias repetidas a una obra recuperan sus datos y orden. Las entidades duplicadas y las referencias inexistentes siguen rechazándose.
+- Los guardados ilegibles o de versión desconocida siguen protegidos y pueden reemplazarse mediante una restauración explícita.
+- Se conservan las 17 colecciones, 704 entradas, 632 obras distintas, IDs y esquema de guardado v1.
+
+GitHub Pages publica mediante `.github/workflows/pages.yml` después de reconstruir y ejecutar estas comprobaciones en Chromium. No se publican ni migran datos personales: cada perfil de navegador mantiene su almacenamiento y debe importar manualmente un respaldo para pasar del archivo local a la web.
+
+## Validación previa de 0.10.0
 
 Prueba local del 7 de octubre de 2026, con Chromium y el HTML autónomo.
 

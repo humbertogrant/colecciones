@@ -4,13 +4,13 @@ Un archivo personal para marcar libros leídos, películas y series vistas, y gu
 
 ## Abrir
 
-Abrí `index.html` en un navegador. Incluye fuentes, catálogo e imágenes; no necesita servidor ni conexión. Los enlaces de las fuentes se abren en una pestaña nueva.
+Usá [Colecciones en GitHub Pages](https://humbertogrant.github.io/colecciones/), o abrí `index.html` en un navegador para usar la copia local sin conexión. El HTML incluye fuentes, catálogo e imágenes. Los enlaces de las fuentes se abren en una pestaña nueva.
 
 **Las marcas, fechas, recuerdos y colecciones propias se guardan automáticamente en este navegador.** Los recuerdos se confirman con «Guardar recuerdo». «Guardado y respaldos» indica si la operación tuvo éxito y permite exportar un JSON, revisar un respaldo antes de restaurarlo y deshacer la última restauración.
 
-No hay cuenta ni sincronización entre dispositivos. El guardado de archivos `file://` depende del navegador y la ubicación del HTML; mover o renombrar el archivo, cambiar de navegador o borrar los datos puede separar o eliminar ese almacenamiento. Exportá un respaldo antes. Para uso continuo conviene una dirección web estable; esta versión no se ha desplegado.
+No hay cuenta ni sincronización entre dispositivos. Cada perfil de navegador conserva sus propios datos. El guardado de archivos `file://` depende del navegador y la ubicación del HTML; mover o renombrar el archivo, cambiar de navegador o borrar los datos puede separar o eliminar ese almacenamiento. Exportá un respaldo antes. Para pasar del archivo local a GitHub Pages, exportá desde el archivo y cargá el respaldo en la web: tienen almacenamientos separados.
 
-Un respaldo contiene marcas, notas, fechas y listas propias, sin imágenes. Restaurarlo **reemplaza** esos datos; las colecciones incluidas incluidas permanecen. La versión previa se conserva localmente para deshacer. Los respaldos son archivos JSON legibles: guardalos donde guardás tus documentos personales. Ningún dato se envía a un servidor.
+Un respaldo contiene marcas, notas, fechas y listas propias, sin imágenes. Restaurarlo **reemplaza** esos datos; las colecciones incluidas permanecen. La versión previa se conserva localmente para deshacer. Los respaldos son archivos JSON legibles: guardalos donde guardás tus documentos personales. La app no envía marcas, notas ni listas personales a un servidor; GitHub sirve los archivos públicos del sitio.
 
 ## Colecciones incluidas
 
@@ -24,6 +24,7 @@ Un respaldo contiene marcas, notas, fechas y listas propias, sin imágenes. Rest
 | Pulitzer: ficción | 1953–2026 | 68 |
 | Descubrimiento de países | Selección personal · 9 países | 56 |
 | Nobel: lecturas y escuchas | 2000–2026 · 27 autores | 78 |
+| Nobel: economía | 2000–2025 · 23 años seleccionados | 27 |
 
 Hay 704 entradas y 632 obras distintas. Las dos listas de libros del NYT comparten 39 títulos; 18 ganadores de premios ya figuran en ellas. Una obra compartida conserva el mismo estado, fecha y nota. Una adaptación a otro medio tiene una ficha independiente. Las listas comienzan sin marcas; se retiraron las cuatro colecciones de muestra.
 
@@ -43,9 +44,9 @@ Once obras reutilizan IDs anteriores; los títulos traducidos se presentan segú
 
 ## Agregar una lista
 
-En **Nueva colección**, pegá un título por línea. Podés usar `Título | Autor o director | Año`. Revisá las coincidencias antes de crearla. Se admiten hasta 150 títulos por lista; se omiten las líneas idénticas repetidas.
+En **Nueva colección**, pegá un título por línea. Podés usar `Título | Autor o director | Año`. Revisá las coincidencias antes de crearla. Se admiten hasta 150 títulos por lista; se omiten las líneas idénticas y las que coinciden con una misma obra existente, aunque usen un título traducido o un año opcional.
 
-Las coincidencias requieren el mismo medio, título y creador; si ambos registros tienen año, debe coincidir. Una coincidencia ambigua no se combina automáticamente.
+Las coincidencias requieren el mismo medio, título y creador; se reconocen las variantes de título y año ya documentadas en las colecciones. Si ambos registros tienen año, debe coincidir con la variante correspondiente. Una coincidencia ambigua no se combina automáticamente.
 
 ## Editar y reconstruir
 
@@ -56,12 +57,20 @@ Las coincidencias requieren el mismo medio, título y creador; si ambos registro
 - `scripts/build.py`: genera `index.html` sin dependencias adicionales.
 - `tests/storage.cjs`: prueba reapertura, respaldos, restauración, errores de cuota y datos inválidos.
 - `tests/browser.cjs`: comprobación de catálogos, imágenes, contraste, navegación y marcas compartidas.
+- `tests/import.cjs`: coincidencias, traducciones, duplicados y conservación de datos tras importar.
+- `tests/build.py`: reconstrucción UTF-8 independiente de la configuración regional, contenido incrustado y política de scripts.
 
 ```sh
 python3 scripts/build.py
 ```
 
 Para ejecutar la comprobación de navegador, instalá Playwright y su Chromium en el entorno de desarrollo, y ejecutá `node tests/browser.cjs`. Las variables opcionales `PLAYWRIGHT_MODULE` y `CHROMIUM_PATH` permiten usar una instalación existente.
+
+## Publicación y nuevas colecciones
+
+GitHub Pages usa el flujo `.github/workflows/pages.yml`: cada actualización de `main` reconstruye el HTML, ejecuta las seis pruebas de navegador y la prueba de reconstrucción, y publica únicamente el HTML resultante si todo pasa. Las solicitudes de cambio ejecutan las mismas comprobaciones sin publicar. El flujo fija Playwright 1.62.1 y utiliza Chromium.
+
+Para añadir colecciones al catálogo, conservá los IDs existentes de obras y listas, asigná IDs nuevos que no usen los prefijos personales `u` seguido de números o `custom-`, y mantené la compatibilidad del esquema de guardado. Una obra ya incluida debe reutilizar su ID para compartir progreso. Al cargar la actualización desde el mismo sitio, la app recupera marcas, notas, fechas y listas personales del navegador.
 
 ## Fuentes y alcance
 
@@ -71,6 +80,8 @@ El código y el diseño del prototipo son independientes del periódico. Las por
 
 ## Cambios y reversión
 
+Versión 0.10.1: corrige la importación duplicada y la restauración desde pestañas desactualizadas; reconoce títulos traducidos del catálogo, recupera listas antiguas con referencias repetidas y reconstruye en UTF-8 también en Windows. Incorpora pruebas de regresión y publicación verificada en GitHub Pages. Conserva los IDs y el esquema v1.
+
 Versión 0.9.0: recorrido Nobel de 2000–2026, 78 obras y tipo Música con estado Escuchado; reconoce al autor en la ficha, conserva los IDs compartidos y los guardados previos.
 
 Versión 0.8.0: incorpora nueve recorridos de países, navegación agrupada y colecciones mixtas de libros y cine. Conserva IDs y formato de almacenamiento de 0.7.0.
@@ -79,17 +90,17 @@ Versión 0.7.0: guardado local versionado, respaldo JSON, restauración revisabl
 
 Versión 0.6.0: añade dos colecciones de ganadores, Hugo a mejor novela y Pulitzer de ficción, para 1953–2026. Se incluyen los premios compartidos, se explicitan los años sin ganador y se excluyen los Retro-Hugos. El año de premio no se confunde con el año de publicación. *Blackout/All Clear* conserva una ficha para ambos volúmenes. Se conserva la corrección de contraste de los contadores y la tipografía aprobada.
 
-Para revertir tras subirlo a GitHub, usá `git revert` sobre el commit de esta versión, o restaurá el HTML anterior. Reconstruir el archivo no modifica los datos fuente. No hay backend, despliegue ni migraciones.
+Para revertir una actualización, usá `git revert` sobre su commit y volvé a publicar. Reconstruir el archivo no modifica los datos fuente. El sitio es estático y no tiene backend de datos personales.
 
 ## Modelo de datos y reversión
 
 El catálogo de obras permanece separado de los datos personales. La clave `canto.colecciones.personal.v1` guarda un documento con `format`, `version`, `savedAt`, `works` y `lists`. Las obras guardan ID estable y estado/nota/fecha; los metadatos del catálogo incorporado conservan prioridad al cargar. Las listas personales apuntan a esos IDs. No se persisten portadas.
 
-Se rechazan versiones desconocidas, IDs duplicados o inseguros, referencias rotas y archivos mayores de 2 MB. Los datos ilegibles no se sobrescriben automáticamente. Una segunda pestaña que detecta cambios detiene sus escrituras y pide exportar/recargar; no hay edición concurrente fusionada. La comparación previa a escritura reduce conflictos, pero localStorage no ofrece transacciones entre pestañas: usar una sola pestaña para editar.
+Se rechazan versiones desconocidas, IDs de obras o listas duplicados o inseguros, referencias rotas y archivos mayores de 2 MB. Las referencias repetidas a una misma obra dentro de una lista personal, generadas por importaciones antiguas, se normalizan conservando el orden, las marcas y los recuerdos. Los datos ilegibles no se sobrescriben automáticamente; pueden reemplazarse mediante una restauración explícita. Una segunda pestaña que detecta cambios detiene sus escrituras y restauraciones y pide exportar/recargar; no hay edición concurrente fusionada. La comparación previa a escritura reduce conflictos, pero localStorage no ofrece transacciones entre pestañas: usar una sola pestaña para editar.
 
 La última restauración puede deshacerse desde la interfaz, incluso tras recargar. Antes de volver al HTML anterior, exportá un respaldo: la versión 0.6.0 no lee estos datos y volvería a funcionar sólo por sesión. No se borran claves al actualizar el HTML.
 
-Riesgo R1, prototipo local. Decisión: promover a prueba personal con respaldos; sincronización y cuentas siguen pendientes.
+La persistencia sigue siendo local y los respaldos manuales; publicar el sitio no añade sincronización ni cuentas.
 
 Los respaldos de 0.9.0 mantienen el esquema v1 y agregan el tipo `music`. La app actual lee respaldos anteriores; versiones anteriores sin soporte para música pueden rechazar los nuevos. Para restaurar un respaldo que incluya discos, usar 0.9.0 o posterior.
 

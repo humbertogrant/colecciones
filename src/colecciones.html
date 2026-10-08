@@ -229,8 +229,9 @@
       ids.add(w.id);return {id:w.id,kind:w.kind,title:w.title,creator:w.creator,year:w.year,status:w.status,note:w.note,date:w.date};
     });
     const custom=value.lists.map(l=>{
-      if(!l||!validId(l.id)||baseListIds.has(l.id)||ls.has(l.id)||!str(l.title,140)||!l.title.trim()||!Object.hasOwn(types,l.kind)||!str(l.source,200)||!Array.isArray(l.items)||!l.items.length||l.items.length>150||new Set(l.items).size!==l.items.length||l.items.some(id=>!ids.has(id)))fail();
-      ls.add(l.id);return {id:l.id,title:l.title,kind:l.kind,source:l.source,items:[...l.items]};
+      if(!l||!validId(l.id)||baseListIds.has(l.id)||ls.has(l.id)||!str(l.title,140)||!l.title.trim()||!Object.hasOwn(types,l.kind)||!str(l.source,200)||!Array.isArray(l.items)||!l.items.length||l.items.length>150||l.items.some(id=>!ids.has(id)))fail();
+      // Older imports could match multiple input lines to the same work.
+      ls.add(l.id);return {id:l.id,title:l.title,kind:l.kind,source:l.source,items:[...new Set(l.items)]};
     });
     return {format:'canto-colecciones',version:1,works:ws,lists:custom};
   }
@@ -278,7 +279,7 @@
   $('[data-restore]').addEventListener('click',()=>{
     if(!pendingRestore)return;
     try{
-      if(!storageBlocked&&localStorage.getItem(STORAGE_KEY)!==lastStored)throw Error('Hay cambios en otra pestaña. Exportá esta sesión y recargá antes de restaurar.');
+      if(localStorage.getItem(STORAGE_KEY)!==lastStored)throw Error('Hay cambios en otra pestaña. Exportá esta sesión y recargá antes de restaurar.');
       const previous=JSON.stringify(snapshot()),next=JSON.stringify({...pendingRestore,savedAt:new Date().toISOString()});
       localStorage.setItem(PREVIOUS_KEY,previous);localStorage.setItem(STORAGE_KEY,next);
       lastStored=next;storageBlocked=false;applySnapshot(pendingRestore);pendingRestore=null;
@@ -399,6 +400,12 @@
   $('[data-cancel-import]').addEventListener('click',()=>showList(current));
   const normalized=s=>s.trim().normalize('NFKC').toLocaleLowerCase('es').replace(/[’‘]/g,"'").replace(/\s+/g,' ');
   const signature=w=>[w.kind,w.title,w.creator,w.year].map(normalized).join('|');
+  const importAliases=new Map();
+  for(const l of catalog.lists)for(const [id,alias] of Object.entries(l.displayItems||{})){
+    if(!importAliases.has(id))importAliases.set(id,[]);
+    importAliases.get(id).push(alias);
+  }
+  const matchesImport=(entry,existing)=>existing.kind===entry.kind&&[existing,...(importAliases.get(existing.id)||[]).map(alias=>({...existing,...alias}))].some(variant=>normalized(variant.title)===normalized(entry.title)&&normalized(variant.creator)===normalized(entry.creator)&&(!variant.year||!entry.year||variant.year===entry.year));
   function invalidate(){review=null;$('[data-import-review]').hidden=true;}
   $('[data-import-form]').addEventListener('input',invalidate);
   $('[data-import-form]').addEventListener('submit',event=>{
@@ -409,14 +416,15 @@
     if(lists.filter(l=>!baseListIds.has(l.id)).length>=200||works.length+lines.length>10000){fail('Se alcanzó el límite de 200 colecciones propias o 10 000 obras. Exportá un respaldo.');return;}
     if(!title||!lines.length){fail('Agregá un nombre y al menos un título.');return;}
     if(lines.length>150){fail('En este estudio podés probar hasta 150 títulos por colección.');return;}
-    const parsed=[];const seen=new Set();
+    const parsed=[];const seen=new Set(),matchedIds=new Set();
     for(const line of lines){
       const parts=line.replace(/^\s*(?:\d+[.)]\s+|[-*•]\s+)/,'').split('|').map(s=>s.trim());
       if(parts.length>3||!parts[0]||parts[0].length>1000||(parts[1]||'').length>1000||(parts[2]||'').length>100){fail('Usá un título por línea; autor y año pueden separarse con |.');return;}
       const w={kind,title:parts[0],creator:parts[1]||'',year:parts[2]||''};
       const key=signature(w);if(seen.has(key))continue;seen.add(key);
-      const candidates=w.creator?works.filter(existing=>existing.kind===w.kind&&normalized(existing.title)===normalized(w.title)&&normalized(existing.creator)===normalized(w.creator)&&(!existing.year||!w.year||existing.year===w.year)):[];
+      const candidates=w.creator?works.filter(existing=>matchesImport(w,existing)):[];
       const match=candidates.length===1?candidates[0]:null;
+      if(match){if(matchedIds.has(match.id))continue;matchedIds.add(match.id);}
       parsed.push({...w,match:match?.id||null});
     }
     $('[data-import-error]').hidden=true;review={title,kind,source,parsed};
