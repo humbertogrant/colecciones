@@ -1,0 +1,429 @@
+
+<div id="canto-colecciones" data-canto-version="1.0.1" data-design-proposal="sentence-case-functional-numbers">
+  <header class="cr-masthead">
+    <div class="cr-signature"><strong>Colecciones</strong></div>
+    <span class="cr-edition">Archivo personal</span>
+  </header>
+  <div class="cr-workspace">
+    <aside class="cr-sidebar" aria-label="Colecciones">
+      <div class="cr-sidebar-head"><span class="cr-kicker">Mis colecciones</span><span class="cr-small" data-list-count>6</span></div>
+      <nav class="cr-collections" data-collections aria-label="Elegir colección"></nav>
+      <label class="cr-mobile-picker">Colección<select data-mobile-picker></select></label>
+      <button class="cr-new cursor-interaction" type="button" data-new>+ Nueva colección</button>
+      <div class="cr-sidebar-note"><p>Cada obra conserva su marca y su recuerdo en todas las colecciones donde aparece.</p></div>
+    </aside>
+    <main class="cr-main">
+      <details class="cr-storage"><summary>Guardado y respaldos</summary>
+        <p data-storage-status role="status">Comprobando guardado…</p>
+        <p class="cr-source">Las marcas, recuerdos y listas propias se guardan en este navegador. No se sincronizan entre dispositivos. Exportá un respaldo antes de cambiar de navegador, mover el HTML o borrar sus datos.</p>
+        <div class="cr-form-actions"><button class="cr-text-button" type="button" data-export>Exportar respaldo</button><label class="cr-backup-label">Cargar respaldo<input type="file" accept=".json,application/json" data-backup-file></label></div>
+        <p class="cr-error" data-backup-error role="alert" hidden></p>
+        <div data-restore-review hidden><p data-restore-summary></p><div class="cr-form-actions"><button type="button" class="cr-primary" data-restore>Restaurar este respaldo</button><button type="button" class="cr-text-button" data-cancel-restore>Cancelar</button></div></div>
+        <button class="cr-text-button" type="button" data-undo-restore hidden>Deshacer última restauración</button>
+      </details>
+      <section data-list-screen aria-label="Ficha de colección">
+        <div class="cr-collection-heading">
+          <div><p class="cr-kicker" data-category>Libros</p><h2 data-title>Libros: la crítica</h2><p class="cr-source" data-source>The New York Times · 100 libros del siglo XXI · 2024</p><a class="cr-source-link" data-source-link href="https://www.nytimes.com/interactive/2024/books/best-books-21st-century.html" target="_blank" rel="noopener noreferrer">Ver lista original</a></div>
+          <div class="cr-tally" aria-live="polite"><div><strong data-count>0</strong><span data-total>/ 100</span></div><span data-count-label>leídos</span></div>
+        </div>
+        <p class="cr-source cr-collection-note" data-collection-note hidden></p>
+        <div class="cr-rule"><span data-order-label>Orden de la lista original</span><span class="cr-mark-key"><span class="cr-hole cr-hole-small cr-done" aria-hidden="true"></span> Completada <span class="cr-hole cr-hole-small" aria-hidden="true"></span> Pendiente</span></div>
+        <nav class="cr-pagebar" data-pagebar aria-label="Recorrer obras">
+          <label class="cr-page-picker">Obras<select data-page-picker aria-label="Tramo de obras"></select></label>
+          <span class="cr-page-summary" data-page-summary aria-live="polite"></span>
+          <div class="cr-page-actions"><button class="cr-text-button cursor-interaction" type="button" data-page-prev>Anterior</button><button class="cr-text-button cursor-interaction" type="button" data-page-next>Siguiente</button></div>
+        </nav>
+        <div class="cr-grid" data-grid></div>
+        <nav class="cr-pagebar cr-pagebar-bottom" data-pagebar-bottom aria-label="Continuar recorriendo obras">
+          <span class="cr-page-summary" data-range-bottom></span><div class="cr-page-actions"><button class="cr-text-button cursor-interaction" type="button" data-page-prev-bottom>Anterior</button><button class="cr-text-button cursor-interaction" type="button" data-page-next-bottom>Siguiente</button></div>
+        </nav>
+        <section class="cr-detail" data-detail hidden aria-label="Detalle de la obra">
+          <div class="cr-detail-top"><span class="cr-kicker">Mi recuerdo</span><button class="cr-text-button cursor-interaction" type="button" data-close-detail>Cerrar</button></div>
+          <h3 data-detail-title></h3><p class="cr-source" data-detail-author></p><p class="cr-source" data-membership></p><p class="cr-source" data-reading-note hidden></p><div class="cr-recognition" data-recognition hidden></div><a class="cr-source-link" data-cover-credit target="_blank" rel="noopener noreferrer" hidden>Ver edición de la portada · Open Library</a>
+          <div class="cr-detail-fields">
+            <label>Mi estado<select data-status><option value="pending">Pendiente</option><option value="doing">En curso</option><option value="done">Completada</option><option value="skipped">La dejo pasar</option></select></label>
+            <label>Fecha, si la recordás<input type="date" data-date></label>
+          </div>
+          <label class="cr-note-label">Una línea para recordar<textarea rows="2" maxlength="1000" placeholder="Qué te dejó, con quién, dónde…" data-note></textarea></label>
+          <button class="cr-primary cursor-interaction" type="button" data-save-note>Guardar recuerdo</button>
+        </section>
+        <div class="cr-bottom"><span data-remaining>100 por descubrir.</span><span>Sin fecha de entrega.</span></div>
+      </section>
+      <section data-import-screen hidden aria-labelledby="cr-import-title">
+        <p class="cr-kicker">Nueva colección</p><h2 id="cr-import-title">Un recorrido propio.</h2>
+        <form data-import-form>
+          <div class="cr-import-fields"><label>Nombre de la lista<input name="listTitle" placeholder="Las películas que queremos ver" maxlength="140" required></label><label>Tipo<select name="kind"><option value="film">Cine</option><option value="book">Libros</option><option value="series">Series</option><option value="other">Otras experiencias</option></select></label></div>
+          <label>Fuente o edición, si la hay<input name="source" placeholder="Publicación, premio, año o selección propia" maxlength="200"></label>
+          <label>Un título por línea<span class="cr-form-hint">Opcional: Título | Autor o director | Año</span><textarea name="entries" rows="7" required placeholder="Parasite | Bong Joon-ho | 2019&#10;Una obra por descubrir"></textarea></label>
+          <p class="cr-error" data-import-error role="alert" hidden></p>
+          <div class="cr-form-actions"><button class="cr-primary cursor-interaction" type="submit">Revisar lista</button><button class="cr-text-button cursor-interaction" type="button" data-cancel-import>Volver</button></div>
+        </form>
+        <section class="cr-import-review" data-import-review hidden aria-label="Revisión de la lista"><p data-review-summary></p><ol data-review-items></ol><p class="cr-form-hint">Las coincidencias de título, creador y tipo conservan su marca y su recuerdo. Si ambos registros tienen año, también debe coincidir.</p><button class="cr-primary cursor-interaction" type="button" data-confirm-import>Crear colección</button></section>
+      </section>
+    </main>
+  </div>
+  <footer class="cr-footer"><span data-footer-source>Lista NYT de 2024 · Portadas de distintas ediciones</span><span>Guardado local · Respaldo exportable.</span></footer>
+  <p class="cr-live" aria-live="polite" data-announcement></p>
+  <script type="application/json" data-catalog>__CATALOG_JSON__</script>
+</div>
+<style>
+#canto-colecciones{--cr-desk:#202528;--cr-paper:#e9ece7;--cr-sheet:#e9ece7;--cr-ink:#202528;--cr-muted:#4e585c;--cr-line:#adb6b5;--cr-blue:#2166af;--cr-blue-edge:#397fc7;--cr-onblue:#e9ece7;--cr-tint:#e9ece7;--cr-nav:#e9ece7;--cr-chalk:#e9ece7;--cr-faint:#c9d0cb;--cr-alert:#a12d30;--cr-sans:'Canto Plex','Segoe UI',Arial,sans-serif;--cr-data:'Canto Plex','Segoe UI',Arial,sans-serif;--cr-serif:'Canto Bodoni',Georgia,serif;color-scheme:only light;background:var(--cr-desk);color:var(--cr-ink);font:400 16px/1.5 var(--cr-sans);padding:0 22px 12px;border-radius:3px;isolation:isolate;text-align:left;-webkit-font-smoothing:antialiased}
+#canto-colecciones *{box-sizing:border-box;color:inherit;-webkit-text-fill-color:currentColor}
+#canto-colecciones [hidden]{display:none!important}
+#canto-colecciones button,#canto-colecciones input,#canto-colecciones select,#canto-colecciones textarea{font:inherit;color:inherit;touch-action:manipulation}
+#canto-colecciones button{border-radius:2px}
+#canto-colecciones button:focus-visible,#canto-colecciones input:focus-visible,#canto-colecciones select:focus-visible,#canto-colecciones textarea:focus-visible{outline-offset:3px}
+#canto-colecciones h2,#canto-colecciones h3,#canto-colecciones p{margin:0}
+#canto-colecciones .cr-storage{margin-bottom:24px;border-bottom:1px solid var(--cr-line);padding-bottom:12px;color:var(--cr-muted);font:14px/1.5 var(--cr-sans)}
+#canto-colecciones .cr-storage summary{cursor:pointer;color:var(--cr-blue)}
+#canto-colecciones .cr-storage p{margin:10px 0}
+#canto-colecciones [data-storage-status][data-error=true]{color:var(--cr-alert)}
+#canto-colecciones .cr-storage:has([data-error=true]) summary{color:var(--cr-alert)}
+#canto-colecciones .cr-backup-label{display:block;max-width:100%;font-size:14px}
+#canto-colecciones [data-backup-file]{display:block;max-width:100%;width:100%;font-size:12px}
+#canto-colecciones .cr-masthead{display:flex;justify-content:space-between;align-items:center;gap:20px;min-height:86px;padding:12px 100px 12px 2px;color:var(--cr-chalk)}
+#canto-colecciones .cr-signature{display:flex;align-items:center;gap:14px}
+#canto-colecciones .cr-signature strong{display:block;font:600 28px/1.2 var(--cr-serif);letter-spacing:-.035em;color:var(--cr-chalk)}
+#canto-colecciones .cr-edition{font:13px var(--cr-sans);color:var(--cr-faint)}
+#canto-colecciones .cr-workspace{display:grid;grid-template-columns:190px minmax(0,1fr);border:1px solid var(--cr-line);border-right:4px solid var(--cr-blue-edge);border-radius:4px 34px 61px 12px;background:var(--cr-paper);position:relative}
+#canto-colecciones .cr-sidebar{background:transparent;padding:28px 17px 24px;border-right:1px solid var(--cr-line);min-width:0}
+#canto-colecciones .cr-sidebar-head{display:flex;gap:10px;justify-content:space-between;align-items:center;margin-bottom:17px}
+#canto-colecciones .cr-kicker{font:600 13px/1.5 var(--cr-sans);color:var(--cr-muted)}
+#canto-colecciones .cr-small{font:11px var(--cr-data);color:var(--cr-muted)}
+#canto-colecciones .cr-collections{display:flex;flex-direction:column;gap:7px}
+#canto-colecciones .cr-collection{border:1px solid transparent;background:transparent;text-align:left;padding:12px 10px;position:relative;width:100%;min-width:0}
+#canto-colecciones .cr-collection[aria-current=true]{background:var(--cr-sheet);border-color:transparent}
+#canto-colecciones .cr-collection[aria-current=true]:before{content:'';position:absolute;top:12px;bottom:12px;left:-1px;width:3px;background:var(--cr-blue)}
+#canto-colecciones .cr-collection-name{display:block;font-size:14px;line-height:1.3;font-weight:600;overflow-wrap:anywhere}
+#canto-colecciones .cr-collection-meta{display:flex;justify-content:space-between;gap:6px;margin-top:8px;color:var(--cr-muted);font:11px var(--cr-data)}
+#canto-colecciones .cr-collection[aria-current=true] .cr-collection-meta{color:var(--cr-blue)}
+#canto-colecciones .cr-new{width:100%;background:transparent;border:1px solid var(--cr-line);padding:12px 5px;margin-top:18px;font-size:13px;min-height:44px}
+#canto-colecciones .cr-sidebar-note{border-top:1px solid var(--cr-line);margin-top:38px;padding:20px 2px 0;color:var(--cr-ink)}
+#canto-colecciones .cr-sidebar-note p{font:400 14px/1.55 var(--cr-sans);margin:0;color:var(--cr-muted)}
+#canto-colecciones .cr-mobile-picker{display:none}
+#canto-colecciones .cr-main{min-width:0;padding:29px 29px 38px}
+#canto-colecciones .cr-collection-heading{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;margin-bottom:23px}
+#canto-colecciones .cr-collection-heading>div:first-child{min-width:0}
+#canto-colecciones h2{font:600 clamp(32px,4.3vw,46px)/1.03 var(--cr-serif);letter-spacing:-.035em;margin:9px 0 12px;overflow-wrap:anywhere;color:var(--cr-ink);text-transform:none}
+#canto-colecciones .cr-source{font-size:12px;color:var(--cr-muted);line-height:1.55;overflow-wrap:anywhere}
+#canto-colecciones .cr-collection-note{margin:0 0 18px}
+#canto-colecciones .cr-award-note{font:12px/1.45 var(--cr-sans);color:var(--cr-muted);padding:0 14px 8px}
+#canto-colecciones .cr-recognition{margin-top:8px}
+#canto-colecciones .cr-tally{flex-shrink:0;text-align:right;padding-top:18px;color:var(--cr-blue)}
+#canto-colecciones .cr-tally>div{white-space:nowrap}
+#canto-colecciones .cr-tally strong{font:600 37px/1 var(--cr-sans);letter-spacing:-.04em;font-variant-numeric:tabular-nums;color:var(--cr-blue);-webkit-text-fill-color:var(--cr-blue);opacity:1}
+#canto-colecciones .cr-tally div>span{font:13px var(--cr-data);color:var(--cr-muted);margin-left:5px}
+#canto-colecciones .cr-tally>span{display:block;font:13px var(--cr-sans);margin-top:7px;color:var(--cr-blue)}
+#canto-colecciones .cr-rule{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;border-top:1px solid var(--cr-ink);padding:14px 0 13px;font:13px var(--cr-sans);color:var(--cr-muted)}
+#canto-colecciones .cr-mark-key{display:flex;align-items:center;gap:6px;letter-spacing:0;font:11px var(--cr-sans)}
+#canto-colecciones .cr-mark-key .cr-hole:nth-of-type(2){margin-left:7px}
+#canto-colecciones .cr-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;background:var(--cr-sheet);border-top:1px solid var(--cr-line)}
+#canto-colecciones .cr-work{background:var(--cr-sheet);border:0;border-bottom:1px solid var(--cr-line);position:relative;min-width:0;display:flex;flex-direction:column;min-height:150px}
+#canto-colecciones .cr-work:not(:nth-child(3n)){border-right:1px solid var(--cr-line)}
+#canto-colecciones .cr-work-top{display:flex;justify-content:space-between;align-items:center;padding-left:14px;min-height:43px}
+#canto-colecciones .cr-work-num{font:11px var(--cr-data);color:var(--cr-muted)}
+#canto-colecciones .cr-punch{border:0;background:transparent;display:flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:10px}
+#canto-colecciones .cr-hole{display:inline-block;flex:0 0 auto;width:22px;height:22px;border:1px solid var(--cr-muted);border-radius:50%;position:relative;background:var(--cr-sheet)}
+#canto-colecciones .cr-hole.cr-done{border-color:var(--cr-blue);background:var(--cr-blue)}
+#canto-colecciones .cr-hole.cr-done:after{content:'';position:absolute;inset:6px;background:var(--cr-paper);border-radius:50%}
+#canto-colecciones .cr-hole-small{width:11px;height:11px}
+#canto-colecciones .cr-hole-small.cr-done:after{inset:3px}
+#canto-colecciones .cr-work-title{display:block;border:0;background:transparent;font:600 18px/1.25 var(--cr-sans);letter-spacing:-.012em;text-align:left;padding:0 14px 10px;flex:1;min-height:44px;width:100%;overflow-wrap:anywhere}
+#canto-colecciones .cr-work-open{display:flex;flex-direction:column;flex:1;border:0;background:transparent;padding:0;min-width:0;width:100%;color:var(--cr-ink);text-align:left}
+#canto-colecciones .cr-cover{display:flex;justify-content:center;align-items:center;width:100%;height:158px;padding:0 12px 16px}
+#canto-colecciones .cr-cover img{display:block;height:142px;width:auto;max-width:100%;object-fit:contain}
+#canto-colecciones .cr-cover-fallback{display:flex;align-items:center;justify-content:center;min-height:120px;font:12px var(--cr-sans);color:var(--cr-muted)}
+#canto-colecciones .cr-work-author{font:12px/1.45 var(--cr-sans);color:var(--cr-muted);padding:0 14px 12px;overflow-wrap:anywhere}
+#canto-colecciones .cr-work-state{margin:0 14px;padding:1px 0 12px;font:12px var(--cr-sans);color:var(--cr-muted)}
+#canto-colecciones .cr-work[data-state=done] .cr-work-state{color:var(--cr-blue)}
+#canto-colecciones .cr-work[data-state=doing] .cr-hole{background:linear-gradient(90deg,var(--cr-blue) 50%,var(--cr-sheet) 50%);border-color:var(--cr-blue)}
+#canto-colecciones .cr-work[data-state=skipped] .cr-hole:after{content:'';position:absolute;left:4px;right:4px;top:9px;height:1px;background:var(--cr-muted)}
+#canto-colecciones .cr-work[data-selected=true]{box-shadow:inset 0 -3px 0 var(--cr-blue)}
+#canto-colecciones .cr-bottom{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;border-top:1px solid var(--cr-line);margin-top:20px;padding-top:14px;font-size:12px;color:var(--cr-muted)}
+#canto-colecciones .cr-bottom span:last-child{font:400 13px var(--cr-sans)}
+#canto-colecciones .cr-detail{margin-top:18px;padding:18px 20px 20px;border:1px solid var(--cr-line);border-left:3px solid var(--cr-blue);background:var(--cr-sheet)}
+#canto-colecciones .cr-detail-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+#canto-colecciones h3{font:600 28px/1.15 var(--cr-serif);letter-spacing:-.025em;margin:8px 0}
+#canto-colecciones label{display:block;font-size:13px;line-height:1.4}
+#canto-colecciones input,#canto-colecciones select,#canto-colecciones textarea{display:block;width:100%;min-width:0;min-height:44px;border:1px solid var(--cr-muted);background:var(--cr-paper);color:var(--cr-ink);padding:9px 11px;border-radius:2px;margin-top:7px;font-size:16px}
+#canto-colecciones input::placeholder,#canto-colecciones textarea::placeholder{color:var(--cr-muted);-webkit-text-fill-color:var(--cr-muted);opacity:1}
+#canto-colecciones textarea{resize:vertical}
+#canto-colecciones .cr-detail-fields,#canto-colecciones .cr-import-fields{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:17px 0}
+#canto-colecciones .cr-note-label{margin-bottom:15px}
+#canto-colecciones .cr-primary{background:var(--cr-blue);color:var(--cr-onblue);border:1px solid var(--cr-blue);padding:11px 17px;font-size:14px;min-height:44px}
+#canto-colecciones .cr-text-button{background:transparent;border:0;color:var(--cr-blue);padding:9px 3px;min-height:44px;font-size:13px}
+#canto-colecciones .cr-text-button:disabled{color:var(--cr-muted);opacity:1;text-decoration:none}
+#canto-colecciones .cr-source-link{display:inline-block;color:var(--cr-blue);font:12px/1.5 var(--cr-sans);text-decoration:underline;text-underline-offset:3px;padding:5px 0}
+#canto-colecciones .cr-source-link:visited{color:var(--cr-blue)}
+#canto-colecciones .cr-pagebar{display:flex;flex-wrap:wrap;align-items:center;gap:12px;padding:0 0 13px;color:var(--cr-muted)}
+#canto-colecciones .cr-pagebar-bottom{padding:12px 0 0}
+#canto-colecciones .cr-page-picker{display:flex;gap:9px;align-items:center;font-size:12px;white-space:nowrap}
+#canto-colecciones .cr-page-picker select{width:auto;margin:0;padding:7px 8px;font-size:14px;font-variant-numeric:tabular-nums}
+#canto-colecciones .cr-page-summary{font:12px var(--cr-sans);font-variant-numeric:tabular-nums}
+#canto-colecciones .cr-page-actions{display:flex;gap:16px;margin-left:auto}
+#canto-colecciones .cr-collection-meta{font-size:12px}
+#canto-colecciones .cr-collection-name{color:var(--cr-ink)}
+#canto-colecciones .cr-collection-meta>span{color:var(--cr-muted)}
+#canto-colecciones .cr-collection[aria-current=true] .cr-collection-meta>span{color:var(--cr-blue)}
+#canto-colecciones .cr-footer>span{color:var(--cr-faint)}
+#canto-colecciones [data-import-form]>label{margin-top:18px}
+#canto-colecciones .cr-form-hint{display:block;font-size:12px;color:var(--cr-muted);margin-top:5px}
+#canto-colecciones .cr-form-actions{display:flex;align-items:center;gap:18px;margin-top:18px}
+#canto-colecciones .cr-import-review{border-top:1px solid var(--cr-line);margin-top:24px;padding-top:20px}
+#canto-colecciones .cr-import-review ol{padding-left:23px;margin:14px 0;font-size:14px}
+#canto-colecciones .cr-import-review li{padding:5px 0;overflow-wrap:anywhere}
+#canto-colecciones .cr-import-review button{margin-top:15px}
+#canto-colecciones .cr-error{color:var(--cr-alert);font-size:13px;margin-top:13px}
+#canto-colecciones .cr-footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:15px 0 2px;font-size:11px;color:var(--cr-faint)}
+#canto-colecciones .cr-footer>span:first-child{font:11px/1.5 var(--cr-data);letter-spacing:.025em}
+#canto-colecciones .cr-live{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+@media(max-width:780px){#canto-colecciones{padding:0 14px 10px}#canto-colecciones .cr-workspace{grid-template-columns:155px minmax(0,1fr)}#canto-colecciones .cr-sidebar{padding:24px 10px}#canto-colecciones .cr-main{padding:25px 20px 32px}#canto-colecciones .cr-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#canto-colecciones .cr-work:not(:nth-child(3n)){border-right:0}#canto-colecciones .cr-work:nth-child(odd){border-right:1px solid var(--cr-line)}#canto-colecciones .cr-edition{display:none}#canto-colecciones .cr-collection-heading{gap:12px}#canto-colecciones h2{font-size:36px}#canto-colecciones .cr-tally strong{font-size:36px}}
+@media(max-width:540px){#canto-colecciones{padding:0 10px 10px}#canto-colecciones .cr-storage{margin-bottom:24px;border-bottom:1px solid var(--cr-line);padding-bottom:12px;color:var(--cr-muted);font:14px/1.5 var(--cr-sans)}
+#canto-colecciones .cr-storage summary{cursor:pointer;color:var(--cr-blue)}
+#canto-colecciones .cr-storage p{margin:10px 0}
+#canto-colecciones [data-storage-status][data-error=true]{color:var(--cr-alert)}
+#canto-colecciones .cr-storage:has([data-error=true]) summary{color:var(--cr-alert)}
+#canto-colecciones .cr-backup-label{display:block;max-width:100%;font-size:14px}
+#canto-colecciones [data-backup-file]{display:block;max-width:100%;width:100%;font-size:12px}
+#canto-colecciones .cr-masthead{min-height:74px;padding-left:7px}#canto-colecciones .cr-workspace{display:block}#canto-colecciones .cr-sidebar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:end;padding:14px;border-right:0;border-bottom:1px solid var(--cr-line)}#canto-colecciones .cr-sidebar-head,#canto-colecciones .cr-collections{display:none}#canto-colecciones .cr-sidebar-note{display:block;grid-column:1/-1;margin:8px 0 0;padding:12px 0 0}#canto-colecciones .cr-sidebar-note>.cr-kicker{display:none}#canto-colecciones .cr-sidebar-note p{margin:0;max-width:360px}#canto-colecciones .cr-mobile-picker{display:block;font-size:11px;color:var(--cr-muted)}#canto-colecciones .cr-mobile-picker select{margin-top:4px;padding:8px;font-size:14px;color:var(--cr-ink)}#canto-colecciones .cr-new{width:auto;margin:0;padding:8px;font-size:12px;border-style:solid;max-width:104px}#canto-colecciones .cr-main{padding:23px 14px 34px}#canto-colecciones h2{font-size:34px;line-height:1.06}#canto-colecciones .cr-collection-heading{margin-bottom:19px;gap:10px}#canto-colecciones .cr-tally{padding-top:21px}#canto-colecciones .cr-tally strong{font-size:32px}#canto-colecciones .cr-tally div>span{font-size:11px;margin-left:3px}#canto-colecciones .cr-tally>span{font-size:12px}#canto-colecciones .cr-work{min-height:163px}#canto-colecciones .cr-work-title{font-size:18px;padding:0 11px 9px}#canto-colecciones .cr-work-top{padding-left:11px}#canto-colecciones .cr-work-author{padding:0 11px 10px}#canto-colecciones .cr-work-state{margin:0 11px;font-size:12px}#canto-colecciones .cr-rule{font-size:12px;gap:8px}#canto-colecciones .cr-grid{gap:0}#canto-colecciones .cr-bottom{font-size:11px}#canto-colecciones .cr-detail{padding:14px}#canto-colecciones .cr-detail-fields,#canto-colecciones .cr-import-fields{grid-template-columns:1fr;gap:13px}#canto-colecciones .cr-footer{padding:12px 5px 0}#canto-colecciones .cr-source{font-size:11px}}
+@media(prefers-reduced-motion:reduce){#canto-colecciones *{transition:none!important}}
+</style>
+<script>
+(()=>{
+  'use strict';
+  const root=document.getElementById('canto-colecciones');
+  const $=s=>root.querySelector(s);
+  const $$=s=>Array.from(root.querySelectorAll(s));
+  const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const catalog=JSON.parse($('[data-catalog]').textContent);
+  const works=catalog.works.map(w=>({...w,status:'pending',note:'',date:''}));
+  const lists=catalog.lists.map(l=>({...l,items:[...l.items]}));
+  const types={film:{label:'Cine',noun:'vistas',done:'Vista',verb:'vista'},book:{label:'Libros',noun:'leídos',done:'Leído',verb:'leído'},series:{label:'Series',noun:'vistas',done:'Vista',verb:'vista'},other:{label:'Experiencias',noun:'completadas',done:'Completada',verb:'completada'}};
+  let current=lists[0].id,selected=null,review=null,sequence=0,page=0;
+  const pageSize=12;
+  const work=id=>works.find(w=>w.id===id);
+  const list=()=>lists.find(l=>l.id===current);
+  const itemMeta=(l,id)=>l.itemMeta?.[id]||{};
+  const pad=n=>String(n);
+  const count=l=>l.items.filter(id=>work(id).status==='done').length;
+  const say=s=>{$('[data-announcement]').textContent=s;};
+  const STORAGE_KEY='canto.colecciones.personal.v1',PREVIOUS_KEY=STORAGE_KEY+'.before-restore';
+  const baseListIds=new Set(catalog.lists.map(l=>l.id));
+  let lastStored=null,storageBlocked=false,pendingRestore=null;
+  const storageMessage=(text,error=false)=>{const el=$('[data-storage-status]');el.textContent=text;el.dataset.error=String(error);if(error)el.closest('details').open=true;};
+  const snapshot=()=>({format:'canto-colecciones',version:1,savedAt:new Date().toISOString(),works:works.map(({id,kind,title,creator,year,status,note,date})=>({id,kind,title,creator,year,status,note,date})),lists:lists.filter(l=>!baseListIds.has(l.id)).map(({id,title,kind,source,items})=>({id,title,kind,source,items:[...items]}))});
+  function validateSnapshot(value){
+    const fail=()=>{throw Error('El archivo no es un respaldo válido de Colecciones (versión 1).');};
+    const str=(x,n)=>typeof x==='string'&&x.length<=n;
+    const validId=x=>str(x,100)&&/^[a-zA-Z0-9_-]+$/.test(x);
+    if(!value||value.format!=='canto-colecciones'||value.version!==1||!Array.isArray(value.works)||!Array.isArray(value.lists)||value.works.length>10000||value.lists.length>200)fail();
+    const ids=new Set(),ls=new Set();
+    const ws=value.works.map(w=>{
+      if(!w||!validId(w.id)||ids.has(w.id)||!Object.hasOwn(types,w.kind)||!str(w.title,1000)||!w.title.trim()||!str(w.creator,1000)||!str(w.year,100)||!['pending','doing','done','skipped'].includes(w.status)||!str(w.note,1000)||!str(w.date,10)||w.date&&!/^\d{4}-\d{2}-\d{2}$/.test(w.date))fail();
+      ids.add(w.id);return {id:w.id,kind:w.kind,title:w.title,creator:w.creator,year:w.year,status:w.status,note:w.note,date:w.date};
+    });
+    const custom=value.lists.map(l=>{
+      if(!l||!validId(l.id)||baseListIds.has(l.id)||ls.has(l.id)||!str(l.title,140)||!l.title.trim()||!Object.hasOwn(types,l.kind)||!str(l.source,200)||!Array.isArray(l.items)||!l.items.length||l.items.length>150||new Set(l.items).size!==l.items.length||l.items.some(id=>!ids.has(id)))fail();
+      ls.add(l.id);return {id:l.id,title:l.title,kind:l.kind,source:l.source,items:[...l.items]};
+    });
+    return {format:'canto-colecciones',version:1,works:ws,lists:custom};
+  }
+  function applySnapshot(data){
+    works.splice(0,works.length,...catalog.works.map(w=>({...w,status:'pending',note:'',date:''})));
+    for(const entry of data.works){const existing=work(entry.id);if(existing)Object.assign(existing,{status:entry.status,note:entry.note,date:entry.date});else works.push({...entry});}
+    lists.splice(0,lists.length,...catalog.lists.map(l=>({...l,items:[...l.items]})),...data.lists);
+    sequence=Math.max(0,...works.map(w=>Number((w.id.match(/^u(\d+)$/)||[])[1])||0),...lists.map(l=>Number((l.id.match(/^custom-(\d+)$/)||[])[1])||0));
+  }
+  function persist(){
+    if(storageBlocked)return false;
+    try{
+      if(localStorage.getItem(STORAGE_KEY)!==lastStored){storageBlocked=true;storageMessage('Hay cambios en otra pestaña. Exportá esta sesión y recargá antes de continuar.',true);return false;}
+      const raw=JSON.stringify(snapshot());if(raw.length>2000000)throw Error('size');
+      localStorage.setItem(STORAGE_KEY,raw);lastStored=raw;
+      storageMessage('Guardado en este navegador.');return true;
+    }catch(e){storageMessage('No se pudo guardar. Exportá un respaldo antes de cerrar.',true);return false;}
+  }
+  function loadPersonal(){
+    try{
+      lastStored=localStorage.getItem(STORAGE_KEY);
+      if(lastStored){if(lastStored.length>2000000)throw Error('size');applySnapshot(validateSnapshot(JSON.parse(lastStored)));}
+      else{const probe=STORAGE_KEY+'.probe';localStorage.setItem(probe,'1');localStorage.removeItem(probe);}
+      storageMessage(lastStored?'Datos recuperados de este navegador.':'Guardado automático disponible en este navegador.');
+    }catch(e){storageBlocked=true;storageMessage('No pudimos leer el guardado local. No lo sobrescribiremos. Podés exportar esta sesión o cargar un respaldo.',true);}
+    try{$('[data-undo-restore]').hidden=!localStorage.getItem(PREVIOUS_KEY);}catch(e){}
+  }
+  function downloadSnapshot(data,name){
+    const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));
+    const a=document.createElement('a');a.href=url;a.download=name;root.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+  }
+  $('[data-export]').addEventListener('click',()=>{downloadSnapshot(snapshot(),'Colecciones-respaldo-'+new Date().toISOString().slice(0,10)+'.json');say('Respaldo preparado para descargar.');});
+  $('[data-backup-file]').addEventListener('change',async event=>{
+    const file=event.target.files[0];pendingRestore=null;$('[data-restore-review]').hidden=true;
+    if(!file)return;
+    try{
+      if(file.size>2000000)throw Error('El respaldo supera el límite de 2 MB.');
+      pendingRestore=validateSnapshot(JSON.parse(await file.text()));
+      $('[data-restore-summary]').textContent=pendingRestore.lists.length+' colecciones propias · '+pendingRestore.works.filter(w=>w.status==='done').length+' obras completadas · '+pendingRestore.works.filter(w=>w.note).length+' recuerdos. Reemplazará tus marcas, notas y listas propias actuales. Las seis colecciones incluidas se conservan.';
+      $('[data-restore-review]').hidden=false;$('[data-backup-error]').hidden=true;
+    }catch(e){$('[data-backup-error]').textContent=e instanceof SyntaxError?'El archivo no contiene JSON válido.':e.message;$('[data-backup-error]').hidden=false;}
+    event.target.value='';
+  });
+  $('[data-cancel-restore]').addEventListener('click',()=>{pendingRestore=null;$('[data-restore-review]').hidden=true;});
+  $('[data-restore]').addEventListener('click',()=>{
+    if(!pendingRestore)return;
+    try{
+      if(!storageBlocked&&localStorage.getItem(STORAGE_KEY)!==lastStored)throw Error('Hay cambios en otra pestaña. Exportá esta sesión y recargá antes de restaurar.');
+      const previous=JSON.stringify(snapshot()),next=JSON.stringify({...pendingRestore,savedAt:new Date().toISOString()});
+      localStorage.setItem(PREVIOUS_KEY,previous);localStorage.setItem(STORAGE_KEY,next);
+      lastStored=next;storageBlocked=false;applySnapshot(pendingRestore);pendingRestore=null;
+      $('[data-restore-review]').hidden=true;$('[data-undo-restore]').hidden=false;showList(lists[0].id);storageMessage('Respaldo restaurado y guardado. Podés deshacer la restauración.');
+    }catch(e){$('[data-backup-error]').textContent='No se restauró el respaldo. '+e.message;$('[data-backup-error]').hidden=false;}
+  });
+  $('[data-undo-restore]').addEventListener('click',()=>{
+    try{const raw=localStorage.getItem(PREVIOUS_KEY);if(!raw)return;const previous=validateSnapshot(JSON.parse(raw));
+      if(localStorage.getItem(STORAGE_KEY)!==lastStored)throw Error('Otra pestaña ha cambiado los datos. Recargá antes de continuar.');
+      localStorage.setItem(STORAGE_KEY,raw);lastStored=raw;storageBlocked=false;applySnapshot(previous);localStorage.removeItem(PREVIOUS_KEY);$('[data-undo-restore]').hidden=true;showList(lists[0].id);storageMessage('Restauración deshecha. Se recuperaron los datos anteriores.');
+    }catch(e){storageMessage('No se pudo deshacer. '+e.message,true);}
+  });
+  window.addEventListener('storage',event=>{if(event.key===STORAGE_KEY||event.key===null){storageBlocked=true;storageMessage('Hay cambios en otra pestaña. Exportá esta sesión y recargá antes de continuar.',true);}});
+  loadPersonal();
+
+  function navigation(){
+    $('[data-list-count]').textContent=pad(lists.length);
+    $('[data-collections]').innerHTML=lists.map(l=>'<button type="button" class="cr-collection cursor-interaction" data-list="'+l.id+'" aria-current="'+(l.id===current)+'"><span class="cr-collection-name">'+esc(l.title)+'</span><span class="cr-collection-meta"><span>'+types[l.kind].label+'</span><span>'+pad(count(l))+' / '+pad(l.items.length)+'</span></span></button>').join('');
+    $('[data-mobile-picker]').innerHTML=lists.map(l=>'<option value="'+l.id+'"'+(l.id===current?' selected':'')+'>'+esc(l.title)+'</option>').join('');
+  }
+  function summary(){
+    const l=list(),n=count(l),left=l.items.length-n;
+    $('[data-count]').textContent=pad(n);$('[data-total]').textContent='/ '+pad(l.items.length);$('[data-count-label]').textContent=types[l.kind].noun;
+    const skipped=l.items.filter(id=>work(id).status==='skipped').length;
+    $('[data-remaining]').textContent=left===0?'Un recorrido completo.':(left-skipped)+' por descubrir.'+(skipped?' '+skipped+' dejada'+(skipped===1?'':'s')+' pasar.':'');
+    navigation();
+  }
+  function tile(w,i){
+    const done=w.status==='done';
+    const meta=itemMeta(list(),w.id),marker=meta.awardYear?String(meta.awardYear):pad(i+1);
+    const markerLabel=meta.awardYear?'Año del premio '+marker:((list().ranked||list().itemMeta)?'Puesto ':'Obra ')+marker;
+    const awardNote=meta.shared?'<p class="cr-award-note">Premio compartido</p>':'';
+    const label=done?types[w.kind].done:w.status==='doing'?'En curso':w.status==='skipped'?'La dejo pasar':'Pendiente';
+    const cover=w.cover?'<span class="cr-cover"><img src="'+esc(w.cover)+'" width="112" height="164" alt="" decoding="async"><span class="cr-cover-fallback" hidden>Imagen no disponible</span></span>':((list().ranked||list().itemMeta)?'<span class="cr-cover"><span class="cr-cover-fallback">Imagen no disponible</span></span>':'');
+    return '<article class="cr-work" data-work="'+w.id+'" data-state="'+w.status+'" data-selected="'+(w.id===selected)+'"><div class="cr-work-top"><span class="cr-work-num" aria-label="'+esc(markerLabel)+'">'+esc(marker)+'</span><button class="cr-punch cursor-interaction" type="button" data-punch="'+w.id+'" aria-pressed="'+done+'" aria-label="'+esc((done?'Desmarcar ':'Marcar como '+types[w.kind].verb+': ')+w.title)+'"><span class="cr-hole'+(done?' cr-done':'')+'" aria-hidden="true"></span></button></div><button class="cr-work-open cursor-interaction" type="button" data-open="'+w.id+'" aria-label="'+esc('Abrir ficha de '+w.title+(w.creator?' — '+w.creator:''))+'">'+cover+'<span class="cr-work-title">'+esc(w.title)+'</span></button><p class="cr-work-author">'+esc([w.creator,w.year].filter(Boolean).join(' · '))+'</p>'+awardNote+'<p class="cr-work-state">'+label+'</p></article>';
+  }
+  function renderGrid(){
+    const l=list(),pages=Math.ceil(l.items.length/pageSize);
+    page=Math.max(0,Math.min(page,pages-1));
+    const start=page*pageSize,end=Math.min(start+pageSize,l.items.length);
+    $('[data-grid]').innerHTML=l.items.slice(start,end).map((id,i)=>tile(work(id),start+i)).join('');
+    $('[data-pagebar]').hidden=pages<=1;
+    $('[data-pagebar-bottom]').hidden=pages<=1;
+    $('[data-page-picker]').innerHTML=Array.from({length:pages},(_,i)=>'<option value="'+i+'"'+(i===page?' selected':'')+'>'+pad(i*pageSize+1)+'–'+pad(Math.min((i+1)*pageSize,l.items.length))+'</option>').join('');
+    $('[data-page-summary]').textContent='de '+l.items.length;
+    $('[data-page-prev]').disabled=page===0;
+    $('[data-page-next]').disabled=page===pages-1;
+    $('[data-page-prev-bottom]').disabled=page===0;
+    $('[data-page-next-bottom]').disabled=page===pages-1;
+    $('[data-range-bottom]').textContent=(start+1)+'–'+end+' de '+l.items.length;
+  }
+  function changePage(next){
+    page=next;selected=null;$('[data-detail]').hidden=true;renderGrid();
+    say('Obras '+(page*pageSize+1)+' a '+Math.min((page+1)*pageSize,list().items.length)+' de '+list().items.length+'.');
+  }
+  function showList(id){
+    current=id;selected=null;review=null;page=0;
+    $('[data-import-screen]').hidden=true;$('[data-list-screen]').hidden=false;$('[data-detail]').hidden=true;
+    const l=list();
+    $('[data-title]').textContent=l.title;$('[data-source]').textContent=l.source;
+    $('[data-source-link]').hidden=!l.sourceUrl;
+    if(l.sourceUrl)$('[data-source-link]').href=l.sourceUrl;
+    $('[data-order-label]').textContent=l.orderLabel||(l.ranked?'Orden de la lista original':'Obras');
+    $('[data-collection-note]').hidden=!l.note;$('[data-collection-note]').textContent=l.note||'';
+    $('[data-footer-source]').textContent=l.footer||'Colección propia';
+    $('[data-category]').textContent=types[l.kind].label;
+    renderGrid();summary();
+  }
+  function openDetail(id){
+    selected=id;const w=work(id);
+    $('[data-detail-title]').textContent=w.fullTitle||w.title;
+    $('[data-detail-author]').textContent=[w.creator,w.year].filter(Boolean).join(' · ');
+    $('[data-cover-credit]').hidden=!w.editionUrl;
+    if(w.editionUrl){$('[data-cover-credit]').href=w.editionUrl;$('[data-cover-credit]').textContent=(w.kind==='book'?'Ver edición de la portada · ':'Ver imagen y ficha · ')+w.coverSource;}
+    const memberships=lists.filter(l=>l.items.includes(id)).map(l=>l.title);
+    $('[data-membership]').textContent='En '+memberships.length+' '+(memberships.length===1?'colección':'colecciones')+': '+memberships.join(' · ');
+    $('[data-reading-note]').hidden=!w.readingNote;$('[data-reading-note]').textContent=w.readingNote||'';
+    const awards=lists.filter(l=>l.itemMeta?.[id]).map(l=>{const m=itemMeta(l,id);return '<p><a class="cr-source-link" href="'+esc(m.sourceUrl)+'" target="_blank" rel="noopener noreferrer">'+esc(l.title+' · '+m.awardYear+(m.shared?' · Premio compartido':''))+'</a>'+(m.awardedAs?'<span class="cr-source"> · Premiado como '+esc(m.awardedAs)+'</span>':'')+'</p>';});
+    $('[data-recognition]').hidden=!awards.length;$('[data-recognition]').innerHTML=awards.join('');
+    $('[data-status]').value=w.status;$('[data-date]').value=w.date;$('[data-note]').value=w.note;
+    $('[data-detail]').hidden=false;
+    $$('[data-work]').forEach(el=>el.dataset.selected=String(el.dataset.work===id));
+    $('[data-detail]').scrollIntoView({block:'nearest',behavior:'instant'});
+  }
+  root.addEventListener('click',event=>{
+    const b=event.target.closest('button');if(!b)return;
+    if(b.dataset.list){showList(b.dataset.list);return;}
+    if(b.dataset.punch){
+      const w=work(b.dataset.punch);w.status=w.status==='done'?'pending':'done';
+      const tileNode=b.closest('[data-work]');const index=list().items.indexOf(w.id);
+      tileNode.outerHTML=tile(w,index);summary();
+      if(selected===w.id)$('[data-status]').value=w.status;
+      root.querySelector('[data-punch="'+w.id+'"]').focus({preventScroll:true});
+      persist();const inLists=lists.filter(l=>l.items.includes(w.id)).length;
+      say(w.title+': '+(w.status==='done'?'completada':'pendiente')+'. Actualizada en '+inLists+' '+(inLists===1?'colección':'colecciones')+'.');return;
+    }
+    if(b.dataset.open)openDetail(b.dataset.open);
+  });
+  root.addEventListener('error',event=>{
+    if(event.target.tagName==='IMG'&&event.target.closest('.cr-cover')){event.target.hidden=true;event.target.nextElementSibling.hidden=false;}
+  },true);
+  $('[data-page-prev]').addEventListener('click',()=>changePage(page-1));
+  $('[data-page-next]').addEventListener('click',()=>changePage(page+1));
+  $('[data-page-prev-bottom]').addEventListener('click',()=>{changePage(page-1);$('[data-pagebar]').scrollIntoView({block:'start',behavior:'instant'});});
+  $('[data-page-next-bottom]').addEventListener('click',()=>{changePage(page+1);$('[data-pagebar]').scrollIntoView({block:'start',behavior:'instant'});});
+  $('[data-page-picker]').addEventListener('change',event=>changePage(Number(event.target.value)));
+  $('[data-mobile-picker]').addEventListener('change',e=>showList(e.target.value));
+  $('[data-close-detail]').addEventListener('click',()=>{const previous=selected;selected=null;$('[data-detail]').hidden=true;$$('[data-work]').forEach(el=>el.dataset.selected='false');root.querySelector('[data-open="'+previous+'"]')?.focus({preventScroll:true});});
+  $('[data-save-note]').addEventListener('click',()=>{
+    if(!selected)return;const w=work(selected);w.status=$('[data-status]').value;w.note=$('[data-note]').value;w.date=$('[data-date]').value;
+    renderGrid();summary();const saved=persist();say(saved?'Recuerdo de '+w.title+' guardado.':'Recuerdo actualizado en esta sesión; exportá un respaldo.');
+    const b=$('[data-save-note]');b.textContent=saved?'Recuerdo guardado':'Pendiente de respaldo';setTimeout(()=>b.textContent='Guardar recuerdo',1800);
+  });
+  $('[data-new]').addEventListener('click',()=>{$('[data-list-screen]').hidden=true;$('[data-import-screen]').hidden=false;$('[data-import-review]').hidden=true;$('[data-import-error]').hidden=true;review=null;$('[name=listTitle]').focus({preventScroll:true});});
+  $('[data-cancel-import]').addEventListener('click',()=>showList(current));
+  const normalized=s=>s.trim().normalize('NFKC').toLocaleLowerCase('es').replace(/[’‘]/g,"'").replace(/\s+/g,' ');
+  const signature=w=>[w.kind,w.title,w.creator,w.year].map(normalized).join('|');
+  function invalidate(){review=null;$('[data-import-review]').hidden=true;}
+  $('[data-import-form]').addEventListener('input',invalidate);
+  $('[data-import-form]').addEventListener('submit',event=>{
+    event.preventDefault();const form=event.currentTarget;
+    const title=form.elements.listTitle.value.trim(),kind=form.elements.kind.value,source=form.elements.source.value.trim();
+    const lines=form.elements.entries.value.split(/\r?\n/).map(s=>s.trim()).filter(Boolean);
+    const fail=msg=>{$('[data-import-error]').textContent=msg;$('[data-import-error]').hidden=false;};
+    if(lists.filter(l=>!baseListIds.has(l.id)).length>=200||works.length+lines.length>10000){fail('Se alcanzó el límite de 200 colecciones propias o 10 000 obras. Exportá un respaldo.');return;}
+    if(!title||!lines.length){fail('Agregá un nombre y al menos un título.');return;}
+    if(lines.length>150){fail('En este estudio podés probar hasta 150 títulos por colección.');return;}
+    const parsed=[];const seen=new Set();
+    for(const line of lines){
+      const parts=line.replace(/^\s*(?:\d+[.)]\s+|[-*•]\s+)/,'').split('|').map(s=>s.trim());
+      if(parts.length>3||!parts[0]||parts[0].length>1000||(parts[1]||'').length>1000||(parts[2]||'').length>100){fail('Usá un título por línea; autor y año pueden separarse con |.');return;}
+      const w={kind,title:parts[0],creator:parts[1]||'',year:parts[2]||''};
+      const key=signature(w);if(seen.has(key))continue;seen.add(key);
+      const candidates=w.creator?works.filter(existing=>existing.kind===w.kind&&normalized(existing.title)===normalized(w.title)&&normalized(existing.creator)===normalized(w.creator)&&(!existing.year||!w.year||existing.year===w.year)):[];
+      const match=candidates.length===1?candidates[0]:null;
+      parsed.push({...w,match:match?.id||null});
+    }
+    $('[data-import-error]').hidden=true;review={title,kind,source,parsed};
+    const matched=parsed.filter(w=>w.match).length;
+    $('[data-review-summary]').textContent=parsed.length+' títulos · '+matched+' coincidencia'+(matched===1?'':'s')+' con tus colecciones'+(lines.length>parsed.length?' · '+(lines.length-parsed.length)+' repetido(s) dentro de la lista omitido(s)':'')+'.';
+    $('[data-review-items]').innerHTML=parsed.map(w=>'<li>'+esc(w.title)+(w.match?' — ya está en tus colecciones':'')+'</li>').join('');
+    $('[data-import-review]').hidden=false;
+  });
+  $('[data-confirm-import]').addEventListener('click',()=>{
+    if(!review)return;const r=review;const items=r.parsed.map(w=>{
+      if(w.match)return w.match;
+      const id='u'+(++sequence);works.push({id,kind:w.kind,title:w.title,creator:w.creator,year:w.year,status:'pending',note:'',date:''});return id;
+    });
+    const id='custom-'+(++sequence);lists.push({id,title:r.title,kind:r.kind,source:r.source||'Selección propia',items});
+    persist();$('[data-import-form]').reset();showList(id);say('Colección '+r.title+' creada con '+items.length+' títulos.');
+  });
+  showList(current);
+})();
+</script>
