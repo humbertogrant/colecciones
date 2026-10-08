@@ -54,8 +54,12 @@ async function audit(page, label) {
  const shared=data.lists[0].items.filter(id=>data.lists[1].items.includes(id));assert.equal(shared.length,39);
  assert.ok(data.works.filter(w=>w.cover).every(w=>w.cover.startsWith('data:image/webp;base64,')&&w.editionUrl));
  assert.ok(data.lists.slice(0,4).every(l=>l.sourceUrl.startsWith('https://www.nytimes.com/')));
- for(const l of data.lists){
+ async function selectList(l){
+  if(l.group==='Descubrimiento de países'&&!await page.locator('[data-country-group]').evaluate(el=>el.open))await page.locator('[data-country-group] summary').click();
   await page.locator('[data-list="'+l.id+'"]').click();
+ }
+ for(const l of data.lists){
+  await selectList(l);
   assert.equal(await page.locator('[data-count]').textContent(),'0');
   const seen=[];
   for(let p=0;p<Math.ceil(l.items.length/12);p++){
@@ -70,7 +74,7 @@ async function audit(page, label) {
   for(const width of [320,390,736]){await page.setViewportSize({width,height:1100});checks.push(await audit(page,l.id+' '+width));}
   await page.setViewportSize({width:1024,height:1100});
  }
- async function visit(l,id){await page.locator('[data-list="'+l.id+'"]').click();if(l.items.length>12)await page.locator('[data-page-picker]').selectOption(String(Math.floor(l.items.indexOf(id)/12)));}
+ async function visit(l,id){await selectList(l);if(l.items.length>12)await page.locator('[data-page-picker]').selectOption(String(Math.floor(l.items.indexOf(id)/12)));}
  const hugo=data.lists[4],pulitzer=data.lists[5];
  assert.equal(hugo.items.length,75);assert.equal(pulitzer.items.length,68);
  for(const [l,missing] of [[hugo,[1954,1957]],[pulitzer,[1954,1957,1964,1971,1974,1977,2012]]]){

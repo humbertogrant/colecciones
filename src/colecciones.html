@@ -99,6 +99,9 @@
 #canto-colecciones .cr-nav-group{margin-bottom:20px}
 #canto-colecciones .cr-nav-group>.cr-kicker{margin:10px 0;color:var(--cr-muted);font-size:12px}
 #canto-colecciones .cr-country{padding-top:8px;padding-bottom:8px}
+#canto-colecciones .cr-country-group>summary{cursor:pointer;min-height:44px;padding:10px 0;font:600 13px/1.5 var(--cr-sans);color:var(--cr-ink)}
+#canto-colecciones .cr-country-group>summary:focus-visible{outline-offset:3px}
+#canto-colecciones .cr-country-count{display:block;margin:4px 0 0 16px;font:11px/1.5 var(--cr-data);color:var(--cr-muted)}
 #canto-colecciones .cr-collection-name{display:block;font-size:14px;line-height:1.3;font-weight:600;overflow-wrap:anywhere}
 #canto-colecciones .cr-collection-meta{display:flex;justify-content:space-between;gap:6px;margin-top:8px;color:var(--cr-muted);font:11px var(--cr-data)}
 #canto-colecciones .cr-collection[aria-current=true] .cr-collection-meta{color:var(--cr-blue)}
@@ -344,9 +347,14 @@
   $('[data-print]').addEventListener('click',()=>window.print());
   function navigation(){
     $('[data-list-count]').textContent=pad(lists.length);
+    const countriesOpen=$('[data-country-group]')?.open||false;
     const groups=[...new Set(lists.map(l=>l.group||(baseListIds.has(l.id)?'Listas y premios':'Mis recorridos')))];
     const inGroup=g=>lists.filter(l=>(l.group||(baseListIds.has(l.id)?'Listas y premios':'Mis recorridos'))===g);
-    $('[data-collections]').innerHTML=groups.map(g=>'<div class="cr-nav-group"><p class="cr-kicker">'+esc(g)+'</p>'+inGroup(g).map(l=>'<button type="button" class="cr-collection cursor-interaction'+(l.group?' cr-country':'')+'" data-list="'+l.id+'" aria-current="'+(l.id===current)+'"><span class="cr-collection-name">'+esc(l.title)+'</span><span class="cr-collection-meta"><span>'+(l.category||types[l.kind].label)+'</span><span>'+pad(count(l))+' / '+pad(l.items.length)+'</span></span></button>').join('')+'</div>').join('');
+    $('[data-collections]').innerHTML=groups.map(g=>{
+      const entries=inGroup(g),countries=g==='Descubrimiento de países';
+      const buttons=entries.map(l=>'<button type="button" class="cr-collection cursor-interaction'+(l.group?' cr-country':'')+'" data-list="'+l.id+'" aria-current="'+(l.id===current)+'"><span class="cr-collection-name">'+esc(l.title)+'</span><span class="cr-collection-meta"><span>'+(l.category||types[l.kind].label)+'</span><span>'+pad(count(l))+' / '+pad(l.items.length)+'</span></span></button>').join('');
+      return countries?'<details class="cr-nav-group cr-country-group" data-country-group'+(countriesOpen?' open':'')+'><summary>'+esc(g)+'<span class="cr-country-count">'+entries.length+' países</span></summary>'+buttons+'</details>':'<div class="cr-nav-group"><p class="cr-kicker">'+esc(g)+'</p>'+buttons+'</div>';
+    }).join('');
     $('[data-mobile-picker]').innerHTML=groups.map(g=>'<optgroup label="'+esc(g)+'">'+inGroup(g).map(l=>'<option value="'+l.id+'"'+(l.id===current?' selected':'')+'>'+esc(l.title)+'</option>').join('')+'</optgroup>').join('');
   }
   function summary(){
@@ -388,6 +396,7 @@
     current=id;selected=null;review=null;page=0;
     $('[data-import-screen]').hidden=true;$('[data-list-screen]').hidden=false;$('[data-detail]').hidden=true;
     const l=list();
+    if(l.group==='Descubrimiento de países'&&$('[data-country-group]'))$('[data-country-group]').open=true;
     $('[data-title]').textContent=l.title;$('[data-source]').textContent=l.source;
     $('[data-source-link]').hidden=!l.sourceUrl;
     if(l.sourceUrl)$('[data-source-link]').href=l.sourceUrl;

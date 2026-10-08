@@ -37,6 +37,8 @@ Se respetan los puestos originales y las selecciones de temporadas: *Beef* y *Tr
 
 Nueve recorridos que combinan libros y películas: Japón, China, India, México, Rusia, Alemania, Brasil, Turquía e Irán. Se respeta el orden y los títulos proporcionados por Humberto. México contiene ocho obras porque los tres libros de la trilogía de Enrique Krauze se marcan por separado; los otros países contienen seis.
 
+En la barra lateral, los nueve recorridos se agrupan en «Descubrimiento de países», cerrado inicialmente. Al desplegarlo aparecen las listas individuales con su progreso. En móvil siguen disponibles en el selector de colección.
+
 *Roma*, *A Separation*, *La vida de los otros* y *Secondhand Time* comparten sus marcas y recuerdos con las listas existentes. Cada tarjeta conserva su tipo: leído para libros, vista para películas; el contador del país dice «completadas». En Alemania se muestra el estreno original de *La vida de los otros* (2006), mientras que NYT conserva su convención de estreno estadounidense (2007).
 
 ## Nobel: Literatura
@@ -105,6 +107,8 @@ La procedencia, las fechas y los criterios de edición están en [SOURCES.md](SO
 El código y el diseño del prototipo son independientes de los medios y entidades citados. Las portadas, carteles y fuentes tipográficas conservan sus derechos y licencias de origen; ver [SOURCES.md](SOURCES.md) y `assets/licenses/`.
 
 ## Cambios y reversión
+
+Versión 0.12.1: agrupa los nueve países en una sección desplegable, sin cambiar el catálogo ni el guardado personal.
 
 Versión 0.12.0: incorpora las 100 novelas de TIME (2005) y sus 100 libros de fantasía (2020), con portada en las 200 entradas. Añade 164 obras y conserva los IDs anteriores, las coincidencias entre listas y el guardado personal v1.
 

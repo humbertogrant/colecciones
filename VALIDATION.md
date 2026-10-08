@@ -1,4 +1,13 @@
-# Validación de 0.12.0
+# Validación de 0.12.1
+
+Revisión del 8 de octubre de 2026 en Windows, con Microsoft Edge 154 mediante Playwright 1.62.1.
+
+- Los nueve países aparecen dentro de una única sección desplegable, cerrada inicialmente. Se comprobó abrir y cerrar con teclado, recorrer los países y conservar el estado del desplegable al marcar obras o guardar notas.
+- Elegir un país desde el selector móvil permite verlo al volver a escritorio. Contraer la sección no cambia la colección activa ni el guardado.
+- Catálogo intacto: mismas 20 listas, 890 obras, IDs, títulos y orden. Las marcas y recuerdos compartidos siguen disponibles.
+- `tests/build.py` y las nueve pruebas de navegador aprobaron. Capturas de la sección abierta y cerrada revisadas; contraste mínimo de 4,92:1 y sin desbordamientos en los tamaños comprobados.
+
+## Validación previa de 0.12.0
 
 Revisión del 8 de octubre de 2026 en Windows, con Microsoft Edge 154 mediante Playwright 1.62.1.
 

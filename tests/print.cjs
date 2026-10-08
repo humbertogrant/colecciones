@@ -37,6 +37,7 @@ async function capturePrint(page){
     await page.locator('[data-punch]').nth(1).click();const refreshed=await capturePrint(page);assert.match(refreshed.rows[13].state,/✓/);assert.ok(refreshed.text.includes('2 / 100'));
     // Preserve collection-specific translated titles and award years.
     const aliases=catalog.lists.find(l=>l.displayItems&&Object.entries(l.displayItems).some(([id,v])=>v.title!==catalog.works.find(w=>w.id===id).title));assert.ok(aliases);
+    if(aliases.group==='Descubrimiento de países')await page.locator('[data-country-group] summary').click();
     await page.locator('[data-list="'+aliases.id+'"]').click();const translated=await capturePrint(page);
     for(const [id,alias] of Object.entries(aliases.displayItems)){const row=translated.rows.find(r=>r.id===id);assert.ok(row.work.includes(alias.fullTitle||alias.title));}
     const awards=catalog.lists.find(l=>l.itemMeta&&Object.values(l.itemMeta).some(m=>m.awardYear||m.laureateYear));await page.locator('[data-list="'+awards.id+'"]').click();const awarded=await capturePrint(page);
