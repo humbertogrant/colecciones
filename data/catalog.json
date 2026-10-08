@@ -6667,6 +6667,304 @@
       "coverUrl": "https://covers.openlibrary.org/b/id/14730735-M.jpg?default=false",
       "editionUrl": "https://openlibrary.org/books/OL29235626M",
       "coverSource": "Open Library"
+    },
+    {
+      "id": "book-26c902d65d42",
+      "title": "Giving Kids a Fair Chance",
+      "creator": "James J. Heckman",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/economics-book-26c902d65d42.webp",
+      "coverUrl": "https://mit-press-new-us.imgix.net/covers/9780262535052.jpg?auto=format&w=145",
+      "editionUrl": "https://mitpress.mit.edu/9780262535052/giving-kids-a-fair-chance/",
+      "coverSource": "MIT Press"
+    },
+    {
+      "id": "book-57ce837a79f0",
+      "title": "Globalization and Its Discontents",
+      "creator": "Joseph E. Stiglitz",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-57ce837a79f0.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/247709-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL13630878M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-39da7f761cac",
+      "title": "Thinking, Fast and Slow",
+      "creator": "Daniel Kahneman",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/economics-book-39da7f761cac.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13290711-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/works/OL15992072W",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-869b7215867a",
+      "title": "Rationality in Economics",
+      "creator": "Vernon L. Smith",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-869b7215867a.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13513079-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL24439135M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-791f325d3c0d",
+      "title": "Empirical Modeling in Economics",
+      "creator": "Clive W. J. Granger",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/economics-book-791f325d3c0d.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/354818-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/works/OL8325936W",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-9ea3a27d7879",
+      "title": "The Strategy of Conflict",
+      "creator": "Thomas C. Schelling",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/economics-book-9ea3a27d7879.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/6888305-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/works/OL16062089W",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-47f2703c3425",
+      "title": "Mass Flourishing",
+      "creator": "Edmund S. Phelps",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-47f2703c3425.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13602741-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL29258121M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-0422231460a1",
+      "title": "The Arrow Impossibility Theorem",
+      "creator": "Eric S. Maskin y Amartya Sen",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/economics-book-0422231460a1.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8542283-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/works/OL19634410W",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-0af1e2af76e2",
+      "title": "Geography and Trade",
+      "creator": "Paul Krugman",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-0af1e2af76e2.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/3963314-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL1534175M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-d41ae39a6668",
+      "title": "Governing the Commons",
+      "creator": "Elinor Ostrom",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/economics-book-d41ae39a6668.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/5206356-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/works/OL3956145W",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-b80d15dcb707",
+      "title": "The Economic Institutions of Capitalism",
+      "creator": "Oliver E. Williamson",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-b80d15dcb707.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/19264-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL2383138M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-0f317901b0e0",
+      "title": "Reforming Pensions",
+      "creator": "Peter A. Diamond y Nicholas Barr",
+      "kind": "book",
+      "year": "",
+      "readingNote": "Selección fuera del tema por el que Peter Diamond recibió el premio, como indica la lista de Humberto.",
+      "coverFile": "assets/covers/economics-book-0f317901b0e0.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12881774-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/works/OL1876064W",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-3c9d87b670e1",
+      "title": "Rational Expectations and Inflation",
+      "creator": "Thomas J. Sargent",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-3c9d87b670e1.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/4003710-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL1729521M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-17246ae5a7aa",
+      "title": "Who Gets What — and Why",
+      "creator": "Alvin E. Roth",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-17246ae5a7aa.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12173668-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL27186738M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-41b65011eb54",
+      "title": "Irrational Exuberance",
+      "creator": "Robert J. Shiller",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-41b65011eb54.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10211294-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL28286249M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-2cdcb9502c07",
+      "title": "La economía del bien común",
+      "creator": "Jean Tirole",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-2cdcb9502c07.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8801967-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL27337620M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-e06e1e3f98b9",
+      "title": "The Great Escape",
+      "creator": "Angus Deaton",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-e06e1e3f98b9.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8977010-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL27520900M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-44b7180774ef",
+      "title": "Misbehaving",
+      "creator": "Richard H. Thaler",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-44b7180774ef.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8270508-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL26531656M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-1cf8d7bbcce0",
+      "title": "The Climate Casino",
+      "creator": "William D. Nordhaus",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-1cf8d7bbcce0.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7829070-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/works/OL17563750W",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-0eae78913d43",
+      "title": "Poor Economics",
+      "creator": "Abhijit V. Banerjee y Esther Duflo",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-0eae78913d43.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/6765497-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL24654094M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-84ff0f5e9644",
+      "title": "Myth and Measurement",
+      "creator": "David Card y Alan B. Krueger",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-84ff0f5e9644.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/441455-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL7757147M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-70b35d014f26",
+      "title": "The Courage to Act",
+      "creator": "Ben S. Bernanke",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-70b35d014f26.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/11401440-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL27188645M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-e80603970bbb",
+      "title": "Career & Family",
+      "creator": "Claudia Goldin",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-e80603970bbb.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/14533491-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL33914874M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-d84eeeb7bc07",
+      "title": "Why Nations Fail",
+      "creator": "Daron Acemoglu y James A. Robinson",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-d84eeeb7bc07.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7253519-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/works/OL16568759W",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-5541cebd257c",
+      "title": "Power and Progress",
+      "creator": "Simon Johnson y Daron Acemoglu",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-5541cebd257c.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/13213846-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL40173756M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-f5e3d6655b60",
+      "title": "A Culture of Growth",
+      "creator": "Joel Mokyr",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/nobel-book-f5e3d6655b60.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8133670-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/books/OL26425403M",
+      "coverSource": "Open Library"
+    },
+    {
+      "id": "book-6ce2507c126d",
+      "title": "El poder de la destrucción creativa",
+      "creator": "Philippe Aghion, Céline Antonin y Simon Bunel",
+      "kind": "book",
+      "year": "",
+      "coverFile": "assets/covers/economics-book-6ce2507c126d.webp",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10479794-M.jpg?default=false",
+      "editionUrl": "https://openlibrary.org/works/OL22587741W",
+      "coverSource": "Open Library"
     }
   ],
   "lists": [
@@ -8901,6 +9199,376 @@
         }
       },
       "category": "Libros, teatro, poesía y música"
+    },
+    {
+      "id": "nobel-economics-2000-2025",
+      "title": "Nobel: economía",
+      "kind": "book",
+      "category": "Economía",
+      "source": "Premio de Economía en memoria de Alfred Nobel · 2000–2025",
+      "sourceUrl": "https://www.nobelprize.org/prizes/lists/all-prizes-in-economic-sciences/",
+      "ranked": false,
+      "artwork": true,
+      "orderLabel": "Por año del premio · Selección 2000–2025",
+      "note": "27 libros elegidos por Humberto, correspondientes a 23 años del premio. La selección conserva los años propuestos; no pretende cubrir todos los premiados. El reconocimiento corresponde a los economistas y sus investigaciones, no a estos libros.",
+      "footer": "Selección personal · Año del premio",
+      "items": [
+        "book-26c902d65d42",
+        "book-57ce837a79f0",
+        "book-39da7f761cac",
+        "book-869b7215867a",
+        "book-791f325d3c0d",
+        "book-9ea3a27d7879",
+        "book-47f2703c3425",
+        "book-0422231460a1",
+        "book-0af1e2af76e2",
+        "book-d41ae39a6668",
+        "book-b80d15dcb707",
+        "book-0f317901b0e0",
+        "book-3c9d87b670e1",
+        "book-17246ae5a7aa",
+        "book-41b65011eb54",
+        "book-2cdcb9502c07",
+        "book-e06e1e3f98b9",
+        "book-44b7180774ef",
+        "book-1cf8d7bbcce0",
+        "book-0eae78913d43",
+        "book-84ff0f5e9644",
+        "book-70b35d014f26",
+        "book-e80603970bbb",
+        "book-d84eeeb7bc07",
+        "book-5541cebd257c",
+        "book-f5e3d6655b60",
+        "book-6ce2507c126d"
+      ],
+      "itemMeta": {
+        "book-26c902d65d42": {
+          "laureateYear": 2000,
+          "laureate": "Heckman, McFadden",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2000/summary/"
+        },
+        "book-57ce837a79f0": {
+          "laureateYear": 2001,
+          "laureate": "Akerlof, Spence, Stiglitz",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2001/summary/"
+        },
+        "book-39da7f761cac": {
+          "laureateYear": 2002,
+          "laureate": "Kahneman, V. Smith",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2002/summary/"
+        },
+        "book-869b7215867a": {
+          "laureateYear": 2002,
+          "laureate": "Kahneman, V. Smith",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2002/summary/"
+        },
+        "book-791f325d3c0d": {
+          "laureateYear": 2003,
+          "laureate": "Engle, Granger",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2003/summary/"
+        },
+        "book-9ea3a27d7879": {
+          "laureateYear": 2005,
+          "laureate": "Aumann, Schelling",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2005/summary/"
+        },
+        "book-47f2703c3425": {
+          "laureateYear": 2006,
+          "laureate": "Phelps",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2006/summary/"
+        },
+        "book-0422231460a1": {
+          "laureateYear": 2007,
+          "laureate": "Hurwicz, Maskin, Myerson",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2007/summary/"
+        },
+        "book-0af1e2af76e2": {
+          "laureateYear": 2008,
+          "laureate": "Krugman",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2008/summary/"
+        },
+        "book-d41ae39a6668": {
+          "laureateYear": 2009,
+          "laureate": "Ostrom, Williamson",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2009/summary/"
+        },
+        "book-b80d15dcb707": {
+          "laureateYear": 2009,
+          "laureate": "Ostrom, Williamson",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2009/summary/"
+        },
+        "book-0f317901b0e0": {
+          "laureateYear": 2010,
+          "laureate": "Diamond, Mortensen, Pissarides",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2010/summary/"
+        },
+        "book-3c9d87b670e1": {
+          "laureateYear": 2011,
+          "laureate": "Sargent, Sims",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2011/summary/"
+        },
+        "book-17246ae5a7aa": {
+          "laureateYear": 2012,
+          "laureate": "Roth, Shapley",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2012/summary/"
+        },
+        "book-41b65011eb54": {
+          "laureateYear": 2013,
+          "laureate": "Fama, Hansen, Shiller",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2013/summary/"
+        },
+        "book-2cdcb9502c07": {
+          "laureateYear": 2014,
+          "laureate": "Tirole",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2014/summary/"
+        },
+        "book-e06e1e3f98b9": {
+          "laureateYear": 2015,
+          "laureate": "Deaton",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2015/summary/"
+        },
+        "book-44b7180774ef": {
+          "laureateYear": 2017,
+          "laureate": "Thaler",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2017/summary/"
+        },
+        "book-1cf8d7bbcce0": {
+          "laureateYear": 2018,
+          "laureate": "Nordhaus, Romer",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2018/summary/"
+        },
+        "book-0eae78913d43": {
+          "laureateYear": 2019,
+          "laureate": "Banerjee, Duflo, Kremer",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2019/summary/"
+        },
+        "book-84ff0f5e9644": {
+          "laureateYear": 2021,
+          "laureate": "Card, Angrist, Imbens",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2021/summary/"
+        },
+        "book-70b35d014f26": {
+          "laureateYear": 2022,
+          "laureate": "Bernanke, D. Diamond, Dybvig",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2022/summary/"
+        },
+        "book-e80603970bbb": {
+          "laureateYear": 2023,
+          "laureate": "Goldin",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2023/summary/"
+        },
+        "book-d84eeeb7bc07": {
+          "laureateYear": 2024,
+          "laureate": "Acemoglu, Johnson, Robinson",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2024/summary/"
+        },
+        "book-5541cebd257c": {
+          "laureateYear": 2024,
+          "laureate": "Acemoglu, Johnson, Robinson",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2024/summary/"
+        },
+        "book-f5e3d6655b60": {
+          "laureateYear": 2025,
+          "laureate": "Mokyr, Aghion, Howitt",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2025/summary/"
+        },
+        "book-6ce2507c126d": {
+          "laureateYear": 2025,
+          "laureate": "Mokyr, Aghion, Howitt",
+          "prizeLabel": "Premio de Economía en memoria de Alfred Nobel",
+          "recognitionNote": "premiados del año; el libro es una selección personal",
+          "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2025/summary/"
+        }
+      },
+      "displayItems": {
+        "book-26c902d65d42": {
+          "title": "Giving Kids a Fair Chance",
+          "creator": "James J. Heckman",
+          "year": ""
+        },
+        "book-57ce837a79f0": {
+          "title": "Globalization and Its Discontents",
+          "creator": "Joseph E. Stiglitz",
+          "year": ""
+        },
+        "book-39da7f761cac": {
+          "title": "Thinking, Fast and Slow",
+          "creator": "Daniel Kahneman",
+          "year": ""
+        },
+        "book-869b7215867a": {
+          "title": "Rationality in Economics",
+          "creator": "Vernon L. Smith",
+          "year": ""
+        },
+        "book-791f325d3c0d": {
+          "title": "Empirical Modeling in Economics",
+          "creator": "Clive W. J. Granger",
+          "year": ""
+        },
+        "book-9ea3a27d7879": {
+          "title": "The Strategy of Conflict",
+          "creator": "Thomas C. Schelling",
+          "year": ""
+        },
+        "book-47f2703c3425": {
+          "title": "Mass Flourishing",
+          "creator": "Edmund S. Phelps",
+          "year": ""
+        },
+        "book-0422231460a1": {
+          "title": "The Arrow Impossibility Theorem",
+          "creator": "Eric S. Maskin y Amartya Sen",
+          "year": ""
+        },
+        "book-0af1e2af76e2": {
+          "title": "Geography and Trade",
+          "creator": "Paul Krugman",
+          "year": ""
+        },
+        "book-d41ae39a6668": {
+          "title": "Governing the Commons",
+          "creator": "Elinor Ostrom",
+          "year": ""
+        },
+        "book-b80d15dcb707": {
+          "title": "The Economic Institutions of Capitalism",
+          "creator": "Oliver E. Williamson",
+          "year": ""
+        },
+        "book-0f317901b0e0": {
+          "title": "Reforming Pensions",
+          "creator": "Peter A. Diamond y Nicholas Barr",
+          "year": ""
+        },
+        "book-3c9d87b670e1": {
+          "title": "Rational Expectations and Inflation",
+          "creator": "Thomas J. Sargent",
+          "year": ""
+        },
+        "book-17246ae5a7aa": {
+          "title": "Who Gets What — and Why",
+          "creator": "Alvin E. Roth",
+          "year": ""
+        },
+        "book-41b65011eb54": {
+          "title": "Irrational Exuberance",
+          "creator": "Robert J. Shiller",
+          "year": ""
+        },
+        "book-2cdcb9502c07": {
+          "title": "La economía del bien común",
+          "creator": "Jean Tirole",
+          "year": ""
+        },
+        "book-e06e1e3f98b9": {
+          "title": "The Great Escape",
+          "creator": "Angus Deaton",
+          "year": ""
+        },
+        "book-44b7180774ef": {
+          "title": "Misbehaving",
+          "creator": "Richard H. Thaler",
+          "year": ""
+        },
+        "book-1cf8d7bbcce0": {
+          "title": "The Climate Casino",
+          "creator": "William D. Nordhaus",
+          "year": ""
+        },
+        "book-0eae78913d43": {
+          "title": "Poor Economics",
+          "creator": "Abhijit V. Banerjee y Esther Duflo",
+          "year": ""
+        },
+        "book-84ff0f5e9644": {
+          "title": "Myth and Measurement",
+          "creator": "David Card y Alan B. Krueger",
+          "year": ""
+        },
+        "book-70b35d014f26": {
+          "title": "The Courage to Act",
+          "creator": "Ben S. Bernanke",
+          "year": ""
+        },
+        "book-e80603970bbb": {
+          "title": "Career & Family",
+          "creator": "Claudia Goldin",
+          "year": ""
+        },
+        "book-d84eeeb7bc07": {
+          "title": "Why Nations Fail",
+          "creator": "Daron Acemoglu y James A. Robinson",
+          "year": ""
+        },
+        "book-5541cebd257c": {
+          "title": "Power and Progress",
+          "creator": "Simon Johnson y Daron Acemoglu",
+          "year": ""
+        },
+        "book-f5e3d6655b60": {
+          "title": "A Culture of Growth",
+          "creator": "Joel Mokyr",
+          "year": ""
+        },
+        "book-6ce2507c126d": {
+          "title": "El poder de la destrucción creativa",
+          "creator": "Philippe Aghion, Céline Antonin y Simon Bunel",
+          "year": ""
+        }
+      }
     },
     {
       "id": "countries-japan",

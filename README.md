@@ -25,7 +25,7 @@ Un respaldo contiene marcas, notas, fechas y listas propias, sin imágenes. Rest
 | Descubrimiento de países | Selección personal · 9 países | 56 |
 | Nobel: lecturas y escuchas | 2000–2026 · 27 autores | 78 |
 
-Hay 677 entradas y 605 obras distintas. Las dos listas de libros del NYT comparten 39 títulos; 18 ganadores de premios ya figuran en ellas. Una obra compartida conserva el mismo estado, fecha y nota. Una adaptación a otro medio tiene una ficha independiente. Las listas comienzan sin marcas; se retiraron las cuatro colecciones de muestra.
+Hay 704 entradas y 632 obras distintas. Las dos listas de libros del NYT comparten 39 títulos; 18 ganadores de premios ya figuran en ellas. Una obra compartida conserva el mismo estado, fecha y nota. Una adaptación a otro medio tiene una ficha independiente. Las listas comienzan sin marcas; se retiraron las cuatro colecciones de muestra.
 
 Se respetan los puestos originales y las selecciones de temporadas: *Beef* y *True Detective* incluyen sólo la primera; *Twin Peaks: The Return* corresponde a 2017. Las versiones británica y estadounidense de *The Office* tienen fichas distintas.
 
@@ -92,3 +92,7 @@ La última restauración puede deshacerse desde la interfaz, incluso tras recarg
 Riesgo R1, prototipo local. Decisión: promover a prueba personal con respaldos; sincronización y cuentas siguen pendientes.
 
 Los respaldos de 0.9.0 mantienen el esquema v1 y agregan el tipo `music`. La app actual lee respaldos anteriores; versiones anteriores sin soporte para música pueden rechazar los nuevos. Para restaurar un respaldo que incluya discos, usar 0.9.0 o posterior.
+
+## Economía · 0.10.0
+
+Colección independiente «Nobel: economía»: 27 libros en 23 años seleccionados de 2000 a 2025. Conserva coautorías, premiados de cada año y la nota sobre *Reforming Pensions*. Los años omitidos se mantienen fuera de la selección. El reconocimiento económico se distingue del Nobel de Literatura.

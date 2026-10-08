@@ -6,7 +6,7 @@
   </header>
   <div class="cr-workspace">
     <aside class="cr-sidebar" aria-label="Colecciones">
-      <div class="cr-sidebar-head"><span class="cr-kicker">Mis colecciones</span><span class="cr-small" data-list-count>16</span></div>
+      <div class="cr-sidebar-head"><span class="cr-kicker">Mis colecciones</span><span class="cr-small" data-list-count>17</span></div>
       <nav class="cr-collections" data-collections aria-label="Elegir colección"></nav>
       <label class="cr-mobile-picker">Colección<select data-mobile-picker></select></label>
       <button class="cr-new cursor-interaction" type="button" data-new>+ Nueva colección</button>
@@ -359,7 +359,7 @@
     const memberships=lists.filter(l=>l.items.includes(id)).map(l=>l.title);
     $('[data-membership]').textContent='En '+memberships.length+' '+(memberships.length===1?'colección':'colecciones')+': '+memberships.join(' · ');
     $('[data-reading-note]').hidden=!w.readingNote;$('[data-reading-note]').textContent=w.readingNote||'';
-    const awards=lists.filter(l=>l.itemMeta?.[id]).map(l=>{const m=itemMeta(l,id);return '<p><a class="cr-source-link" href="'+esc(m.sourceUrl)+'" target="_blank" rel="noopener noreferrer">'+esc(m.laureateYear?'Nobel de Literatura '+m.laureateYear+' · '+m.laureate+' (premio al autor)':l.title+' · '+m.awardYear+(m.shared?' · Premio compartido':''))+'</a>'+(m.awardedAs?'<span class="cr-source"> · Premiado como '+esc(m.awardedAs)+'</span>':'')+'</p>';});
+    const awards=lists.filter(l=>l.itemMeta?.[id]).map(l=>{const m=itemMeta(l,id);return '<p><a class="cr-source-link" href="'+esc(m.sourceUrl)+'" target="_blank" rel="noopener noreferrer">'+esc(m.laureateYear?(m.prizeLabel||'Nobel de Literatura')+' '+m.laureateYear+' · '+m.laureate+' ('+(m.recognitionNote||'premio al autor')+')':l.title+' · '+m.awardYear+(m.shared?' · Premio compartido':''))+'</a>'+(m.awardedAs?'<span class="cr-source"> · Premiado como '+esc(m.awardedAs)+'</span>':'')+'</p>';});
     $('[data-recognition]').hidden=!awards.length;$('[data-recognition]').innerHTML=awards.join('');
     $('[data-status]').value=w.status;$('[data-date]').value=w.date;$('[data-note]').value=w.note;
     $('[data-detail]').hidden=false;

@@ -36,10 +36,10 @@ async function audit(page, label) {
  await page.goto('file://'+base+'/index.html');await page.evaluate(()=>document.fonts.ready);
  assert.equal(await page.title(),'Colecciones');
  assert.equal(await page.locator('.cr-signature strong').textContent(),'Colecciones');
- assert.equal(await page.locator('[data-list-count]').textContent(),'16');
+ assert.equal(await page.locator('[data-list-count]').textContent(),'17');
  const data=await page.locator('[data-catalog]').evaluate(el=>JSON.parse(el.textContent));
- assert.equal(data.lists.length,16);assert.equal(data.works.length,605);
- const ids=new Set(data.works.map(w=>w.id));assert.equal(ids.size,605);
+ assert.equal(data.lists.length,17);assert.equal(data.works.length,632);
+ const ids=new Set(data.works.map(w=>w.id));assert.equal(ids.size,632);
  assert.ok(data.lists.every(l=>new Set(l.items).size===l.items.length&&l.items.every(id=>ids.has(id))));
  const shared=data.lists[0].items.filter(id=>data.lists[1].items.includes(id));assert.equal(shared.length,39);
  assert.ok(data.works.filter(w=>w.cover).every(w=>w.cover.startsWith('data:image/webp;base64,')&&w.editionUrl));
@@ -96,9 +96,9 @@ async function audit(page, label) {
  await page.addStyleTag({content:'strong,span,p,h2,h3,label,button{color:white;-webkit-text-fill-color:white}body{background:#181818;color:white}'});
  checks.push(await audit(page,'white host styles and imported titles'));assert.equal(await page.locator('[data-count]').evaluate(el=>getComputedStyle(el).webkitTextFillColor),'rgb(33, 102, 175)');
  await page.locator('[data-open="'+book.id+'"]').click();checks.push(await audit(page,'detail'));await page.locator('[data-new]').click();checks.push(await audit(page,'import form'));
- await page.reload();assert.equal(await page.locator('[data-list-count]').textContent(),'17');await page.locator('.cr-storage summary').click();checks.push(await audit(page,'storage controls'));for(const width of [320,390]){await page.setViewportSize({width,height:1100});checks.push(await audit(page,'storage controls '+width));}
+ await page.reload();assert.equal(await page.locator('[data-list-count]').textContent(),'18');await page.locator('.cr-storage summary').click();checks.push(await audit(page,'storage controls'));for(const width of [320,390]){await page.setViewportSize({width,height:1100});checks.push(await audit(page,'storage controls '+width));}
  await page.locator('[data-grid] img').first().evaluate(el=>el.dispatchEvent(new Event('error')));assert.ok(await page.locator('.cr-cover-fallback').first().isVisible());
  assert.deepEqual(requests,[],'offline: no remote requests');assert.deepEqual(errors,[],'no browser errors');
- const report={passed:true,collections:16,memberships:677,works:605,sharedBooks:39,images:data.works.filter(w=>w.cover).length,minTextContrast:Math.min(...checks.map(c=>c.minContrast)),checks};
+ const report={passed:true,collections:17,memberships:704,works:632,sharedBooks:39,images:data.works.filter(w=>w.cover).length,minTextContrast:Math.min(...checks.map(c=>c.minContrast)),checks};
  fs.mkdirSync(base+'/test-results',{recursive:true});fs.writeFileSync(base+'/test-results/browser-audit.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});

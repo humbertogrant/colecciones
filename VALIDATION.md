@@ -1,8 +1,8 @@
-# Validación de 0.9.0
+# Validación de 0.10.0
 
 Prueba local del 7 de octubre de 2026, con Chromium y el HTML autónomo.
 
-- 16 colecciones, 677 entradas y 605 obras distintas: cuatro listas NYT de 100 títulos, 75 ganadores Hugo, 68 Pulitzer y 56 entradas en nueve países y 78 obras del recorrido Nobel.
+- 17 colecciones, 704 entradas y 632 obras distintas: cuatro listas NYT de 100 títulos, 75 ganadores Hugo, 68 Pulitzer y 56 entradas en nueve países y 78 obras del recorrido Nobel.
 - 39 libros compartidos; marcar, desmarcar, fecha y nota se reflejan en ambas listas.
 - Navegación completa del catálogo y decodificación de las imágenes incorporadas.
 - Años de premio, años sin ganador y premios compartidos comprobados. Los ganadores se ordenan de 2026 a 1953.
@@ -43,3 +43,10 @@ Riesgo R1. Decisión: promover la actualización al repositorio privado después
 - Las fichas indican «premio al autor» y enlazan el resumen oficial del año.
 - La presentación traducida del título no altera la ficha base ni el almacenamiento.
 - Reversión al commit 0.8.0 posible; exportar antes un respaldo y conservar 0.9.0 para leer datos del nuevo tipo Música.
+
+## Economía
+
+- 27 libros, 23 años seleccionados; coautorías conservadas.
+- Fichas del premio de Economía diferenciadas de Literatura; nota de *Reforming Pensions* comprobada.
+- Marca de lectura conservada después de recargar.
+- Colecciones anteriores y esquema de guardado v1 conservados.
