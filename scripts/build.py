@@ -21,14 +21,18 @@ for w in catalog['works']:
 ui=(ROOT/'src/colecciones.html').read_text(encoding='utf-8');assert ui.count('__CATALOG_JSON__')==1
 ui=ui.replace('__CATALOG_JSON__',json.dumps(catalog,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c'))
 fonts=(ROOT/'src/fonts.css').read_text(encoding='utf-8')
+favicon_svg='data:image/svg+xml;base64,'+base64.b64encode((ROOT/'assets/favicon.svg').read_bytes()).decode()
+favicon_png='data:image/png;base64,'+base64.b64encode((ROOT/'assets/favicon-32.png').read_bytes()).decode()
 script=re.search(r'<script>([\s\S]*?)</script>',ui).group(1)
 digest=base64.b64encode(hashlib.sha256(script.encode()).digest()).decode()
 csp="default-src 'none'; img-src data:; font-src data:; style-src 'unsafe-inline'; script-src 'sha256-"+digest+"'; connect-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'"
 doc='''<!doctype html>
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Colecciones</title><meta name="description" content="Un archivo personal de libros, películas y series por descubrir.">
-<meta name="canto-version" content="1.0.1"><meta name="prototype-version" content="0.14.0">
+<meta name="canto-version" content="1.0.1"><meta name="prototype-version" content="0.14.1">
 <meta http-equiv="Content-Security-Policy" content="'''+csp+'''">
+<link rel="icon" type="image/png" sizes="32x32" href="'''+favicon_png+'''">
+<link rel="icon" type="image/svg+xml" sizes="any" href="'''+favicon_svg+'''">
 <style>html{background:#202528}body{margin:0}#canto-colecciones{max-width:1180px;margin:auto;min-height:100vh}</style>
 <style data-canto-fonts>'''+fonts+'''</style></head><body>'''+ui+'''
 </body></html>\n'''

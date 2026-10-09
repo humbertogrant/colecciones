@@ -1,4 +1,12 @@
-# Validación de 0.14.0
+# Validación de 0.14.1
+
+Revisión del 8 de octubre de 2026 en Windows, con Microsoft Edge mediante Playwright.
+
+- Favicon HG de Canto recuperado desde su generador original con la fuente Bodoni ya incluida en el proyecto. SVG con contornos y PNG de 32 × 32 píxeles revisados; ambos están incrustados en el HTML.
+- Las dos imágenes se decodifican en el navegador con los tipos y tamaños declarados, sin errores de política de contenido ni de JavaScript. No necesitan archivos adicionales en Pages.
+- `tests/build.py` y `tests/browser.cjs` aprobaron. Catálogo, interfaz, lógica de la aplicación y formato de guardado intactos.
+
+## Validación previa de 0.14.0
 
 Revisión del 8 de octubre de 2026 en Windows, con Microsoft Edge 154 mediante Playwright 1.62.1.
 

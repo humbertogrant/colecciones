@@ -122,6 +122,8 @@ El código y el diseño del prototipo son independientes de los medios y entidad
 
 ## Cambios y reversión
 
+Versión 0.14.1: añade el favicon HG de Canto, con letras trazadas en SVG y respaldo PNG de 32 píxeles. Ambos se incluyen en el HTML autónomo.
+
 Versión 0.14.0: incorpora los 200 álbumes de la votación de lectores del 25.º aniversario de Pitchfork (1996–2021), con portadas y orden original. Conserva las obras anteriores y el guardado personal v1.
 
 Versión 0.13.0: incorpora las 100 películas de Sight and Sound (críticos, 2022), con sus carteles y puestos empatados. Reutiliza 12 obras, añade 88 y conserva el guardado personal v1.

@@ -29,6 +29,8 @@ El campo `coverUrl` conserva la procedencia de cada imagen; `editionUrl` es la p
 
 No se otorga una licencia nueva sobre las portadas, carteles, listas o identidad Canto. Este paquete corresponde a un prototipo personal.
 
+El favicon HG reproduce el diseño de Canto 1.0.1 proporcionado por Humberto: monograma Bodoni sobre grafito, esquina asimétrica y canto azul. El SVG contiene los contornos tipográficos y no carga fuentes; el PNG de 32 píxeles es su alternativa rasterizada. La licencia de Bodoni Moda está en `assets/licenses/Bodoni-Moda-OFL.txt`.
+
 ## Premios literarios · 1953–2026
 
 - **Hugo: mejor novela**: 75 ganadores de los premios anuales, sin Retro-Hugos. [Historial oficial](https://www.thehugoawards.org/hugo-history/), páginas de cada año y [resultados oficiales de 2026](https://www.thehugoawards.org/2026/08/2026-hugo-awards-results/). La tabla de [Best Novel](https://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel) se utilizó para extraer el histórico y cotejarlo con las páginas oficiales. El sitio conserva la página de 1985 bajo el slug `1995-hugo-awards-2`; se mantiene su enlace real.

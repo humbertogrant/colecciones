@@ -15,9 +15,11 @@ output = ROOT / 'test-results'
 output.mkdir(exist_ok=True)
 with tempfile.TemporaryDirectory(prefix='build-', dir=output) as temporary:
     fixture = Path(temporary)
-    for directory in ('scripts', 'src', 'data'):
+    for directory in ('scripts', 'src', 'data', 'assets'):
         (fixture / directory).mkdir()
     shutil.copyfile(ROOT / 'scripts/build.py', fixture / 'scripts/build.py')
+    for icon in ('favicon.svg', 'favicon-32.png'):
+        shutil.copyfile(ROOT / 'assets' / icon, fixture / 'assets' / icon)
     catalog = {
         'works': [{'id': 'unicode', 'title': 'España — 漢字 </script>'}],
         'lists': [{'items': ['unicode']}],
