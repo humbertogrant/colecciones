@@ -10,6 +10,9 @@ for collection in catalog['lists']:
  assert collection['items'] and len(collection['items'])==len(set(collection['items']))
  assert set(collection.get('itemMeta',{}))<=set(collection['items'])
  assert set(collection['items'])<=ids
+ if collection.get('itemRanks'):
+  assert set(collection['itemRanks'])==set(collection['items'])
+  assert all(type(rank) is int and 0<rank<=len(collection['items']) for rank in collection['itemRanks'].values())
 for w in catalog['works']:
  if w.get('coverFile'):
   image=(ROOT/w['coverFile']).resolve();assert ROOT in image.parents
@@ -24,7 +27,7 @@ csp="default-src 'none'; img-src data:; font-src data:; style-src 'unsafe-inline
 doc='''<!doctype html>
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Colecciones</title><meta name="description" content="Un archivo personal de libros, películas y series por descubrir.">
-<meta name="canto-version" content="1.0.1"><meta name="prototype-version" content="0.12.1">
+<meta name="canto-version" content="1.0.1"><meta name="prototype-version" content="0.13.0">
 <meta http-equiv="Content-Security-Policy" content="'''+csp+'''">
 <style>html{background:#202528}body{margin:0}#canto-colecciones{max-width:1180px;margin:auto;min-height:100vh}</style>
 <style data-canto-fonts>'''+fonts+'''</style></head><body>'''+ui+'''

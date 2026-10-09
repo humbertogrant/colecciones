@@ -28,8 +28,9 @@ Un respaldo contiene marcas, notas, fechas y listas propias, sin imágenes. Rest
 | 4chan /lit/: 100 libros | Votación de 2025 · publicada en enero de 2026 | 100 |
 | TIME: 100 novelas | Selección de 2005 · obras en inglés de 1923–2005 | 100 |
 | TIME: 100 libros de fantasía | Selección de 2020 | 100 |
+| Sight and Sound: 100 películas | Encuesta de críticos de 2022 | 100 |
 
-Hay 20 colecciones, 1004 entradas y 890 obras distintas. Las dos listas de libros del NYT comparten 39 títulos; 18 ganadores de premios ya figuran en ellas. Una obra compartida conserva el mismo estado, fecha y nota. Una adaptación a otro medio tiene una ficha independiente. Las listas comienzan sin marcas; se retiraron las cuatro colecciones de muestra.
+Hay 21 colecciones, 1104 entradas y 978 obras distintas. Las dos listas de libros del NYT comparten 39 títulos; 18 ganadores de premios ya figuran en ellas. Una obra compartida conserva el mismo estado, fecha y nota. Una adaptación a otro medio tiene una ficha independiente. Las listas comienzan sin marcas; se retiraron las cuatro colecciones de muestra.
 
 Se respetan los puestos originales y las selecciones de temporadas: *Beef* y *True Detective* incluyen sólo la primera; *Twin Peaks: The Return* corresponde a 2017. Las versiones británica y estadounidense de *The Office* tienen fichas distintas.
 
@@ -59,6 +60,12 @@ Dos selecciones de 100 obras, sin puestos de calidad. **TIME: 100 novelas** cons
 
 Las 200 entradas tienen portada y añaden 164 obras distintas. Se reutilizan 29 obras anteriores en novelas y seis en fantasía; *The Lion, the Witch and the Wardrobe* comparte ficha entre ambas. *The Lord of the Rings* completo conserva su ficha en novelas y /lit/; sus tres volúmenes aparecen por separado en fantasía. Las notas aclaran los conjuntos, las recopilaciones y la novela gráfica *Watchmen*.
 
+## Sight and Sound: 100 películas
+
+Las primeras 100 películas de la encuesta de críticos de 2022 del British Film Institute. Se conservan los empates: el signo «=» indica un puesto compartido, tanto en pantalla como al imprimir. Los contadores siguen contando películas individuales. Los años corresponden a las fichas del BFI y pueden diferir de los usados por el NYT.
+
+Doce películas comparten ficha con NYT y los recorridos de países, incluidas *Tokyo Story*, *Pather Panchali* y *Andrei Rublev*. Sus marcas y recuerdos se conservan. Las 100 entradas tienen cartel; las 88 películas nuevas mantienen el enlace de procedencia de su imagen.
+
 ## Agregar una lista
 
 En **Nueva colección**, pegá un título por línea. Podés usar `Título | Autor o director | Año`. Revisá las coincidencias antes de crearla. Se admiten hasta 150 títulos por lista; se omiten las líneas idénticas y las que coinciden con una misma obra existente, aunque usen un título traducido o un año opcional.
@@ -85,6 +92,7 @@ Funciona con las colecciones incluidas y las propias. Imprimir o cancelar el di�
 - `tests/import.cjs`: coincidencias, traducciones, duplicados y conservación de datos tras importar.
 - `tests/catalog-update.cjs`: compatibilidad de los guardados anteriores al incorporar nuevas colecciones.
 - `tests/time.cjs`: listas de TIME, obras compartidas y compatibilidad de los guardados anteriores.
+- `tests/sight-sound.cjs`: encuesta de críticos, empates, carteles, marcas compartidas e impresión.
 - `tests/print.cjs`: lista completa, marcas, títulos traducidos y PDFs de comprobación.
 - `tests/build.py`: reconstrucción UTF-8 independiente de la configuración regional, contenido incrustado y política de scripts.
 
@@ -107,6 +115,8 @@ La procedencia, las fechas y los criterios de edición están en [SOURCES.md](SO
 El código y el diseño del prototipo son independientes de los medios y entidades citados. Las portadas, carteles y fuentes tipográficas conservan sus derechos y licencias de origen; ver [SOURCES.md](SOURCES.md) y `assets/licenses/`.
 
 ## Cambios y reversión
+
+Versión 0.13.0: incorpora las 100 películas de Sight and Sound (críticos, 2022), con sus carteles y puestos empatados. Reutiliza 12 obras, añade 88 y conserva el guardado personal v1.
 
 Versión 0.12.1: agrupa los nueve países en una sección desplegable, sin cambiar el catálogo ni el guardado personal.
 

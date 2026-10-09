@@ -68,7 +68,12 @@ async function audit(page, label) {
    assert.ok((await page.locator('[data-grid] img').evaluateAll(imgs=>imgs.map(i=>i.complete&&i.naturalWidth>30&&i.naturalHeight>50))).every(Boolean));
    seen.push(...await page.locator('.cr-work-num').allTextContents());
   }
-  assert.deepEqual(seen,l.items.map((id,i)=>l.itemMeta?.[id]?.laureateYear?'Nobel '+l.itemMeta[id].laureateYear:String(l.itemMeta?.[id]?.awardYear||i+1)));
+  assert.deepEqual(seen,l.items.map((id,i)=>{
+   if(l.itemMeta?.[id]?.laureateYear)return 'Nobel '+l.itemMeta[id].laureateYear;
+   if(l.itemMeta?.[id]?.awardYear)return String(l.itemMeta[id].awardYear);
+   const rank=l.itemRanks?.[id];
+   return rank?(Object.values(l.itemRanks).filter(value=>value===rank).length>1?'=':'')+rank:String(i+1);
+  }));
   assert.ok(await page.locator('[data-page-next]').isDisabled());
   if(l.items.length>12)await page.locator('[data-page-picker]').selectOption('0');checks.push(await audit(page,l.id+' desktop'));
   for(const width of [320,390,736]){await page.setViewportSize({width,height:1100});checks.push(await audit(page,l.id+' '+width));}

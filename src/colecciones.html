@@ -242,6 +242,10 @@
   const list=()=>lists.find(l=>l.id===current);
   const itemMeta=(l,id)=>l.itemMeta?.[id]||{};
   const pad=n=>String(n);
+  const rankMarker=(l,id,index)=>{
+    const rank=l.itemRanks?.[id];
+    return rank?(l.items.some(other=>other!==id&&l.itemRanks[other]===rank)?'=':'')+rank:pad(index+1);
+  };
   const count=l=>l.items.filter(id=>work(id).status==='done').length;
   const say=s=>{$('[data-announcement]').textContent=s;};
   const STORAGE_KEY='canto.colecciones.personal.v1',PREVIOUS_KEY=STORAGE_KEY+'.before-restore';
@@ -332,7 +336,7 @@
     const l=list(),completed=count(l),hasAwards=l.items.some(id=>{const m=itemMeta(l,id);return m.laureateYear||m.awardYear;});
     const tally=completed+' / '+l.items.length+' '+types[l.kind].noun;
     const rows=l.items.map((id,index)=>{
-      const w=displayWork(work(id)),meta=itemMeta(l,id),marker=meta.laureateYear||meta.awardYear||index+1;
+      const w=displayWork(work(id)),meta=itemMeta(l,id),marker=meta.laureateYear||meta.awardYear||rankMarker(l,id,index);
       const state=w.status==='done'?types[w.kind].done:w.status==='doing'?'En curso':w.status==='skipped'?'La dejo pasar':'Pendiente';
       const mark=w.status==='done'?'✓':w.status==='doing'?'·':w.status==='skipped'?'−':'&nbsp;';
       const creator=[w.creator,w.year].filter(Boolean).join(' · ');
@@ -366,8 +370,8 @@
   }
   function tile(w,i){
     w=displayWork(w);const done=w.status==='done';
-    const meta=itemMeta(list(),w.id),marker=meta.laureateYear?'Nobel '+meta.laureateYear:meta.awardYear?String(meta.awardYear):pad(i+1);
-    const markerLabel=meta.laureateYear?'Nobel del autor en '+meta.laureateYear:meta.awardYear?'Año del premio '+marker:(list().ranked?'Puesto ':'Obra ')+marker;
+    const meta=itemMeta(list(),w.id),marker=meta.laureateYear?'Nobel '+meta.laureateYear:meta.awardYear?String(meta.awardYear):rankMarker(list(),w.id,i);
+    const markerLabel=meta.laureateYear?'Nobel del autor en '+meta.laureateYear:meta.awardYear?'Año del premio '+marker:list().ranked?'Puesto '+marker.replace('=','')+(marker.startsWith('=')?', empatado':''):'Obra '+marker;
     const awardNote=meta.shared?'<p class="cr-award-note">Premio compartido</p>':'';
     const label=done?types[w.kind].done:w.status==='doing'?'En curso':w.status==='skipped'?'La dejo pasar':'Pendiente';
     const cover=w.cover?'<span class="cr-cover"><img src="'+esc(w.cover)+'" width="112" height="164" alt="" decoding="async"><span class="cr-cover-fallback" hidden>Imagen no disponible</span></span>':((list().ranked||list().itemMeta||list().artwork)?'<span class="cr-cover"><span class="cr-cover-fallback">Imagen no disponible</span></span>':'');

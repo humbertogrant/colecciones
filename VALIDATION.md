@@ -1,4 +1,15 @@
-# Validación de 0.12.1
+# Validación de 0.13.0
+
+Revisión del 8 de octubre de 2026 en Windows, con Microsoft Edge 154 mediante Playwright 1.62.1.
+
+- Sight and Sound: 100 películas de la encuesta de críticos de 2022, cotejadas con los metadatos del BFI y su orden ascendente. Se conservan todos los puestos compartidos, incluidas las seis películas finales empatadas en el puesto 95.
+- Catálogo: 21 listas, 1104 entradas y 978 obras distintas. Se reutilizan 12 películas y se añaden 88. Las 890 obras y 20 listas anteriores conservan exactamente sus datos e IDs.
+- Los 88 carteles nuevos se revisaron visualmente; las 100 películas de la lista tienen imagen. La prueba de navegador decodificó las 978 imágenes del catálogo sin errores ni solicitudes de red.
+- `tests/build.py` y las diez pruebas de navegador aprobaron. Un guardado v1 anterior conserva marcas, notas, fechas y listas propias después de cargar, guardar películas nuevas y recargar. Los alias y años BFI se muestran por lista, conservando las fichas NYT y sus recuerdos compartidos.
+- Impresión: 100 filas en orden, con los puestos originales, estados y fechas actuales. Las películas empatadas cuentan por separado; imprimir conserva el guardado y la navegación.
+- Capturas de escritorio, móvil y última página revisadas. Sin errores de JavaScript ni desbordamientos en los tamaños comprobados (320, 390, 736 y escritorio); contraste mínimo de 4,92:1.
+
+## Validación previa de 0.12.1
 
 Revisión del 8 de octubre de 2026 en Windows, con Microsoft Edge 154 mediante Playwright 1.62.1.
 
