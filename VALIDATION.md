@@ -1,4 +1,16 @@
-# Validación de 0.13.0
+# Validación de 0.14.0
+
+Revisión del 8 de octubre de 2026 en Windows, con Microsoft Edge 154 mediante Playwright 1.62.1.
+
+- Pitchfork: 200 álbumes en los puestos 1–200 de la People's List del 25.º aniversario. Cotejados título, artista, año y orden con el conjunto agregado de la aplicación oficial; documentados la corrección de codificación de Janelle Monáe, las entradas conjuntas y el año de *Twin Fantasy*.
+- Catálogo: 22 listas, 1304 entradas y 1178 obras distintas. Las 978 obras y 21 listas anteriores conservan exactamente sus datos e IDs.
+- Las 200 portadas originales se descargaron y revisaron visualmente. La comprobación de navegador decodificó las 1178 imágenes incorporadas sin errores ni solicitudes de red.
+- `tests/build.py` y las once pruebas de navegador aprobaron. Guardados v1 previos conservan estados, notas, fechas y listas propias. El estado del álbum 200 sobrevive a guardar, exportar, restaurar y recargar.
+- Las 17 páginas muestran las 200 entradas en orden. La impresión y el PDF de prueba incluyen 200 filas con estados y fechas actuales, sin modificar el guardado ni la navegación. Los estados musicales se muestran como «Escuchado» y «En curso».
+- El límite de 150 títulos de listas propias permanece separado del catálogo incluido: importar 151 no escribe datos, e importar los primeros 150 reutiliza sus obras y recuerdos.
+- Capturas de escritorio, móvil y última página revisadas. Sin errores de JavaScript ni desbordamientos en los tamaños comprobados (320, 390, 736 y escritorio); contraste mínimo de 4,92:1.
+
+## Validación previa de 0.13.0
 
 Revisión del 8 de octubre de 2026 en Windows, con Microsoft Edge 154 mediante Playwright 1.62.1.
 
